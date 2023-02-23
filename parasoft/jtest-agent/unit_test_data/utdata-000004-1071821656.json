@@ -1,0 +1,125 @@
+{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "examples.mock.FileExampleTest",
+  "listener": "JUnit_4",
+  "legacyReportingName": "examples.mock.FileExampleTest",
+  "displayName": "examples.mock.FileExampleTest",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.mock.FileExampleTest",
+      "listener": "JUnit_4",
+      "methodName": "testAnalyze",
+      "legacyReportingName": "testAnalyze(examples.mock.FileExampleTest)",
+      "displayName": "testAnalyze(examples.mock.FileExampleTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317679128
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.mock.FileExampleTest",
+      "listener": "JUnit_4",
+      "methodName": "testIsOversize",
+      "legacyReportingName": "testIsOversize(examples.mock.FileExampleTest)",
+      "displayName": "testIsOversize(examples.mock.FileExampleTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317679129
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317679128
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.mock.FileExampleTest",
+  "listener": "JUnit_4",
+  "methodName": "testAnalyze",
+  "legacyReportingName": "testAnalyze(examples.mock.FileExampleTest)",
+  "displayName": "testAnalyze(examples.mock.FileExampleTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317679160
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.mock.FileExampleTest",
+  "listener": "JUnit_4",
+  "methodName": "testAnalyze",
+  "legacyReportingName": "testAnalyze(examples.mock.FileExampleTest)",
+  "displayName": "testAnalyze(examples.mock.FileExampleTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317680300
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.mock.FileExampleTest",
+  "listener": "JUnit_4",
+  "methodName": "testIsOversize",
+  "legacyReportingName": "testIsOversize(examples.mock.FileExampleTest)",
+  "displayName": "testIsOversize(examples.mock.FileExampleTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317680302
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.mock.FileExampleTest",
+  "listener": "JUnit_4",
+  "methodName": "testIsOversize",
+  "legacyReportingName": "testIsOversize(examples.mock.FileExampleTest)",
+  "displayName": "testIsOversize(examples.mock.FileExampleTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317680452
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "examples.mock.FileExampleTest",
+  "listener": "JUnit_4",
+  "legacyReportingName": "examples.mock.FileExampleTest",
+  "displayName": "examples.mock.FileExampleTest",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.mock.FileExampleTest",
+      "listener": "JUnit_4",
+      "methodName": "testAnalyze",
+      "legacyReportingName": "testAnalyze(examples.mock.FileExampleTest)",
+      "displayName": "testAnalyze(examples.mock.FileExampleTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317680453
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.mock.FileExampleTest",
+      "listener": "JUnit_4",
+      "methodName": "testIsOversize",
+      "legacyReportingName": "testIsOversize(examples.mock.FileExampleTest)",
+      "displayName": "testIsOversize(examples.mock.FileExampleTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317680453
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317680453
+},

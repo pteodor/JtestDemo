@@ -1,0 +1,855 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ResultsSession buildId="2023-02-01" climode="true" execEnv="win32_x86_64" hasViols="true" id="1675988003799" lang="en_US" machine="ulfar" prjModule="com.parasoft:demo" project="" tag="demo" time="2023-02-01T09:13:33+01:00" toolDispName="Jtest" toolId="jtest" toolName="DTP Engine for Java" toolVer="2022.1.0" user="pteodor">
+   <TestConfig machine="ulfar" name="Recommended Rules" pseudoUrl="builtin://Recommended Rules" user="pteodor" />
+   <Authors>
+      <Author id="dev1" name="pteodor" />
+      <Author id="dev2" name="Mark Wilson" />
+      <Author id="dev3" name="John" />
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.jtest.flowanalyzer" name="Parasoft Java Flow Analyzer" ver="10.6.0.20220203B3231" />
+      <Analyzer id="com.parasoft.jtest.standards.dupcode" name="Code Duplication Detector" ver="10.6.0.20220223" />
+      <Analyzer id="com.parasoft.jtest.globals.ioc.springxml.analyzer.IOCAnalyzer" name="Parasoft IOC Analyzer" ver="10.6.0.20220317" />
+      <Analyzer id="com.parasoft.jtest.standards.checkers.xml" name="Parasoft XML Static Analyzer" ver="10.6.0.20220317" />
+      <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Code Duplication Parser" ver="10.6.0.20220223" />
+      <Analyzer id="com.parasoft.jtest.standards.checkers.java" name="Parasoft Java Static Analyzer" ver="10.6.0.20220317" />
+      <Analyzer id="com.parasoft.jtest.standards.checkers.prop" name="Parasoft Properties Static Analyzer" ver="10.6.0.20220317" />
+      <Analyzer id="com.parasoft.jtest.standards.metrics.analyzer" name="Parasoft Metrics Analyzer" ver="10.6.0.20220317" />
+      <Analyzer id="com.parasoft.jtest.standards.checkers.rulewizard" name="Parasoft RuleWizard Static Analyzer" ver="10.6.0.20220317" />
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IChangeImpactViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1" />
+   </VersionInfos>
+   <Goals tsks="26">
+      
+   </Goals>
+   <Metrics>
+      <Metric avg="1.51" disp="true" id="METRIC.CC" max="10" min="1" name="McCabe Cyclomatic Complexity" noi="247" stddev="1.162">
+         <Info avg="1.51" disp="true" elem="com.parasoft:demo" max="10" min="1" noi="247" stddev="1.162" />
+      </Metric>
+      <Metric avg="0.259" disp="true" id="METRIC.NBD" max="8" min="0" name="Nested Blocks Depth" noi="247" stddev="0.718">
+         <Info avg="0.259" disp="true" elem="com.parasoft:demo" max="8" min="0" noi="247" stddev="0.718" />
+      </Metric>
+      <Metric avg="61.867" disp="true" id="METRIC.NOPLIF" max="396" min="8" name="Physical Lines in Files" noi="45" stddev="66.245">
+         <Info avg="61.867" disp="true" elem="com.parasoft:demo" max="396" min="8" noi="45" stddev="66.245" />
+      </Metric>
+      <Metric avg="6.093" disp="true" id="METRIC.NOSLIM" max="38" min="1" name="Source Lines in Methods" noi="247" stddev="5.519">
+         <Info avg="6.093" disp="true" elem="com.parasoft:demo" max="38" min="1" noi="247" stddev="5.519" />
+      </Metric>
+   </Metrics>
+   <Scope>
+      <Repositories />
+      <Locations>
+         <Loc hash="-2121569923" locRef="1" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/eval/Simple.java" totLns="68" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/eval/Simple.java" />
+         <Loc hash="635578452" locRef="2" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/DatabaseObject.java" totLns="63" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/DatabaseObject.java" />
+         <Loc hash="1118499003" locRef="3" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/ExtendedNullPointer.java" totLns="57" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/ExtendedNullPointer.java" />
+         <Loc hash="796982299" locRef="4" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/MessageFormatter.java" totLns="15" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/MessageFormatter.java" />
+         <Loc hash="1067996598" locRef="5" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/MyDictionary.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/MyDictionary.java" />
+         <Loc hash="-51902665" locRef="6" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/NullPointer.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/NullPointer.java" />
+         <Loc hash="13842231" locRef="7" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/ChoosingConstructor.java" totLns="59" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/ChoosingConstructor.java" />
+         <Loc hash="1460192582" locRef="8" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/CustomMoney.java" totLns="15" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/CustomMoney.java" />
+         <Loc hash="-47973091" locRef="9" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/IMoney.java" totLns="52" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/IMoney.java" />
+         <Loc hash="1622384320" locRef="10" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/IntegerComparator.java" totLns="15" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/IntegerComparator.java" />
+         <Loc hash="-1765121077" locRef="11" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/Money.java" totLns="91" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/Money.java" />
+         <Loc hash="-113332437" locRef="12" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/MoneyBag.java" totLns="140" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/MoneyBag.java" />
+         <Loc hash="1434598914" locRef="13" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/NaiveStringBuilder.java" totLns="26" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/NaiveStringBuilder.java" />
+         <Loc hash="1554031451" locRef="14" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/SimpleObjectHandler.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/SimpleObjectHandler.java" />
+         <Loc hash="-1994237948" locRef="15" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/metrics/MetricsExample.java" totLns="52" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/metrics/MetricsExample.java" />
+         <Loc hash="1497176251" locRef="16" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/CharacterReader.java" totLns="57" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/CharacterReader.java" />
+         <Loc hash="1641622182" locRef="17" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/FileExample.java" totLns="35" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/FileExample.java" />
+         <Loc hash="1888280347" locRef="18" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/Interpreter.java" totLns="33" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/Interpreter.java" />
+         <Loc hash="-762775565" locRef="19" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/MultiSourceCharacterReader.java" totLns="34" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/MultiSourceCharacterReader.java" />
+         <Loc hash="922840071" locRef="20" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/PathUtil.java" totLns="18" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/PathUtil.java" />
+         <Loc hash="-251506569" locRef="21" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/AbstractTransaction.java" totLns="22" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/AbstractTransaction.java" />
+         <Loc hash="-2109136904" locRef="22" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Account.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Account.java" />
+         <Loc hash="-1683403269" locRef="23" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Bank.java" totLns="82" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Bank.java" />
+         <Loc hash="2120971007" locRef="24" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/BankState.java" totLns="22" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/BankState.java" />
+         <Loc hash="-368683629" locRef="25" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ConnectionException.java" totLns="8" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ConnectionException.java" />
+         <Loc hash="3241407" locRef="26" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/CreditCard.java" totLns="199" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/CreditCard.java" />
+         <Loc hash="2046383933" locRef="27" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Customer.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Customer.java" />
+         <Loc hash="-249228641" locRef="28" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/DepositTransaction.java" totLns="24" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/DepositTransaction.java" />
+         <Loc hash="1948271967" locRef="29" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ICreditAgency.java" totLns="8" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ICreditAgency.java" />
+         <Loc hash="1398902534" locRef="30" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ITransaction.java" totLns="25" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ITransaction.java" />
+         <Loc hash="-179143843" locRef="31" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/LogAccountInfo.java" totLns="48" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/LogAccountInfo.java" />
+         <Loc hash="-1206559161" locRef="32" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/WithdrawalTransaction.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/WithdrawalTransaction.java" />
+         <Loc hash="-981357238" locRef="33" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/queue/Queue.java" totLns="83" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/queue/Queue.java" />
+         <Loc hash="-1145404863" locRef="34" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/security/InputValidation.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/security/InputValidation.java" />
+         <Loc hash="-1999350871" locRef="35" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/servlets/ExampleServlet.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/servlets/ExampleServlet.java" />
+         <Loc hash="1553680728" locRef="36" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/AbstractStackMachine.java" totLns="123" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/AbstractStackMachine.java" />
+         <Loc hash="-1581767335" locRef="37" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/CommandLineStackMachine.java" totLns="147" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/CommandLineStackMachine.java" />
+         <Loc hash="1782082961" locRef="38" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/CustomListRenderer.java" totLns="30" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/CustomListRenderer.java" />
+         <Loc hash="-726989549" locRef="39" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/FifoStackMachine.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/FifoStackMachine.java" />
+         <Loc hash="-1559173645" locRef="40" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/LifoStackMachine.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/LifoStackMachine.java" />
+         <Loc hash="-339219917" locRef="41" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/RunnableStackMachine.java" totLns="396" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/RunnableStackMachine.java" />
+         <Loc hash="963698942" locRef="42" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/StackInterface.java" totLns="26" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/StackInterface.java" />
+         <Loc hash="-1082942404" locRef="43" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/StackList.java" totLns="100" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/StackList.java" />
+         <Loc hash="-2129128806" locRef="44" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/suppress/AllFileSuppress.java" totLns="13" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/suppress/AllFileSuppress.java" />
+         <Loc hash="2004133938" locRef="45" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/suppress/Example.java" totLns="10" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/suppress/Example.java" />
+         <Loc hash="836988928" locRef="46" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="META-INF/MANIFEST.MF" totLns="3" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/META-INF/MANIFEST.MF" />
+      </Locations>
+   </Scope>
+   
+  <SetupProblems />
+
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:04">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="46" checkedLns="2787" id="com.parasoft:demo" name="com.parasoft:demo" qfixErrs="0" suppErrs="0" totErrs="26" totFiles="46" totLns="2787" />
+      </Projects>
+      
+      
+      <Rules>
+         <CategoriesList>
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Flow Analysis" name="BD" rules="74" total="0">
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="API" name="BD.API" rules="3" total="0" />
+               <Category authTot="1;2;2;" authUrg="1;2;2;" desc="Possible Bugs" name="BD.PB" rules="23" total="5" />
+               <Category authTot="3;3;0;" authUrg="3;3;0;" desc="Resources" name="BD.RES" rules="2" total="6" />
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Threads &amp; Synchronization" name="BD.TRS" rules="6" total="0" />
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Collections" name="BD.CO" rules="1" total="0" />
+               <Category authTot="3;0;0;" authUrg="3;0;0;" desc="Exceptions" name="BD.EXCEPT" rules="1" total="3" />
+            </Category>
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="JavaBeans" name="BEAN" rules="5" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Code Duplication Detection" name="CDD" rules="6" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Coding Conventions" name="CODSTA" rules="112" total="0">
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Organization" name="CODSTA.ORG" rules="15" total="0" />
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Error-Prone Coding" name="CODSTA.EPC" rules="15" total="0" />
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Readability" name="CODSTA.READ" rules="39" total="0" />
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Overriding and Implementing Methods" name="CODSTA.OIM" rules="8" total="0" />
+            </Category>
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Enterprise JavaBeans" name="EJB" rules="62" total="0">
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Enterprise JavaBeans 3" name="EJB.EJB3" rules="19" total="0" />
+            </Category>
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Exceptions" name="EXCEPT" rules="19" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Garbage Collection" name="GC" rules="12" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Hibernate Framework" name="HIBERNATE" rules="13" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Initialization" name="INIT" rules="14" total="0" />
+            <Category authTot="0;1;0;" authUrg="0;1;0;" desc="Java Database Connectivity" name="JDBC" rules="10" total="1" />
+            <Category authTot="1;0;0;" authUrg="1;0;0;" desc="Metric" name="METRIC" rules="50" total="1" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Naming Conventions" name="NAMING" rules="38" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Object Oriented Programming" name="OOP" rules="35" total="0" />
+            <Category authTot="1;0;0;" authUrg="1;0;0;" desc="Optimization" name="OPT" rules="56" total="1" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Possible Bugs" name="PB" rules="142" total="0">
+               <Category authTot="1;0;0;" authUrg="1;0;0;" desc="Typographical Errors" name="PB.TYPO" rules="12" total="1" />
+               <Category authTot="1;0;0;" authUrg="1;0;0;" desc="Useless Code" name="PB.USC" rules="12" total="1" />
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Numerical Errors" name="PB.NUM" rules="17" total="0" />
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="API Usage and Implementation" name="PB.API" rules="25" total="0" />
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Logical Errors" name="PB.LOGIC" rules="18" total="0" />
+               <Category authTot="2;0;0;" authUrg="2;0;0;" desc="Confusing or Unintended Behavior" name="PB.CUB" rules="33" total="2" />
+               <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Runtime Exceptions" name="PB.RE" rules="17" total="0" />
+            </Category>
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Property Files" name="PROPS" rules="17" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Serialization" name="SERIAL" rules="18" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Servlets" name="SERVLET" rules="17" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Spring Framework" name="SPRING" rules="14" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Struts Framework" name="STRUTS" rules="30" total="0" />
+            <Category authTot="0;0;0;" authUrg="0;0;0;" desc="Threads &amp; Synchronization" name="TRS" rules="52" total="0" />
+            <Category authTot="4;1;0;" authUrg="4;1;0;" desc="Unused Code" name="UC" rules="28" total="5" />
+         </CategoriesList>
+         <RulesList>
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.API" desc="Make sure implementation of Object.equals(Object) properly handles null values" id="BD.API.EQNULL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.API" desc="Make sure implementation of Object.equals(Object) is reflexive" id="BD.API.EQREFL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.CO" desc="Do not modify collection while iterating over it" id="BD.CO.ITMOD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="3;0;0;" authUrg="3;0;0;" cat="BD.EXCEPT" desc="Avoid NullPointerException" id="BD.EXCEPT.NP" sev="1" total="3" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.PB" desc="Avoid unvalidated input in array indexes" id="BD.PB.ARRAYINP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.PB" desc="Avoid use before explicit initialization" id="BD.PB.NOTEXPLINIT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.PB" desc="Avoid use of fields before initialization in constructors and static initializers" id="BD.PB.NOTINITCTOR" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.PB" desc="Avoid overwriting method parameters before each use" id="BD.PB.POVR" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.PB" desc="Avoid division by zero" id="BD.PB.ZERO" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.PB" desc="Avoid accessing arrays out of bounds" id="BD.PB.ARRAY" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.PB" desc="Avoid incorrect shift operations" id="BD.PB.BADSHIFT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="1;2;2;" authUrg="1;2;2;" cat="BD.PB" desc="Avoid conditions that always evaluate to the same value" id="BD.PB.CC" sev="2" total="5" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.RES" desc="Do not use resources that have been freed" id="BD.RES.FREE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="3;3;0;" authUrg="3;3;0;" cat="BD.RES" desc="Ensure resources are deallocated" id="BD.RES.LEAKS" sev="1" total="6" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.TRS" desc="Avoid double locking" id="BD.TRS.DLOCK" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.TRS" desc="Do not abandon unreleased locks" id="BD.TRS.LOCK" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.TRS" desc="Do not acquire locks in different order" id="BD.TRS.ORDER" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.flowanalyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="BD.TRS" desc="Do not use blocking methods while holding a lock" id="BD.TRS.TSHL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="BEAN" desc="Use appropriate signatures for listener method names in JavaBean classes" id="BEAN.BLNC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="BEAN" desc="Ensure that JavaBean classes implement 'java.io.Serializable'" id="BEAN.SERIALIZABLE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.dupcode" authTot="0;0;0;" authUrg="0;0;0;" cat="CDD" desc="Avoid method duplication" id="CDD.DUPM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.dupcode" authTot="0;0;0;" authUrg="0;0;0;" cat="CDD" desc="Avoid class duplication" id="CDD.DUPT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="CODSTA.EPC" desc="Call 'super.clone()' in all 'clone()' methods" id="CODSTA.EPC.SCLONE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="CODSTA.EPC" desc="Do not use constructors in the 'clone()' method" id="CODSTA.EPC.CLNC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="CODSTA.EPC" desc="Do not call an &quot;abstract&quot; method from a constructor in an &quot;abstract&quot; class" id="CODSTA.EPC.NCAC" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="CODSTA.OIM" desc="Use the 'clone()' method only to implement 'Cloneable' interface" id="CODSTA.OIM.CLONE2" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="CODSTA.OIM" desc="Ensure 'clone()' method of non-final Cloneable class declared to throw 'CloneNotSupportedException'" id="CODSTA.OIM.CLONET" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="CODSTA.ORG" desc="Ensure all types have a non default package name" id="CODSTA.ORG.UNDPN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="CODSTA.READ" desc="Avoid nested assignments or assignments embedded in other expressions" id="CODSTA.READ.NEA" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="CODSTA.READ" desc="Do not declare multiple variables of different types in one statement" id="CODSTA.READ.VDT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Declare bean classes &quot;public&quot;" id="EJB.CDP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Do not declare bean classes as &quot;abstract&quot;" id="EJB.CNDA" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Do not declare bean classes as &quot;final&quot;" id="EJB.CNDF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Declare 'ejbCreate()' methods  &quot;public&quot;, but neither &quot;static&quot; nor &quot;final&quot;" id="EJB.CRTE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Implement a no-argument 'ejbCreate()' method for all Message-driven bean classes" id="EJB.MDBC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Do not define 'finalize()' method in bean classes" id="EJB.MNDF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Declare a &quot;public&quot; constructor that takes no parameters in bean classes" id="EJB.NFDC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Declare 'ejbPostCreate()' &quot;public&quot; and neither &quot;static&quot; nor &quot;final&quot;" id="EJB.PCRTE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Make the return type &quot;void&quot; for SessionBeans or MessageDrivenBeans' 'ejbCreate()' methods" id="EJB.RTC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Make the return type &quot;void&quot; for the 'ejbPostCreate()' method" id="EJB.RTP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Avoid passing the &quot;this&quot; reference as an argument" id="EJB.THISARG" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Do not return &quot;this&quot;" id="EJB.THISRET" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Do not access or modify security configuration objects" id="EJB.AMSC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Declare all &quot;static&quot; fields in EJB bean classes &quot;final&quot;" id="EJB.NFS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="The return type of EJB finder methods should be the primary key or a collection of primary keys" id="EJB.RT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Do not set or create a new SecurityManager in EJBs" id="EJB.SMSN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Avoid starting, stopping, or managing threads in any way in bean classes" id="EJB.THREAD" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB" desc="Do not throw 'java.rmi.RemoteException' in a bean's local interface and local home interface" id="EJB.RILH" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB.EJB3" desc="Call 'InvocationContext.proceed()' from @AroundInvoke methods" id="EJB.EJB3.CPIM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="EJB.EJB3" desc="Ensure instance variables of @Stateful beans are Serializable" id="EJB.EJB3.SIVS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EXCEPT" desc="Do not throw exceptions from the constructors of exception classes" id="EXCEPT.TEFEC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="EXCEPT" desc="Do not abuse exceptions as flow control statements" id="EXCEPT.AEFC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="EXCEPT" desc="Do not use instanceof in a catch block to check the exception type" id="EXCEPT.AIOC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="EXCEPT" desc="Always chain thrown exceptions" id="EXCEPT.CTE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="EXCEPT" desc="Do not throw exception types which are too general or are unchecked exceptions" id="EXCEPT.NTERR" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="GC" desc="Do not use 'finalize()' methods to unregister listeners" id="GC.FM" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="GC" desc="Do not call 'finalize()' explicitly" id="GC.NCF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="GC" desc="Prevent potential memory leaks in ObjectOutputStreams by calling 'reset()'" id="GC.OSTM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="GC" desc="Call 'super.finalize()' from 'finalize()'" id="GC.FCF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="GC" desc="Call 'super.finalize()' in the &quot;finally&quot; block of 'finalize()' methods" id="GC.IFF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.xml" authTot="0;0;0;" authUrg="0;0;0;" cat="HIBERNATE" desc="Avoid storing unencrypted Hibernate usernames and passwords in 'web.xml' files" id="HIBERNATE.UPWD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="INIT" desc="Avoid uninitialized reads of fields before or during constructor execution" id="INIT.UIRC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="INIT" desc="Do not use a &quot;static&quot; initializer that creates an instance of the current class before all &quot;static final&quot; fields are assigned" id="INIT.SICUI" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="INIT" desc="Avoid explicitly initializing fields which have already been initialized by a superclass' constructor" id="INIT.ADI" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="INIT" desc="Do not use initialization circularities for fields" id="INIT.IC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="INIT" desc="Do not use non-final &quot;static&quot; fields during the initialization" id="INIT.NFS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;1;0;" authUrg="0;1;0;" cat="JDBC" desc="Ensure index is valid in JDBC method invocation" id="JDBC.BRSA" sev="1" total="1" />
+            <Rule analyzer="com.parasoft.jtest.standards.metrics.analyzer" authTot="0;0;0;" authUrg="0;0;0;" cat="METRIC" desc="McCabe Cyclomatic Complexity" id="METRIC.CC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.metrics.analyzer" authTot="1;0;0;" authUrg="1;0;0;" cat="METRIC" desc="Nested Blocks Depth" id="METRIC.NBD" sev="3" total="1" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="NAMING" desc="Do not declare types with the same name as types in the Java platform" id="NAMING.DJLO" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="NAMING" desc="Avoid using potential Java keywords as identifiers" id="NAMING.ID" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="NAMING" desc="Do not use a package name that is reserved by Sun" id="NAMING.RPKG" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="NAMING" desc="Avoid using dollar signs in names" id="NAMING.DSN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="NAMING" desc="Do not use variables with identical names or names that differ only in case" id="NAMING.UUVN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="OOP" desc="Do not hide inherited fields" id="OOP.AHF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="OOP" desc="Do not hide inherited &quot;static&quot; member methods" id="OOP.AHSM" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="OPT" desc="Do not use a &quot;private&quot; field that is accessed in only one method; change it to a local variable" id="OPT.CTLV" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="OPT" desc="Declare &quot;final&quot; fields with a known compile time value as &quot;static&quot;" id="OPT.NSF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="1;0;0;" authUrg="1;0;0;" cat="OPT" desc="Declare member classes &quot;static&quot; if possible" id="OPT.SI" sev="3" total="1" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="OPT" desc="Avoid unnecessary casting" id="OPT.UNC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB" desc="Ensure that exactly one type has the same name as the file name" id="PB.OCSF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB" desc="Place &quot;default&quot; as the last case of the &quot;switch&quot; statement" id="PB.PDCL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB" desc="Provide &quot;default:&quot; for each &quot;switch&quot; statement" id="PB.PDS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Do not call the 'next' method from the 'hasNext' method of an Iterator" id="PB.API.HNCN" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Do not use &quot;URL&quot; objects in &quot;Collections&quot; or &quot;Maps&quot;" id="PB.API.IUMS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Do not call 'setSize()' in 'ComponentListener.componentResized()'" id="PB.API.DNCSS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Do not create an empty JarFile entry or an empty ZipFile entry" id="PB.API.EJF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Avoid calling 'equals(null)'" id="PB.API.EQNL" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Ensure that all types which are used as keys in Sets and Maps override the 'equals()' and 'hashCode()' methods" id="PB.API.KOEH" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Do not overload the 'finalize()' method" id="PB.API.OF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Avoid using &quot;.&quot; as a regular expression in 'String.replaceAll()' and 'String.replaceFirst()'" id="PB.API.REP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Do not pass a 'char' to the 'StringBuffer(int)' constructor" id="PB.API.SBCC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Avoid improper casting of the results of the 'next' methods in the 'java.util.Random' class" id="PB.API.UNI" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Avoid using the 'equals()' and 'hashCode()' methods of &quot;java.net.URL&quot;" id="PB.API.URL" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.API" desc="Update values which may be using to compare with vendor properties" id="PB.API.VENDOR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.CUB" desc="Avoid using 'return's inside 'finally blocks if thare are other 'return's inside the try-catch block" id="PB.CUB.ARCF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.CUB" desc="Do not exit &quot;finally&quot; blocks abruptly" id="PB.CUB.ATSF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.CUB" desc="Do not use the &quot;+&quot; string concatenation operator to concatenate numbers; use it only to add numbers" id="PB.CUB.DCP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.CUB" desc="Avoid erroneously placing statements outside blocks" id="PB.CUB.EBI" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.CUB" desc="Avoid overloading varargs methods" id="PB.CUB.OVAM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.CUB" desc="Do not use &quot;char&quot; arrays in &quot;String&quot; concatenations" id="PB.CUB.SAC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="2;0;0;" authUrg="2;0;0;" cat="PB.CUB" desc="Do not use '==' or '!=' to compare objects" id="PB.CUB.UEIC" sev="2" total="2" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.CUB" desc="Avoid dangling &quot;else&quot; statements" id="PB.CUB.ADE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.CUB" desc="Avoid confusing assignments to constructor arguments" id="PB.CUB.AWP" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.CUB" desc="Avoid improper concatenation of characters with numbers" id="PB.CUB.CNVC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.CUB" desc="Use the method name 'main()' only for the entry point method" id="PB.CUB.MAIN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.LOGIC" desc="Do not call 'equals()' methods that always return false" id="PB.LOGIC.EQUS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.LOGIC" desc="Avoid calling 'equals()' with same object" id="PB.LOGIC.ESO" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.LOGIC" desc="Avoid infinite recursive method calls" id="PB.LOGIC.FLRC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.LOGIC" desc="Do not increment or decrement on the same variable over multiple nested &quot;for&quot; loop statements" id="PB.LOGIC.JI" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.LOGIC" desc="Ensure that the objects used within a loop's condition are properly accessed within the loop's body" id="PB.LOGIC.OAMC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.LOGIC" desc="Avoid bugs in the usage of loop variables" id="PB.LOGIC.INDEX" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.LOGIC" desc="Avoid out of range comparisons" id="PB.LOGIC.OOR" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.NUM" desc="Avoid calculations which result in overflow or NaN" id="PB.NUM.ICO" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.NUM" desc="Do not assign the result of an integer division to a floating point variable" id="PB.NUM.IDCD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.NUM" desc="Avoid comparisons to Double.NaN or Float.NaN" id="PB.NUM.NAN" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.NUM" desc="Do not initialize array dimensions with negative numbers" id="PB.NUM.NIA" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.NUM" desc="Do not pass floating point values to the 'BigDecimal' constructor" id="PB.NUM.BBDCC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.NUM" desc="Do not use an integer outside the range of [0, 31] as the amount of a shift" id="PB.NUM.BSA" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.NUM" desc="Do not cast primitive data types to lower precision" id="PB.NUM.CLP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.NUM" desc="Do not compare floating point types" id="PB.NUM.DCF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.NUM" desc="Do not use floating point variables as loop indices" id="PB.NUM.FPLI" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.NUM" desc="Avoid casting the result of an integer multiplication to &quot;long&quot;" id="PB.NUM.IMOF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.RE" desc="Do not add a collection to itself" id="PB.RE.ACTI" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.RE" desc="Check whether or not &quot;readLine()&quot; returned null before dereferencing the return value" id="PB.RE.IDRL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.RE" desc="Avoid using methods add() from JLayer class" id="PB.RE.JLAY" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.RE" desc="When used HttpURLConnection always check return value from the getResponseCode() methods before call getInputStream()" id="PB.RE.RCODE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.RE" desc="Avoid modifying fixed-size Collections" id="PB.RE.AMFSL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.RE" desc="Avoid possible ArrayStoreExceptions" id="PB.RE.ASE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.RE" desc="Ensure 'Iterator.next()' method implementations throw 'NoSuchElementException'" id="PB.RE.CTNSE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.TYPO" desc="Avoid assignment within a condition" id="PB.TYPO.ASI" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.TYPO" desc="Ensure that arguments passed to Java wrapper classes do not contain typos" id="PB.TYPO.WT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="1;0;0;" authUrg="1;0;0;" cat="PB.TYPO" desc="Ensure &quot;switch&quot; statements do not contain typos" id="PB.TYPO.TLS" sev="2" total="1" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.TYPO" desc="Avoid assigning same variable in the fall-through switch case" id="PB.TYPO.DAV" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.TYPO" desc="Do not give methods and fields the same name as the enclosing class or each other" id="PB.TYPO.NAMING" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.USC" desc="Avoid unreachable &quot;else if&quot; and &quot;else&quot; cases" id="PB.USC.UIF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="1;0;0;" authUrg="1;0;0;" cat="PB.USC" desc="Avoid using &quot;private&quot; fields which are never given a meaningful value" id="PB.USC.FCBS" sev="2" total="1" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.USC" desc="Avoid increment and decrement statements which have no effect" id="PB.USC.OI" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.USC" desc="Do not use the unary operator '+'" id="PB.USC.UNARY" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.USC" desc="Avoid empty statements" id="PB.USC.AES" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="PB.USC" desc="Avoid self assignments/initializations to fields and/or local variables" id="PB.USC.SAFL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.prop" authTot="0;0;0;" authUrg="0;0;0;" cat="PROPS" desc="Avoid duplicated property names" id="PROPS.DUPN" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.prop" authTot="0;0;0;" authUrg="0;0;0;" cat="PROPS" desc="Avoid empty property names" id="PROPS.EMN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.prop" authTot="0;0;0;" authUrg="0;0;0;" cat="PROPS" desc="Avoid misusing arguments in property values" id="PROPS.IARG" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.prop" authTot="0;0;0;" authUrg="0;0;0;" cat="PROPS" desc="Avoid incomplete property entries" id="PROPS.ICK" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.prop" authTot="0;0;0;" authUrg="0;0;0;" cat="PROPS" desc="Avoid unmatched property entries in resources with different locales" id="PROPS.MENTRY" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.prop" authTot="0;0;0;" authUrg="0;0;0;" cat="PROPS" desc="Avoid duplicated property values" id="PROPS.DUPV" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.prop" authTot="0;0;0;" authUrg="0;0;0;" cat="PROPS" desc="Avoid empty property values" id="PROPS.EMV" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.prop" authTot="0;0;0;" authUrg="0;0;0;" cat="PROPS" desc="Follow the limit for number of property entries" id="PROPS.FM" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.prop" authTot="0;0;0;" authUrg="0;0;0;" cat="PROPS" desc="Avoid misusing the line continuation character '\'" id="PROPS.IVCC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.prop" authTot="0;0;0;" authUrg="0;0;0;" cat="PROPS" desc="Ensure that property entries are localized correctly" id="PROPS.TENTRY" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="SERIAL" desc="Avoid classes that implement 'Externalizable' but do not define a no-argument constructor" id="SERIAL.ENNAC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="SERIAL" desc="Ensure the return type of 'readResolve()' and 'writeReplace()' methods are 'java.lang.Object'" id="SERIAL.MRWD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="SERIAL" desc="Ensure outer class is serializable if its inner class is serializable" id="SERIAL.OC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="SERIAL" desc="Ensure that the 'readObject()' and 'writeObject()' methods have the correct signature" id="SERIAL.ROWO" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="SERIAL" desc="Avoid serializable classes that extend a superclass without a zero-argument constructor" id="SERIAL.SNNAC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="SERIAL" desc="Ensure Serializable classes are correct" id="SERIAL.NSFSC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="SERIAL" desc="Declare 'serialPersistentFields' &quot;private static final&quot;" id="SERIAL.SPF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="SERIAL" desc="Ensure that all fields are assigned by the 'readObject()' method and written out by the 'writeObject()' method" id="SERIAL.RWAF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.xml" authTot="0;0;0;" authUrg="0;0;0;" cat="SERVLET" desc="Ensure that all servlets have a corresponding mapping in 'web.xml' files" id="SERVLET.SCM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="SPRING" desc="Follow configuration class conventions" id="SPRING.ATCFG" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="STRUTS" desc="Avoid accessing a database from Action Classes" id="STRUTS.ACDA" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.xml" authTot="0;0;0;" authUrg="0;0;0;" cat="STRUTS" desc="Avoid defining multiple form beans with the same name in 'struts-config.xml' files" id="STRUTS.MFBSN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.xml" authTot="0;0;0;" authUrg="0;0;0;" cat="STRUTS" desc="Use the 'minlength' validator for password fields in 'validation.xml'" id="STRUTS.MLVP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.xml" authTot="0;0;0;" authUrg="0;0;0;" cat="STRUTS" desc="Ensure that the @path attribute of '&lt;action>' and '&lt;forward>' elements begins with '/' in 'struts-config.xml' files" id="STRUTS.PFS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.xml" authTot="0;0;0;" authUrg="0;0;0;" cat="STRUTS" desc="Ensure that the 'scope' attribute is set to either &quot;request&quot; or &quot;session&quot; for actions and exceptions in 'struts-config.xml' files" id="STRUTS.RSS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Do not cause deadlocks by calling a &quot;synchronized&quot; method from a &quot;synchronized&quot; method" id="TRS.CSFS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Release Locks in a &quot;finally&quot; block" id="TRS.RLF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Do not synchronize on constant Strings" id="TRS.SCS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Manually synchronize on 'synchronized' collections when iterating over them" id="TRS.SSCI" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Call 'wait()' and 'await()' only inside a loop that tests the liveness condition" id="TRS.UWIL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Do not use variables of the unsafe type 'java.lang.ThreadGroup'" id="TRS.AUTG" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Do not call the &quot;start&quot; method of threads from inside a constructor" id="TRS.CSTART" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Do not synchronize on &quot;public&quot; fields since doing so may cause deadlocks" id="TRS.SOPF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Avoid calling unsafe deprecated methods of 'Thread' and 'Runtime'" id="TRS.THRD" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Do not call 'Thread.sleep()' while holding a lock since doing so can cause poor performance and deadlocks" id="TRS.TSHL" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Ensure 'wait()', 'notify()' and 'notifyAll()' are invoked on an object that is clearly synchronized in its enclosing method scope" id="TRS.NSYN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Do not synchronize on non-&quot;final&quot; fields since doing so makes it difficult to guarantee mutual exclusion" id="TRS.SOUF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Synchronize access to &quot;static&quot; SimpleDataFormats" id="TRS.SSDF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Do not start a thread without specifying a 'run()' method" id="TRS.UT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="TRS" desc="Use 'wait()' and 'notifyAll()' instead of polling loops" id="TRS.UWNA" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="UC" desc="Avoid empty static and non-static initializers" id="UC.AESTAT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="1;0;0;" authUrg="1;0;0;" cat="UC" desc="Avoid unused labels" id="UC.AUL" sev="3" total="1" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;1;0;" authUrg="0;1;0;" cat="UC" desc="Avoid collection objects that are never read" id="UC.AURCO" sev="3" total="1" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="3;0;0;" authUrg="3;0;0;" cat="UC" desc="Avoid local variables that are never read" id="UC.AURV" sev="3" total="3" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="UC" desc="Avoid duplicate code in 'if' branches" id="UC.DIEB" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.rulewizard" authTot="0;0;0;" authUrg="0;0;0;" cat="UC" desc="Do not explicitly &quot;import&quot; the java.lang.* &quot;package&quot;" id="UC.DIL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="UC" desc="Avoid empty &quot;finalize()&quot; methods" id="UC.EF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="UC" desc="Avoid empty &quot;synchronized&quot; statements" id="UC.SNE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="UC" desc="Avoid unnecessary 'if' statements" id="UC.UCIF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="UC" desc="Avoid redundant throw clauses" id="UC.ARTD" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="0;0;0;" authUrg="0;0;0;" cat="UC" desc="Do not import classes from the package that contains the current class" id="UC.PIMPORT" sev="4" total="0" />
+         </RulesList>
+         <SeverityList>
+            <Severity authTot="6;4;0;" authUrg="6;4;0;" id="1" total="10" />
+            <Severity authTot="5;2;2;" authUrg="5;2;2;" id="2" total="9" />
+            <Severity authTot="6;1;0;" authUrg="6;1;0;" id="3" total="7" />
+         </SeverityList>
+      </Rules>
+      
+  <Supps />
+
+      
+  <StdViols>
+    <StdViol msg="Text label 'case10' may be a typo for 'case 10'" ln="24" locFile="/com.parasoft:demo/src/main/java/examples/eval/Simple.java" auth="pteodor" rule="PB.TYPO.TLS" lnHash="337657500" pkg="examples.eval" rule.header="Ensure &quot;switch&quot; statements do not contain typos" locStartPos="12" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" violId="2957bd2b-75a1-370d-aac6-c09711133750" locEndPos="18" urgent="true" prio="Not Defined" locEndLn="24" goals="1," locStartln="24" sev="2" locRef="1" tool="jtest" lineHash="337657500" unbViolId="6522f8d2-b4cb-3f89-9c33-93d1f6abea96" risk="Undefined" locType="sr" hash="-2121569923" />
+    <StdViol msg="Avoid unused label: case10" ln="24" locFile="/com.parasoft:demo/src/main/java/examples/eval/Simple.java" auth="pteodor" rule="UC.AUL" lnHash="337657500" pkg="examples.eval" rule.header="Avoid unused labels" locStartPos="12" analyzer="com.parasoft.jtest.standards.checkers.rulewizard" lang="java" violId="cac8281b-dc57-325d-b4de-1ae94ece0149" locEndPos="18" urgent="true" prio="Not Defined" locEndLn="24" goals="1," locStartln="24" sev="3" locRef="1" tool="jtest" lineHash="337657500" unbViolId="bd7b3465-a141-33e3-a889-b53ac4e170d2" risk="Undefined" locType="sr" hash="-2121569923" />
+    <FlowViol msg="&quot;strKey&quot; may possibly be null" ln="18" locFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/MyDictionary.java" ruleSAFMsg="NullPointerException point" FirstElSrcRngEndPos="29" auth="pteodor" FirstElSrcRngEndLn="14" rule="BD.EXCEPT.NP" FirstElSrcRngStartPos="8" lnHash="-1504762512" ruleSCSCMsg="Source of null value" pkg="examples.flowanalysis.np" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/MyDictionary.java" rule.header="Avoid NullPointerException" FirstElSrcRngStartln="14" locStartPos="8" analyzer="com.parasoft.jtest.flowanalyzer" id="-1481639968" lang="java" violId="90dc4df2-1552-3060-94dd-a7b5f7811dbf" locEndPos="32" urgent="true" prio="Not Defined" locEndLn="18" goals="1," locStartln="18" sev="1" locRef="5" tool="jtest" lineHash="-1504762512" unbViolId="142d99ca-5af2-3735-bfbe-cf2263adc1ff" risk="Undefined" locType="sr" hash="1067996598" causeLocRef="5">
+      <Props>
+        <Prop key="Tracked variables" val="Null value carrier" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-1935852018" locType="sr" srcRnghash="1067996598" locRef="5" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/MyDictionary.java" ln="14" srcRngStartPos="8" srcRngEndPos="29" srcRngStartln="14" srcRngEndLn="14" desc="String strKey = null;" ElType=".C" rngLn="14">
+          <Anns>
+            <Ann msg="Source of null value" kind="cause" />
+            <Ann msg="Null value carrier: strKey" kind="comment" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1183172741" locType="sr" srcRnghash="1067996598" locRef="5" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/MyDictionary.java" ln="15" srcRngStartPos="8" srcRngEndPos="36" srcRngStartln="15" srcRngEndLn="15" desc="if (key instanceof String) {" ElType="." rngLn="15">
+          <Anns>
+            <Ann msg="Condition evaluation: key instanceof java.lang.String (assuming false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1504762512" locType="sr" srcRnghash="1067996598" locRef="5" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/MyDictionary.java" ln="18" srcRngStartPos="8" srcRngEndPos="32" srcRngStartln="18" srcRngEndLn="18" desc="dict.put(strKey, value);" ElType=".P" rngLn="18">
+          <Anns>
+            <Ann msg="Null value carrier: strKey" kind="comment" />
+            <Ann msg="NullPointerException point" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;sFirstLine&quot; may possibly be null" ln="22" locFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ruleSAFMsg="NullPointerException point" FirstElSrcRngEndPos="33" auth="pteodor" FirstElSrcRngEndLn="12" rule="BD.EXCEPT.NP" FirstElSrcRngStartPos="8" lnHash="-1543564921" ruleSCSCMsg="Source of null value" pkg="examples.flowanalysis.np" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" rule.header="Avoid NullPointerException" FirstElSrcRngStartln="12" locStartPos="15" analyzer="com.parasoft.jtest.flowanalyzer" id="-828617265" lang="java" violId="127939be-13a7-3961-af7a-35189166651a" locEndPos="34" urgent="true" prio="Not Defined" locEndLn="22" goals="1," locStartln="22" sev="1" locRef="6" tool="jtest" lineHash="-1543564921" unbViolId="04bf248a-7fa3-3b92-9946-116340efd45d" risk="Undefined" locType="sr" hash="-51902665" causeLocRef="6">
+      <Props>
+        <Prop key="Tracked variables" val="Null value carrier" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-989328207" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="12" srcRngStartPos="8" srcRngEndPos="33" srcRngStartln="12" srcRngEndLn="12" desc="String sFirstLine = null;" ElType=".C" rngLn="12">
+          <Anns>
+            <Ann msg="Source of null value" kind="cause" />
+            <Ann msg="Null value carrier: sFirstLine" kind="comment" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="191709394" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="13" srcRngStartPos="8" srcRngEndPos="37" srcRngStartln="13" srcRngEndLn="13" desc="BufferedReader reader = null;" ElType="." rngLn="13" />
+        <ElDesc lineHash="-1664407388" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="15" srcRngStartPos="40" srcRngEndPos="65" srcRngStartln="15" srcRngEndLn="15" desc="new FileReader(sFileName)" ElType="!E" rngLn="15" thrownTypes="FileNotFoundException" throwingMethod="FileReader.FileReader">
+          <Anns>
+            <Ann msg="FileReader.FileReader() throws FileNotFoundException" kind="except" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="100324464" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="17" srcRngStartPos="10" srcRngEndPos="30" srcRngStartln="17" srcRngEndLn="17" desc="catch (Exception e)" ElType="." rngLn="17" />
+        <ElDesc lineHash="-747252483" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="18" srcRngStartPos="12" srcRngEndPos="69" srcRngStartln="18" srcRngEndLn="18" desc="System.out.println(&quot;Exception occured. &quot; + e.toString());" ElType="." rngLn="18" />
+        <ElDesc lineHash="853738085" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="20" srcRngStartPos="12" srcRngEndPos="26" srcRngStartln="20" srcRngEndLn="20" desc="close(reader);" ElType="." rngLn="20">
+          <ElDescList>
+            <ElDesc lineHash="-2039937235" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="27" srcRngStartPos="12" srcRngEndPos="27" srcRngStartln="27" srcRngEndLn="27" desc="reader.close();" ElType="." rngLn="27" />
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="-1543564921" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="22" srcRngStartPos="15" srcRngEndPos="34" srcRngStartln="22" srcRngEndLn="22" desc="sFirstLine.length()" ElType=".P" rngLn="22">
+          <Anns>
+            <Ann msg="Null value carrier: sFirstLine" kind="comment" />
+            <Ann msg="NullPointerException point" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;reader&quot; may possibly be null" ln="27" locFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ruleSAFMsg="NullPointerException point" FirstElSrcRngEndPos="37" auth="pteodor" FirstElSrcRngEndLn="13" rule="BD.EXCEPT.NP" FirstElSrcRngStartPos="8" lnHash="-2039937235" ruleSCSCMsg="Source of null value" pkg="examples.flowanalysis.np" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" rule.header="Avoid NullPointerException" FirstElSrcRngStartln="13" locStartPos="12" analyzer="com.parasoft.jtest.flowanalyzer" id="989822108" lang="java" violId="63215e05-f086-3050-a77e-c08a1944776f" locEndPos="27" urgent="true" prio="Not Defined" locEndLn="27" goals="1," locStartln="27" sev="1" locRef="6" tool="jtest" lineHash="-2039937235" unbViolId="17d406b5-64c4-3699-8d31-951aaea64e36" risk="Undefined" locType="sr" hash="-51902665" causeLocRef="6">
+      <Props>
+        <Prop key="Tracked variables" val="Null value carrier" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-989328207" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="12" srcRngStartPos="8" srcRngEndPos="33" srcRngStartln="12" srcRngEndLn="12" desc="String sFirstLine = null;" ElType="." rngLn="12" />
+        <ElDesc lineHash="191709394" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="13" srcRngStartPos="8" srcRngEndPos="37" srcRngStartln="13" srcRngEndLn="13" desc="BufferedReader reader = null;" ElType=".C" rngLn="13">
+          <Anns>
+            <Ann msg="Source of null value" kind="cause" />
+            <Ann msg="Null value carrier: reader" kind="comment" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1664407388" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="15" srcRngStartPos="40" srcRngEndPos="65" srcRngStartln="15" srcRngEndLn="15" desc="new FileReader(sFileName)" ElType="!E" rngLn="15" thrownTypes="FileNotFoundException" throwingMethod="FileReader.FileReader">
+          <Anns>
+            <Ann msg="FileReader.FileReader() throws FileNotFoundException" kind="except" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="100324464" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="17" srcRngStartPos="10" srcRngEndPos="30" srcRngStartln="17" srcRngEndLn="17" desc="catch (Exception e)" ElType="." rngLn="17" />
+        <ElDesc lineHash="-747252483" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="18" srcRngStartPos="12" srcRngEndPos="69" srcRngStartln="18" srcRngEndLn="18" desc="System.out.println(&quot;Exception occured. &quot; + e.toString());" ElType="." rngLn="18" />
+        <ElDesc lineHash="853738085" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="20" srcRngStartPos="12" srcRngEndPos="26" srcRngStartln="20" srcRngEndLn="20" desc="close(reader);" ElType="!" rngLn="20">
+          <ElDescList>
+            <ElDesc lineHash="-2039937235" locType="sr" srcRnghash="-51902665" locRef="6" srcRngFile="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" ln="27" srcRngStartPos="12" srcRngEndPos="27" srcRngStartln="27" srcRngEndLn="27" desc="reader.close();" ElType=".P" rngLn="27">
+              <Anns>
+                <Ann msg="Null value carrier: reader" kind="comment" />
+                <Ann msg="NullPointerException point" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <MetViol msg="Value 8 is out of acceptable range: 'lower than 7'" ln="13" locFile="/com.parasoft:demo/src/main/java/examples/metrics/MetricsExample.java" auth="pteodor" rule="METRIC.NBD" lnHash="844216599" rule.header="Nested Blocks Depth" locStartPos="0" analyzer="com.parasoft.jtest.standards.metrics.analyzer" lang="java" violId="8bc79a26-58e3-3c92-9e55-fefc6f300588" locEndPos="0" urgent="true" prio="Not Defined" locEndLn="14" goals="1," locStartln="13" sev="3" locRef="15" tool="jtest" lineHash="844216599" unbViolId="a54f3f9c-b486-345b-8da7-90903361582a" risk="Undefined" locType="sr" hash="-1994237948" />
+    <FlowViol msg="Condition &quot;balance >= 5000&quot; always evaluates to true" ln="36" locFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" ruleSAFMsg="Point where senseless condition is used" FirstElSrcRngEndPos="49" auth="Mark Wilson" FirstElSrcRngEndLn="33" rule="BD.PB.CC" FirstElSrcRngStartPos="19" lnHash="729855832" ruleSCSCMsg="Start of the path" pkg="examples.nbank" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" rule.header="Avoid conditions that always evaluate to the same value" FirstElSrcRngStartln="33" locStartPos="19" analyzer="com.parasoft.jtest.flowanalyzer" id="-566745273" lang="java" violId="d4192b8e-87dd-3143-b2b9-173b15e59cc9" locEndPos="48" urgent="true" prio="Not Defined" locEndLn="36" goals="1," locStartln="36" sev="2" locRef="22" tool="jtest" lineHash="729855832" unbViolId="07943256-b84e-3f0b-babd-3947b5a3ba10" risk="Undefined" locType="sr" hash="-2109136904" causeLocRef="22">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-1809142446" locType="sr" srcRnghash="-2109136904" locRef="22" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" ln="33" srcRngStartPos="19" srcRngEndPos="49" srcRngStartln="33" srcRngEndLn="33" desc="setAccountStatus(int balance)" ElType=".C" rngLn="33">
+          <Anns>
+            <Ann msg="Start of the path" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1153895073" locType="sr" srcRnghash="-2109136904" locRef="22" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" ln="34" srcRngStartPos="8" srcRngEndPos="41" srcRngStartln="34" srcRngEndLn="34" desc="if (balance &lt; BALANCE_GOLD_MIN) {" ElType="." rngLn="34">
+          <Anns>
+            <Ann msg="Condition evaluation: (balance &lt; 5000) (assuming false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="729855832" locType="sr" srcRnghash="-2109136904" locRef="22" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" ln="36" srcRngStartPos="19" srcRngEndPos="48" srcRngStartln="36" srcRngEndLn="36" desc="(balance >= BALANCE_GOLD_MIN)" ElType=".P" rngLn="36">
+          <Anns>
+            <Ann msg="Point where senseless condition is used" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="Condition &quot;balance >= 5000&quot; always evaluates to true" ln="73" locFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" ruleSAFMsg="Point where senseless condition is used" FirstElSrcRngEndPos="40" auth="Mark Wilson" FirstElSrcRngEndLn="69" rule="BD.PB.CC" FirstElSrcRngStartPos="16" lnHash="729855832" ruleSCSCMsg="Start of the path" pkg="examples.nbank" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" rule.header="Avoid conditions that always evaluate to the same value" FirstElSrcRngStartln="69" locStartPos="19" analyzer="com.parasoft.jtest.flowanalyzer" id="-183718716" lang="java" violId="a9aa7817-8d86-3dcb-9b1c-f35e4a2f40c7" locEndPos="48" urgent="true" prio="Not Defined" locEndLn="73" goals="1," locStartln="73" sev="2" locRef="22" tool="jtest" lineHash="729855832" unbViolId="aa9d4a3e-712e-3047-9d8a-62c96ce067c8" risk="Undefined" locType="sr" hash="-2109136904" causeLocRef="22">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-349452654" locType="sr" srcRnghash="-2109136904" locRef="22" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" ln="69" srcRngStartPos="16" srcRngEndPos="40" srcRngStartln="69" srcRngEndLn="69" desc="setBalance(int balance)" ElType=".C" rngLn="69">
+          <Anns>
+            <Ann msg="Start of the path" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1662992443" locType="sr" srcRnghash="-2109136904" locRef="22" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" ln="70" srcRngStartPos="8" srcRngEndPos="27" srcRngStartln="70" srcRngEndLn="70" desc="_balance = balance;" ElType="." rngLn="70" />
+        <ElDesc lineHash="1153895073" locType="sr" srcRnghash="-2109136904" locRef="22" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" ln="71" srcRngStartPos="8" srcRngEndPos="41" srcRngStartln="71" srcRngEndLn="71" desc="if (balance &lt; BALANCE_GOLD_MIN) {" ElType="." rngLn="71">
+          <Anns>
+            <Ann msg="Condition evaluation: (balance &lt; 5000) (assuming false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="729855832" locType="sr" srcRnghash="-2109136904" locRef="22" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" ln="73" srcRngStartPos="19" srcRngEndPos="48" srcRngStartln="73" srcRngEndLn="73" desc="(balance >= BALANCE_GOLD_MIN)" ElType=".P" rngLn="73">
+          <Anns>
+            <Ann msg="Point where senseless condition is used" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="'List' field '_accountsLog' is never read" ln="116" locFile="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" auth="Mark Wilson" rule="UC.AURCO" lnHash="2040230778" pkg="examples.nbank" rule.header="Avoid collection objects that are never read" locStartPos="24" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" violId="2acfbeb9-2be5-3bdb-8a9e-4c9c4b2b8dcd" locEndPos="36" urgent="true" prio="Not Defined" locEndLn="116" goals="1," locStartln="116" sev="3" locRef="22" tool="jtest" lineHash="2040230778" unbViolId="ef0049de-7694-33f8-8f91-cc51ade48ff9" risk="Undefined" locType="sr" hash="-2109136904" />
+    <StdViol msg="&quot;!=&quot; is used when comparing 'String' Objects. 'equals()' should be used instead" ln="104" locFile="/com.parasoft:demo/src/main/java/examples/nbank/CreditCard.java" auth="pteodor" rule="PB.CUB.UEIC" lnHash="1821395361" pkg="examples.nbank" rule.header="Do not use '==' or '!=' to compare objects" locStartPos="12" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" violId="6579cca7-5240-37bc-82bf-bfed1b30f7f6" locEndPos="42" urgent="true" prio="Not Defined" locEndLn="104" goals="1," locStartln="104" sev="2" locRef="26" tool="jtest" lineHash="1821395361" unbViolId="56edad0b-a06e-3d64-93a2-ab88280a35a6" risk="Undefined" locType="sr" hash="3241407" />
+    <StdViol msg="'0' is not a valid index value for this method call" ln="86" locFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" auth="Mark Wilson" rule="JDBC.BRSA" lnHash="612379775" pkg="examples.nbank" rule.header="Ensure index is valid in JDBC method invocation" locStartPos="40" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" violId="26f423bb-ec1f-39c6-8bdd-b83fb1be4a57" locEndPos="41" urgent="true" prio="Not Defined" locEndLn="86" goals="1," locStartln="86" sev="1" locRef="27" tool="jtest" lineHash="612379775" unbViolId="7640aa58-db27-37cc-a5dc-30f6df9e11e5" risk="Undefined" locType="sr" hash="2046383933" />
+    <FlowViol msg="JDBC statement not closed: statement" ln="95" locFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ruleSAFMsg="Point where the allocated resource is lost" FirstElSrcRngEndPos="94" auth="Mark Wilson" FirstElSrcRngEndLn="84" rule="BD.RES.LEAKS" FirstElSrcRngStartPos="12" lnHash="30537853" ruleSCSCMsg="Point where the resource is allocated" pkg="examples.nbank" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" rule.header="Ensure resources are deallocated" FirstElSrcRngStartln="84" locStartPos="4" analyzer="com.parasoft.jtest.flowanalyzer" id="117974623" lang="java" violId="1ac79d07-a79f-3c79-8cbd-cabbeb38f310" locEndPos="5" urgent="true" prio="Not Defined" locEndLn="95" goals="1," locStartln="95" sev="1" locRef="27" tool="jtest" lineHash="30537853" unbViolId="8c52d05a-134f-3fae-b0d6-355df44a4824" risk="Undefined" locType="sr" hash="2046383933" causeLocRef="27">
+      <Props>
+        <Prop key="Tracked variables" val="Allocated resource variable" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-1809401071" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="70" srcRngStartPos="8" srcRngEndPos="37" srcRngStartln="70" srcRngEndLn="70" desc="Connection connection = null;" ElType="." rngLn="70" />
+        <ElDesc lineHash="-185589454" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="71" srcRngStartPos="8" srcRngEndPos="43" srcRngStartln="71" srcRngEndLn="71" desc="PreparedStatement statement = null;" ElType="." rngLn="71" />
+        <ElDesc lineHash="-1589018789" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="72" srcRngStartPos="8" srcRngEndPos="35" srcRngStartln="72" srcRngEndLn="72" desc="ResultSet resultSet = null;" ElType="." rngLn="72" />
+        <ElDesc lineHash="-439487439" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="74" srcRngStartPos="12" srcRngEndPos="53" srcRngStartln="74" srcRngEndLn="74" desc="Class.forName(&quot;org.gjt.mm.mysql.Driver&quot;);" ElType="." rngLn="74" />
+        <ElDesc lineHash="1774293749" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="75" srcRngStartPos="12" srcRngEndPos="78" srcRngStartln="75" srcRngEndLn="75" desc="connection = DriverManager.getConnection(&quot;bank&quot;, &quot;bank&quot;, &quot;system&quot;)" ElType="." rngLn="75" />
+        <ElDesc lineHash="-1624193955" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="84" srcRngStartPos="12" srcRngEndPos="94" srcRngStartln="84" srcRngEndLn="84" desc="statement = connection.prepareStatement(&quot;select * from accounts where id=&quot; + _ssn)" ElType=".C" rngLn="84">
+          <Props>
+            <Prop key="Tracked variables" val="statement" />
+          </Props>
+          <Anns>
+            <Ann msg="Point where the resource is allocated" kind="cause" />
+            <Ann msg="Allocated resource variable: statement" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1368283926" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="85" srcRngStartPos="12" srcRngEndPos="48" srcRngStartln="85" srcRngEndLn="85" desc="resultSet = statement.executeQuery()" ElType="!E" rngLn="85" thrownTypes="SQLException" throwingMethod="PreparedStatement.executeQuery">
+          <Anns>
+            <Ann msg="PreparedStatement.executeQuery() throws SQLException" kind="except" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1741528140" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="90" srcRngStartPos="10" srcRngEndPos="41" srcRngStartln="90" srcRngEndLn="90" desc="catch (SQLException exception)" ElType="." rngLn="90" />
+        <ElDesc lineHash="875386708" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="91" srcRngStartPos="12" srcRngEndPos="94" srcRngStartln="91" srcRngEndLn="91" desc="System.err.println(&quot;Error loading data from database: &quot; + exception.getMessage());" ElType="." rngLn="91" />
+        <ElDesc lineHash="14739560" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="92" srcRngStartPos="12" srcRngEndPos="25" srcRngStartln="92" srcRngEndLn="92" desc="return false;" ElType="." rngLn="92" />
+        <ElDesc lineHash="30537853" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="95" srcRngStartPos="4" srcRngEndPos="5" srcRngStartln="95" srcRngEndLn="95" desc="}" ElType=".P" rngLn="95">
+          <Props>
+            <Prop key="Tracked variables" val="statement" />
+          </Props>
+          <Anns>
+            <Ann msg="Allocated resource variable: statement" kind="var" />
+            <Ann msg="Point where the allocated resource is lost" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="JDBC resultset not closed: statement.resultSet(), resultSet" ln="95" locFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ruleSAFMsg="Point where the allocated resource is lost" FirstElSrcRngEndPos="48" auth="Mark Wilson" FirstElSrcRngEndLn="85" rule="BD.RES.LEAKS" FirstElSrcRngStartPos="12" lnHash="30537853" ruleSCSCMsg="Point where the resource is allocated" pkg="examples.nbank" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" rule.header="Ensure resources are deallocated" FirstElSrcRngStartln="85" locStartPos="4" analyzer="com.parasoft.jtest.flowanalyzer" id="259349403" lang="java" violId="85a5d9a5-3614-38f9-9ac0-0b75d1a1d3e7" locEndPos="5" urgent="true" prio="Not Defined" locEndLn="95" goals="1," locStartln="95" sev="1" locRef="27" tool="jtest" lineHash="30537853" unbViolId="661d7006-e203-3e3a-a9e8-f393761a0c31" risk="Undefined" locType="sr" hash="2046383933" causeLocRef="27">
+      <Props>
+        <Prop key="Tracked variables" val="Allocated resource variable" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-1809401071" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="70" srcRngStartPos="8" srcRngEndPos="37" srcRngStartln="70" srcRngEndLn="70" desc="Connection connection = null;" ElType="." rngLn="70" />
+        <ElDesc lineHash="-185589454" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="71" srcRngStartPos="8" srcRngEndPos="43" srcRngStartln="71" srcRngEndLn="71" desc="PreparedStatement statement = null;" ElType="." rngLn="71" />
+        <ElDesc lineHash="-1589018789" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="72" srcRngStartPos="8" srcRngEndPos="35" srcRngStartln="72" srcRngEndLn="72" desc="ResultSet resultSet = null;" ElType="." rngLn="72" />
+        <ElDesc lineHash="-439487439" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="74" srcRngStartPos="12" srcRngEndPos="53" srcRngStartln="74" srcRngEndLn="74" desc="Class.forName(&quot;org.gjt.mm.mysql.Driver&quot;);" ElType="." rngLn="74" />
+        <ElDesc lineHash="1774293749" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="75" srcRngStartPos="12" srcRngEndPos="78" srcRngStartln="75" srcRngEndLn="75" desc="connection = DriverManager.getConnection(&quot;bank&quot;, &quot;bank&quot;, &quot;system&quot;)" ElType="." rngLn="75" />
+        <ElDesc lineHash="-1624193955" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="84" srcRngStartPos="12" srcRngEndPos="94" srcRngStartln="84" srcRngEndLn="84" desc="statement = connection.prepareStatement(&quot;select * from accounts where id=&quot; + _ssn)" ElType="." rngLn="84" />
+        <ElDesc lineHash="-1368283926" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="85" srcRngStartPos="12" srcRngEndPos="48" srcRngStartln="85" srcRngEndLn="85" desc="resultSet = statement.executeQuery()" ElType=".C" rngLn="85">
+          <Props>
+            <Prop key="Tracked variables" val="statement.resultSet(), resultSet" />
+          </Props>
+          <Anns>
+            <Ann msg="Point where the resource is allocated" kind="cause" />
+            <Ann msg="Allocated resource variable: statement.resultSet(), resultSet" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="612379775" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="86" srcRngStartPos="12" srcRngEndPos="42" srcRngStartln="86" srcRngEndLn="86" desc="_name = resultSet.getString(0)" ElType="!E" rngLn="86" thrownTypes="SQLException" throwingMethod="ResultSet.getString">
+          <Anns>
+            <Ann msg="ResultSet.getString() throws SQLException" kind="except" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1741528140" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="90" srcRngStartPos="10" srcRngEndPos="41" srcRngStartln="90" srcRngEndLn="90" desc="catch (SQLException exception)" ElType="." rngLn="90" />
+        <ElDesc lineHash="875386708" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="91" srcRngStartPos="12" srcRngEndPos="94" srcRngStartln="91" srcRngEndLn="91" desc="System.err.println(&quot;Error loading data from database: &quot; + exception.getMessage());" ElType="." rngLn="91" />
+        <ElDesc lineHash="14739560" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="92" srcRngStartPos="12" srcRngEndPos="25" srcRngStartln="92" srcRngEndLn="92" desc="return false;" ElType="." rngLn="92" />
+        <ElDesc lineHash="30537853" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="95" srcRngStartPos="4" srcRngEndPos="5" srcRngStartln="95" srcRngEndLn="95" desc="}" ElType=".P" rngLn="95">
+          <Props>
+            <Prop key="Tracked variables" val="statement.resultSet(), resultSet" />
+          </Props>
+          <Anns>
+            <Ann msg="Allocated resource variable: statement.resultSet(), resultSet" kind="var" />
+            <Ann msg="Point where the allocated resource is lost" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="JDBC Connection not closed: connection" ln="95" locFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ruleSAFMsg="Point where the allocated resource is lost" FirstElSrcRngEndPos="78" auth="Mark Wilson" FirstElSrcRngEndLn="75" rule="BD.RES.LEAKS" FirstElSrcRngStartPos="12" lnHash="30537853" ruleSCSCMsg="Point where the resource is allocated" pkg="examples.nbank" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" rule.header="Ensure resources are deallocated" FirstElSrcRngStartln="75" locStartPos="4" analyzer="com.parasoft.jtest.flowanalyzer" id="1559708005" lang="java" violId="9d6c0d2f-097f-3800-a146-c35344003346" locEndPos="5" urgent="true" prio="Not Defined" locEndLn="95" goals="1," locStartln="95" sev="1" locRef="27" tool="jtest" lineHash="30537853" unbViolId="6a9bbc3f-cd8d-315f-9a6f-3fa9ab62c910" risk="Undefined" locType="sr" hash="2046383933" causeLocRef="27">
+      <Props>
+        <Prop key="Tracked variables" val="Allocated resource variable" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-1809401071" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="70" srcRngStartPos="8" srcRngEndPos="37" srcRngStartln="70" srcRngEndLn="70" desc="Connection connection = null;" ElType="." rngLn="70" />
+        <ElDesc lineHash="-185589454" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="71" srcRngStartPos="8" srcRngEndPos="43" srcRngStartln="71" srcRngEndLn="71" desc="PreparedStatement statement = null;" ElType="." rngLn="71" />
+        <ElDesc lineHash="-1589018789" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="72" srcRngStartPos="8" srcRngEndPos="35" srcRngStartln="72" srcRngEndLn="72" desc="ResultSet resultSet = null;" ElType="." rngLn="72" />
+        <ElDesc lineHash="-439487439" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="74" srcRngStartPos="12" srcRngEndPos="53" srcRngStartln="74" srcRngEndLn="74" desc="Class.forName(&quot;org.gjt.mm.mysql.Driver&quot;);" ElType="." rngLn="74" />
+        <ElDesc lineHash="1774293749" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="75" srcRngStartPos="12" srcRngEndPos="78" srcRngStartln="75" srcRngEndLn="75" desc="connection = DriverManager.getConnection(&quot;bank&quot;, &quot;bank&quot;, &quot;system&quot;)" ElType=".C" rngLn="75">
+          <Props>
+            <Prop key="Tracked variables" val="connection" />
+          </Props>
+          <Anns>
+            <Ann msg="Point where the resource is allocated" kind="cause" />
+            <Ann msg="Allocated resource variable: connection" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1624193955" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="84" srcRngStartPos="12" srcRngEndPos="94" srcRngStartln="84" srcRngEndLn="84" desc="statement = connection.prepareStatement(&quot;select * from accounts where id=&quot; + _ssn)" ElType="!E" rngLn="84" thrownTypes="SQLException" throwingMethod="Connection.prepareStatement">
+          <Anns>
+            <Ann msg="Connection.prepareStatement() throws SQLException" kind="except" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1741528140" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="90" srcRngStartPos="10" srcRngEndPos="41" srcRngStartln="90" srcRngEndLn="90" desc="catch (SQLException exception)" ElType="." rngLn="90" />
+        <ElDesc lineHash="875386708" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="91" srcRngStartPos="12" srcRngEndPos="94" srcRngStartln="91" srcRngEndLn="91" desc="System.err.println(&quot;Error loading data from database: &quot; + exception.getMessage());" ElType="." rngLn="91" />
+        <ElDesc lineHash="14739560" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="92" srcRngStartPos="12" srcRngEndPos="25" srcRngStartln="92" srcRngEndLn="92" desc="return false;" ElType="." rngLn="92" />
+        <ElDesc lineHash="30537853" locType="sr" srcRnghash="2046383933" locRef="27" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" ln="95" srcRngStartPos="4" srcRngEndPos="5" srcRngStartln="95" srcRngEndLn="95" desc="}" ElType=".P" rngLn="95">
+          <Props>
+            <Prop key="Tracked variables" val="connection" />
+          </Props>
+          <Anns>
+            <Ann msg="Allocated resource variable: connection" kind="var" />
+            <Ann msg="Point where the allocated resource is lost" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="Condition &quot;(amount &lt; 0) &amp;&amp; (amount > MAX_WITHDRAW)&quot; always evaluates to false" ln="13" locFile="/com.parasoft:demo/src/main/java/examples/nbank/WithdrawalTransaction.java" ruleSAFMsg="Point where senseless condition is used" FirstElSrcRngEndPos="24" auth="John" FirstElSrcRngEndLn="13" rule="BD.PB.CC" FirstElSrcRngStartPos="12" lnHash="-1260090903" ruleSCSCMsg="Start of the path" pkg="examples.nbank" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/WithdrawalTransaction.java" rule.header="Avoid conditions that always evaluate to the same value" FirstElSrcRngStartln="13" locStartPos="8" analyzer="com.parasoft.jtest.flowanalyzer" id="1688836931" lang="java" violId="29d0fb80-4221-3ada-8ab9-dd00ccd84235" locEndPos="13" urgent="true" locEndLn="14" goals="1," locStartln="13" sev="2" locRef="32" tool="jtest" lineHash="-1260090903" unbViolId="6c240523-cac9-3cd3-bd8d-2798762a1f0d" locType="sr" hash="-1206559161" causeLocRef="32">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-1260090903" locType="sr" srcRnghash="-1206559161" locRef="32" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/WithdrawalTransaction.java" ln="13" srcRngStartPos="8" srcRngEndPos="13" srcRngStartln="13" srcRngEndLn="14" desc="if ((amount &lt; 0) &amp;&amp; (amount > MAX_WITHDRAW))" ElType="CP" rngLn="13">
+          <Anns>
+            <Ann msg="Start of the path" kind="cause" />
+            <Ann msg="Condition evaluation: (amount &lt; 0) (assuming false)" kind="condEval" />
+            <Ann msg="Point where senseless condition is used" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="Condition &quot;amount > 1000&quot; always evaluates to false" ln="13" locFile="/com.parasoft:demo/src/main/java/examples/nbank/WithdrawalTransaction.java" ruleSAFMsg="Point where senseless condition is used" FirstElSrcRngEndPos="24" auth="John" FirstElSrcRngEndLn="13" rule="BD.PB.CC" FirstElSrcRngStartPos="12" lnHash="-1260090903" ruleSCSCMsg="Start of the path" pkg="examples.nbank" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/WithdrawalTransaction.java" rule.header="Avoid conditions that always evaluate to the same value" FirstElSrcRngStartln="13" locStartPos="12" analyzer="com.parasoft.jtest.flowanalyzer" id="-1072599544" lang="java" violId="11065b8a-ec6d-3a85-98e6-40c16951fdf9" locEndPos="51" urgent="true" locEndLn="13" goals="1," locStartln="13" sev="2" locRef="32" tool="jtest" lineHash="-1260090903" unbViolId="3a53b2c3-3dcd-3f24-9957-827af6e8a4b3" locType="sr" hash="-1206559161" causeLocRef="32">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-1260090903" locType="sr" srcRnghash="-1206559161" locRef="32" srcRngFile="/com.parasoft:demo/src/main/java/examples/nbank/WithdrawalTransaction.java" ln="13" srcRngStartPos="12" srcRngEndPos="51" srcRngStartln="13" srcRngEndLn="13" desc="(amount &lt; 0) &amp;&amp; (amount > MAX_WITHDRAW)" ElType="CP" rngLn="13">
+          <Anns>
+            <Ann msg="Start of the path" kind="cause" />
+            <Ann msg="Condition evaluation: (amount &lt; 0) (assuming true)" kind="condEval" />
+            <Ann msg="Point where senseless condition is used" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="&quot;!=&quot; is used when comparing Objects. 'equals()' should be used instead" ln="46" locFile="/com.parasoft:demo/src/main/java/examples/queue/Queue.java" auth="pteodor" rule="PB.CUB.UEIC" lnHash="-1001377924" pkg="examples.queue" rule.header="Do not use '==' or '!=' to compare objects" locStartPos="16" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" violId="59846a13-c446-3fec-b2e7-1de91c76ffb1" locEndPos="30" urgent="true" prio="Not Defined" locEndLn="46" goals="1," locStartln="46" sev="2" locRef="33" tool="jtest" lineHash="-1001377924" unbViolId="0742609f-b135-323e-8a96-66fa815ac1c6" risk="Undefined" locType="sr" hash="-981357238" />
+    <StdViol msg="Member class could be declared &quot;static&quot;: QueueItem" ln="58" locFile="/com.parasoft:demo/src/main/java/examples/queue/Queue.java" auth="pteodor" rule="OPT.SI" lnHash="-1361581318" pkg="examples.queue" rule.header="Declare member classes &quot;static&quot; if possible" locStartPos="18" analyzer="com.parasoft.jtest.standards.checkers.rulewizard" lang="java" violId="a378d0eb-ab78-33c8-bc54-c41c1364061b" locEndPos="27" urgent="true" prio="Not Defined" locEndLn="58" goals="1," locStartln="58" sev="3" locRef="33" tool="jtest" lineHash="-1361581318" unbViolId="2f58156c-eb7b-383c-b58b-51f8464d0baa" risk="Undefined" locType="sr" hash="-981357238" />
+    <StdViol msg="The field '_connection' is used but is never assigned a non-&quot;null&quot; value" ln="59" locFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" auth="pteodor" rule="PB.USC.FCBS" lnHash="-628236893" pkg="examples.security" rule.header="Avoid using &quot;private&quot; fields which are never given a meaningful value" locStartPos="23" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" violId="ba24bc03-ed4e-310a-a177-0131fbaa953e" locEndPos="34" urgent="true" prio="Not Defined" locEndLn="59" goals="1," locStartln="59" sev="2" locRef="34" tool="jtest" lineHash="-628236893" unbViolId="bb57c2ca-95d2-36dc-9c44-334f9116766e" risk="Undefined" locType="sr" hash="-1145404863" />
+    <FlowViol msg="JDBC resultset not closed: stmt.resultSet(), rs" ln="102" locFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ruleSAFMsg="Point where the allocated resource is lost" FirstElSrcRngEndPos="41" auth="pteodor" FirstElSrcRngEndLn="91" rule="BD.RES.LEAKS" FirstElSrcRngStartPos="12" lnHash="30537853" ruleSCSCMsg="Point where the resource is allocated" pkg="examples.security" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" rule.header="Ensure resources are deallocated" FirstElSrcRngStartln="91" locStartPos="4" analyzer="com.parasoft.jtest.flowanalyzer" id="-996506264" lang="java" violId="2343bc1e-5ca9-3ff9-a235-62b26632be57" locEndPos="5" urgent="true" prio="Not Defined" locEndLn="102" goals="1," locStartln="102" sev="1" locRef="34" tool="jtest" lineHash="30537853" unbViolId="ffe33072-46b9-3845-8508-fcbdd45b0978" risk="Undefined" locType="sr" hash="-1145404863" causeLocRef="34">
+      <Props>
+        <Prop key="Tracked variables" val="Allocated resource variable" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-271783734" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="83" srcRngStartPos="8" srcRngEndPos="30" srcRngStartln="83" srcRngEndLn="83" desc="Statement stmt = null;" ElType="." rngLn="83" />
+        <ElDesc lineHash="920994605" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="84" srcRngStartPos="8" srcRngEndPos="28" srcRngStartln="84" srcRngEndLn="84" desc="ResultSet rs = null;" ElType="." rngLn="84" />
+        <ElDesc lineHash="-168135453" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="89" srcRngStartPos="12" srcRngEndPos="115" srcRngStartln="89" srcRngEndLn="89" desc="String query = &quot;SELECT * FROM users WHERE username='&quot; + username + &quot;' AND password='&quot; + password + &quot;'&quot;;" ElType="." rngLn="89" />
+        <ElDesc lineHash="-1686616749" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="90" srcRngStartPos="12" srcRngEndPos="48" srcRngStartln="90" srcRngEndLn="90" desc="stmt = _connection.createStatement()" ElType="." rngLn="90" />
+        <ElDesc lineHash="849041673" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="91" srcRngStartPos="12" srcRngEndPos="41" srcRngStartln="91" srcRngEndLn="91" desc="rs = stmt.executeQuery(query)" ElType=".C" rngLn="91">
+          <Props>
+            <Prop key="Tracked variables" val="stmt.resultSet(), rs" />
+          </Props>
+          <Anns>
+            <Ann msg="Point where the resource is allocated" kind="cause" />
+            <Ann msg="Allocated resource variable: stmt.resultSet(), rs" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-846123640" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="92" srcRngStartPos="12" srcRngEndPos="28" srcRngStartln="92" srcRngEndLn="92" desc="if (rs.next()) {" ElType="." rngLn="92">
+          <Anns>
+            <Ann msg="Condition evaluation: rs.next() (assuming false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="14739560" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="97" srcRngStartPos="12" srcRngEndPos="25" srcRngStartln="97" srcRngEndLn="97" desc="return false;" ElType="." rngLn="97" />
+        <ElDesc lineHash="30537853" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="102" srcRngStartPos="4" srcRngEndPos="5" srcRngStartln="102" srcRngEndLn="102" desc="}" ElType=".P" rngLn="102">
+          <Props>
+            <Prop key="Tracked variables" val="stmt.resultSet(), rs" />
+          </Props>
+          <Anns>
+            <Ann msg="Allocated resource variable: stmt.resultSet(), rs" kind="var" />
+            <Ann msg="Point where the allocated resource is lost" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="JDBC statement not closed: stmt" ln="102" locFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ruleSAFMsg="Point where the allocated resource is lost" FirstElSrcRngEndPos="48" auth="pteodor" FirstElSrcRngEndLn="90" rule="BD.RES.LEAKS" FirstElSrcRngStartPos="12" lnHash="30537853" ruleSCSCMsg="Point where the resource is allocated" pkg="examples.security" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" rule.header="Ensure resources are deallocated" FirstElSrcRngStartln="90" locStartPos="4" analyzer="com.parasoft.jtest.flowanalyzer" id="1551110277" lang="java" violId="9e4df769-2d4a-373d-8081-4053c7279c77" locEndPos="5" urgent="true" prio="Not Defined" locEndLn="102" goals="1," locStartln="102" sev="1" locRef="34" tool="jtest" lineHash="30537853" unbViolId="0109db7e-ed1e-3a76-b048-e21871e8865c" risk="Undefined" locType="sr" hash="-1145404863" causeLocRef="34">
+      <Props>
+        <Prop key="Tracked variables" val="Allocated resource variable" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-271783734" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="83" srcRngStartPos="8" srcRngEndPos="30" srcRngStartln="83" srcRngEndLn="83" desc="Statement stmt = null;" ElType="." rngLn="83" />
+        <ElDesc lineHash="920994605" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="84" srcRngStartPos="8" srcRngEndPos="28" srcRngStartln="84" srcRngEndLn="84" desc="ResultSet rs = null;" ElType="." rngLn="84" />
+        <ElDesc lineHash="-168135453" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="89" srcRngStartPos="12" srcRngEndPos="115" srcRngStartln="89" srcRngEndLn="89" desc="String query = &quot;SELECT * FROM users WHERE username='&quot; + username + &quot;' AND password='&quot; + password + &quot;'&quot;;" ElType="." rngLn="89" />
+        <ElDesc lineHash="-1686616749" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="90" srcRngStartPos="12" srcRngEndPos="48" srcRngStartln="90" srcRngEndLn="90" desc="stmt = _connection.createStatement()" ElType=".C" rngLn="90">
+          <Props>
+            <Prop key="Tracked variables" val="stmt" />
+          </Props>
+          <Anns>
+            <Ann msg="Point where the resource is allocated" kind="cause" />
+            <Ann msg="Allocated resource variable: stmt" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="849041673" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="91" srcRngStartPos="12" srcRngEndPos="41" srcRngStartln="91" srcRngEndLn="91" desc="rs = stmt.executeQuery(query)" ElType="!E" rngLn="91" thrownTypes="SQLException" throwingMethod="Statement.executeQuery">
+          <Anns>
+            <Ann msg="Statement.executeQuery() throws SQLException" kind="except" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-975238224" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="98" srcRngStartPos="10" srcRngEndPos="30" srcRngStartln="98" srcRngEndLn="98" desc="catch (Throwable t)" ElType="." rngLn="98" />
+        <ElDesc lineHash="14739560" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="100" srcRngStartPos="12" srcRngEndPos="25" srcRngStartln="100" srcRngEndLn="100" desc="return false;" ElType="." rngLn="100" />
+        <ElDesc lineHash="30537853" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="102" srcRngStartPos="4" srcRngEndPos="5" srcRngStartln="102" srcRngEndLn="102" desc="}" ElType=".P" rngLn="102">
+          <Props>
+            <Prop key="Tracked variables" val="stmt" />
+          </Props>
+          <Anns>
+            <Ann msg="Allocated resource variable: stmt" kind="var" />
+            <Ann msg="Point where the allocated resource is lost" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="JDBC statement not closed: stmt" ln="123" locFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ruleSAFMsg="Point where the allocated resource is lost" FirstElSrcRngEndPos="59" auth="pteodor" FirstElSrcRngEndLn="120" rule="BD.RES.LEAKS" FirstElSrcRngStartPos="12" lnHash="-813710626" ruleSCSCMsg="Point where the resource is allocated" pkg="examples.security" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" rule.header="Ensure resources are deallocated" FirstElSrcRngStartln="120" locStartPos="8" analyzer="com.parasoft.jtest.flowanalyzer" id="1611772074" lang="java" violId="c783f14d-c717-3c4d-b756-29dfa090cde8" locEndPos="9" urgent="true" prio="Not Defined" locEndLn="123" goals="1," locStartln="123" sev="1" locRef="34" tool="jtest" lineHash="-813710626" unbViolId="5821fa92-ede1-31e1-8ab4-5e0893610132" risk="Undefined" locType="sr" hash="-1145404863" causeLocRef="34">
+      <Props>
+        <Prop key="Tracked variables" val="Allocated resource variable" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-2050969790" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="120" srcRngStartPos="12" srcRngEndPos="59" srcRngStartln="120" srcRngEndLn="120" desc="Statement stmt = _connection.createStatement();" ElType=".C" rngLn="120">
+          <Props>
+            <Prop key="Tracked variables" val="stmt" />
+          </Props>
+          <Anns>
+            <Ann msg="Point where the resource is allocated" kind="cause" />
+            <Ann msg="Allocated resource variable: stmt" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="351897144" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="121" srcRngStartPos="12" srcRngEndPos="104" srcRngStartln="121" srcRngEndLn="121" desc="String query = &quot;INSERT INTO invalid_logins VALUES ('&quot; + username + &quot;', '&quot; + password + &quot;')&quot;;" ElType="." rngLn="121" />
+        <ElDesc lineHash="512503585" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="122" srcRngStartPos="12" srcRngEndPos="32" srcRngStartln="122" srcRngEndLn="122" desc="stmt.execute(query);" ElType="!E" rngLn="122" thrownTypes="SQLException" throwingMethod="Statement.execute">
+          <Anns>
+            <Ann msg="Statement.execute() throws SQLException" kind="except" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-813710626" locType="sr" srcRnghash="-1145404863" locRef="34" srcRngFile="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" ln="123" srcRngStartPos="8" srcRngEndPos="9" srcRngStartln="123" srcRngEndLn="123" desc="}" ElType=".P" rngLn="123">
+          <Props>
+            <Prop key="Tracked variables" val="stmt" />
+          </Props>
+          <Anns>
+            <Ann msg="Allocated resource variable: stmt" kind="var" />
+            <Ann msg="Point where the allocated resource is lost" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="Variable 'pr' is never used" ln="32" locFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" auth="pteodor" rule="UC.AURV" lnHash="1530337033" pkg="examples.servlets" rule.header="Avoid local variables that are never read" locStartPos="19" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" violId="7a0e1659-40f0-3291-9397-0f1041a2ba76" locEndPos="21" urgent="true" prio="Not Defined" locEndLn="32" goals="1," locStartln="32" sev="3" locRef="35" tool="jtest" lineHash="1530337033" unbViolId="49cfc1cf-e36b-3a9d-8d79-73a0f7f90e31" risk="Undefined" locType="sr" hash="-1999350871" />
+    <FlowViol msg="Condition &quot;n > 0&quot; always evaluates to true" ln="33" locFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" ruleSAFMsg="Point where senseless condition is used" FirstElSrcRngEndPos="43" auth="pteodor" FirstElSrcRngEndLn="26" rule="BD.PB.CC" FirstElSrcRngStartPos="16" lnHash="692340273" ruleSCSCMsg="Start of the path" pkg="examples.servlets" FirstElSrcRngFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" rule.header="Avoid conditions that always evaluate to the same value" FirstElSrcRngStartln="26" locStartPos="15" analyzer="com.parasoft.jtest.flowanalyzer" id="-2033553978" lang="java" violId="85f36328-2d71-33ad-8a61-eff000ebbf62" locEndPos="27" urgent="true" prio="Not Defined" locEndLn="33" goals="1," locStartln="33" sev="2" locRef="35" tool="jtest" lineHash="692340273" unbViolId="fc612e57-fb52-3f7c-a5f5-7089a97e2605" risk="Undefined" locType="sr" hash="-1999350871" causeLocRef="35">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="203116546" locType="sr" srcRnghash="-1999350871" locRef="35" srcRngFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" ln="26" srcRngStartPos="16" srcRngEndPos="43" srcRngStartln="26" srcRngEndLn="26" desc="tryThis(ServletContext sc)" ElType=".C" rngLn="26">
+          <Anns>
+            <Ann msg="Start of the path" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="971443945" locType="sr" srcRnghash="-1999350871" locRef="35" srcRngFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" ln="27" srcRngStartPos="8" srcRngEndPos="31" srcRngStartln="27" srcRngEndLn="27" desc="String hello = &quot;hello&quot;;" ElType="." rngLn="27" />
+        <ElDesc lineHash="997799750" locType="sr" srcRnghash="-1999350871" locRef="35" srcRngFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" ln="28" srcRngStartPos="8" srcRngEndPos="53" srcRngStartln="28" srcRngEndLn="28" desc="String result = sc.getInitParameter(&quot;hello&quot;);" ElType="." rngLn="28" />
+        <ElDesc lineHash="1005479687" locType="sr" srcRnghash="-1999350871" locRef="35" srcRngFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" ln="29" srcRngStartPos="8" srcRngEndPos="35" srcRngStartln="29" srcRngEndLn="29" desc="System.out.println(result);" ElType="." rngLn="29" />
+        <ElDesc lineHash="-881802199" locType="sr" srcRnghash="-1999350871" locRef="35" srcRngFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" ln="30" srcRngStartPos="8" srcRngEndPos="32" srcRngStartln="30" srcRngEndLn="30" desc="int n = result.length();" ElType="!" rngLn="30" />
+        <ElDesc lineHash="-261099875" locType="sr" srcRnghash="-1999350871" locRef="35" srcRngFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" ln="31" srcRngStartPos="8" srcRngEndPos="21" srcRngStartln="31" srcRngEndLn="31" desc="if (n == 0) {" ElType="." rngLn="31">
+          <Anns>
+            <Ann msg="Condition evaluation: (n == 0) (assuming false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="692340273" locType="sr" srcRnghash="-1999350871" locRef="35" srcRngFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" ln="33" srcRngStartPos="15" srcRngEndPos="27" srcRngStartln="33" srcRngEndLn="33" desc="if (n > 0) {" ElType=".P" rngLn="33">
+          <Anns>
+            <Ann msg="Point where senseless condition is used" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="Variable 'pr' is never used" ln="34" locFile="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" auth="pteodor" rule="UC.AURV" lnHash="1012570095" pkg="examples.servlets" rule.header="Avoid local variables that are never read" locStartPos="19" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" violId="c54e58d2-cad5-3504-9ed8-7a42276677f1" locEndPos="21" urgent="true" prio="Not Defined" locEndLn="34" goals="1," locStartln="34" sev="3" locRef="35" tool="jtest" lineHash="1012570095" unbViolId="2f5add23-4b4e-301b-8f8b-ba639446c098" risk="Undefined" locType="sr" hash="-1999350871" />
+    <StdViol msg="Variable 'value' is never used" ln="79" locFile="/com.parasoft:demo/src/main/java/examples/stackmachine/CommandLineStackMachine.java" auth="pteodor" rule="UC.AURV" lnHash="100329092" pkg="examples.stackmachine" rule.header="Avoid local variables that are never read" locStartPos="20" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" violId="44891f2c-4f17-3df0-a52a-6b888debdfcd" locEndPos="25" urgent="true" prio="Not Defined" locEndLn="79" goals="1," locStartln="79" sev="3" locRef="37" tool="jtest" lineHash="100329092" unbViolId="666c75e7-96ae-39b2-ad6d-92182c37beb7" risk="Undefined" locType="sr" hash="-1581767335" />
+  </StdViols>
+
+      <TestedFilesDetails>
+         <Total name="Total (Suppressed)" supp="0" total="26">
+            <Project id="com.parasoft:demo" name="com.parasoft:demo" supp="0" total="26">
+               <Res name="src" supp="0" total="26">
+                  <Res name="main" supp="0" total="26">
+                     <Res name="java" supp="0" total="26">
+                        <Res name="examples" supp="0" total="26">
+                           <Res name="eval" supp="0" total="2">
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/eval/Simple.java" locRef="1" locType="sr" name="Simple.java" supp="0" total="2" />
+                           </Res>
+                           <Res name="flowanalysis" supp="0" total="3">
+                              <Res name="np" supp="0" total="3">
+                                 <Res loc="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/DatabaseObject.java" locRef="2" locType="sr" name="DatabaseObject.java" supp="0" total="0" />
+                                 <Res loc="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/ExtendedNullPointer.java" locRef="3" locType="sr" name="ExtendedNullPointer.java" supp="0" total="0" />
+                                 <Res loc="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/MessageFormatter.java" locRef="4" locType="sr" name="MessageFormatter.java" supp="0" total="0" />
+                                 <Res loc="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/MyDictionary.java" locRef="5" locType="sr" name="MyDictionary.java" supp="0" total="1" />
+                                 <Res loc="/com.parasoft:demo/src/main/java/examples/flowanalysis/np/NullPointer.java" locRef="6" locType="sr" name="NullPointer.java" supp="0" total="2" />
+                              </Res>
+                           </Res>
+                           <Res name="junit" supp="0" total="0">
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/junit/ChoosingConstructor.java" locRef="7" locType="sr" name="ChoosingConstructor.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/junit/CustomMoney.java" locRef="8" locType="sr" name="CustomMoney.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/junit/IMoney.java" locRef="9" locType="sr" name="IMoney.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/junit/IntegerComparator.java" locRef="10" locType="sr" name="IntegerComparator.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/junit/Money.java" locRef="11" locType="sr" name="Money.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/junit/MoneyBag.java" locRef="12" locType="sr" name="MoneyBag.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/junit/NaiveStringBuilder.java" locRef="13" locType="sr" name="NaiveStringBuilder.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/junit/SimpleObjectHandler.java" locRef="14" locType="sr" name="SimpleObjectHandler.java" supp="0" total="0" />
+                           </Res>
+                           <Res name="metrics" supp="0" total="1">
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/metrics/MetricsExample.java" locRef="15" locType="sr" name="MetricsExample.java" supp="0" total="1" />
+                           </Res>
+                           <Res name="mock" supp="0" total="0">
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/mock/CharacterReader.java" locRef="16" locType="sr" name="CharacterReader.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/mock/FileExample.java" locRef="17" locType="sr" name="FileExample.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/mock/Interpreter.java" locRef="18" locType="sr" name="Interpreter.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/mock/MultiSourceCharacterReader.java" locRef="19" locType="sr" name="MultiSourceCharacterReader.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/mock/PathUtil.java" locRef="20" locType="sr" name="PathUtil.java" supp="0" total="0" />
+                           </Res>
+                           <Res name="nbank" supp="0" total="10">
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/AbstractTransaction.java" locRef="21" locType="sr" name="AbstractTransaction.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/Account.java" locRef="22" locType="sr" name="Account.java" supp="0" total="3" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/Bank.java" locRef="23" locType="sr" name="Bank.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/BankState.java" locRef="24" locType="sr" name="BankState.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/ConnectionException.java" locRef="25" locType="sr" name="ConnectionException.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/CreditCard.java" locRef="26" locType="sr" name="CreditCard.java" supp="0" total="1" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/Customer.java" locRef="27" locType="sr" name="Customer.java" supp="0" total="4" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/DepositTransaction.java" locRef="28" locType="sr" name="DepositTransaction.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/ICreditAgency.java" locRef="29" locType="sr" name="ICreditAgency.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/ITransaction.java" locRef="30" locType="sr" name="ITransaction.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/LogAccountInfo.java" locRef="31" locType="sr" name="LogAccountInfo.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/nbank/WithdrawalTransaction.java" locRef="32" locType="sr" name="WithdrawalTransaction.java" supp="0" total="2" />
+                           </Res>
+                           <Res name="queue" supp="0" total="2">
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/queue/Queue.java" locRef="33" locType="sr" name="Queue.java" supp="0" total="2" />
+                           </Res>
+                           <Res name="security" supp="0" total="4">
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/security/InputValidation.java" locRef="34" locType="sr" name="InputValidation.java" supp="0" total="4" />
+                           </Res>
+                           <Res name="servlets" supp="0" total="3">
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/servlets/ExampleServlet.java" locRef="35" locType="sr" name="ExampleServlet.java" supp="0" total="3" />
+                           </Res>
+                           <Res name="stackmachine" supp="0" total="1">
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/stackmachine/AbstractStackMachine.java" locRef="36" locType="sr" name="AbstractStackMachine.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/stackmachine/CommandLineStackMachine.java" locRef="37" locType="sr" name="CommandLineStackMachine.java" supp="0" total="1" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/stackmachine/CustomListRenderer.java" locRef="38" locType="sr" name="CustomListRenderer.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/stackmachine/FifoStackMachine.java" locRef="39" locType="sr" name="FifoStackMachine.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/stackmachine/LifoStackMachine.java" locRef="40" locType="sr" name="LifoStackMachine.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/stackmachine/RunnableStackMachine.java" locRef="41" locType="sr" name="RunnableStackMachine.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/stackmachine/StackInterface.java" locRef="42" locType="sr" name="StackInterface.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/stackmachine/StackList.java" locRef="43" locType="sr" name="StackList.java" supp="0" total="0" />
+                           </Res>
+                           <Res name="suppress" supp="0" total="0">
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/suppress/AllFileSuppress.java" locRef="44" locType="sr" name="AllFileSuppress.java" supp="0" total="0" />
+                              <Res loc="/com.parasoft:demo/src/main/java/examples/suppress/Example.java" locRef="45" locType="sr" name="Example.java" supp="0" total="0" />
+                           </Res>
+                        </Res>
+                     </Res>
+                  </Res>
+               </Res>
+               <Res name="META-INF" supp="0" total="0">
+                  <Res loc="/com.parasoft:demo/META-INF/MANIFEST.MF" locRef="46" locType="sr" name="MANIFEST.MF" supp="0" total="0" />
+               </Res>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

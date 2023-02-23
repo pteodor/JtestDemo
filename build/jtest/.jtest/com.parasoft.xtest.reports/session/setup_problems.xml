@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mergePnt id="setupProblems">
+  <SetupProblems>
+    <Problem msg="The following dependencies do not exist:" sev="0" totErrs="2" type="DependencySetupProblem">
+      <ErrorList>
+        <Error val="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\build\classes\java\main" />
+        <Error val="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\build\resources\main" />
+      </ErrorList>
+    </Problem>
+  </SetupProblems>
+</mergePnt>

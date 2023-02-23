@@ -1,0 +1,1915 @@
+{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "legacyReportingName": "examples.junit.MoneyBagParameterizedTest",
+  "displayName": "examples.junit.MoneyBagParameterizedTest",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 0: factor=0]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 0: factor=0]",
+      "displayName": "[Run 0: factor=0]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 0: factor=0]",
+          "legacyReportingName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676211
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676211
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 1: factor=0]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 1: factor=0]",
+      "displayName": "[Run 1: factor=0]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 1: factor=0]",
+          "legacyReportingName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676212
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 2: factor=0]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 2: factor=0]",
+      "displayName": "[Run 2: factor=0]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 2: factor=0]",
+          "legacyReportingName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676213
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 3: factor=0]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 3: factor=0]",
+      "displayName": "[Run 3: factor=0]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 3: factor=0]",
+          "legacyReportingName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676213
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 4: factor=0]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 4: factor=0]",
+      "displayName": "[Run 4: factor=0]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 4: factor=0]",
+          "legacyReportingName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676213
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 5: factor=1]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 5: factor=1]",
+      "displayName": "[Run 5: factor=1]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 5: factor=1]",
+          "legacyReportingName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676213
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 6: factor=1]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 6: factor=1]",
+      "displayName": "[Run 6: factor=1]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 6: factor=1]",
+          "legacyReportingName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676213
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 7: factor=1]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 7: factor=1]",
+      "displayName": "[Run 7: factor=1]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 7: factor=1]",
+          "legacyReportingName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676213
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 8: factor=1]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 8: factor=1]",
+      "displayName": "[Run 8: factor=1]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 8: factor=1]",
+          "legacyReportingName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676213
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 9: factor=1]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 9: factor=1]",
+      "displayName": "[Run 9: factor=1]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 9: factor=1]",
+          "legacyReportingName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676213
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 10: factor=13]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 10: factor=13]",
+      "displayName": "[Run 10: factor=13]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 10: factor=13]",
+          "legacyReportingName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676213
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 11: factor=13]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 11: factor=13]",
+      "displayName": "[Run 11: factor=13]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 11: factor=13]",
+          "legacyReportingName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676213
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676213
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 12: factor=13]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 12: factor=13]",
+      "displayName": "[Run 12: factor=13]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 12: factor=13]",
+          "legacyReportingName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676214
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676214
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 13: factor=13]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 13: factor=13]",
+      "displayName": "[Run 13: factor=13]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 13: factor=13]",
+          "legacyReportingName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676214
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676214
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 14: factor=13]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 14: factor=13]",
+      "displayName": "[Run 14: factor=13]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 14: factor=13]",
+          "legacyReportingName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676214
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676214
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676211
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 0: factor=0]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 0: factor=0]",
+  "displayName": "[Run 0: factor=0]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 0: factor=0]",
+      "legacyReportingName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676243
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676243
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 0: factor=0]",
+  "legacyReportingName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676249
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 0: factor=0]",
+  "legacyReportingName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676271
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 0: factor=0]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 0: factor=0]",
+  "displayName": "[Run 0: factor=0]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 0: factor=0]",
+      "legacyReportingName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676273
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676273
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 1: factor=0]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 1: factor=0]",
+  "displayName": "[Run 1: factor=0]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 1: factor=0]",
+      "legacyReportingName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676273
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676273
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 1: factor=0]",
+  "legacyReportingName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676275
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 1: factor=0]",
+  "legacyReportingName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676275
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 1: factor=0]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 1: factor=0]",
+  "displayName": "[Run 1: factor=0]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 1: factor=0]",
+      "legacyReportingName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676276
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676276
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 2: factor=0]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 2: factor=0]",
+  "displayName": "[Run 2: factor=0]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 2: factor=0]",
+      "legacyReportingName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676276
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676276
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 2: factor=0]",
+  "legacyReportingName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676277
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 2: factor=0]",
+  "legacyReportingName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676278
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 2: factor=0]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 2: factor=0]",
+  "displayName": "[Run 2: factor=0]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 2: factor=0]",
+      "legacyReportingName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676278
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676278
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 3: factor=0]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 3: factor=0]",
+  "displayName": "[Run 3: factor=0]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 3: factor=0]",
+      "legacyReportingName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676279
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676279
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 3: factor=0]",
+  "legacyReportingName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676280
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 3: factor=0]",
+  "legacyReportingName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676280
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 3: factor=0]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 3: factor=0]",
+  "displayName": "[Run 3: factor=0]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 3: factor=0]",
+      "legacyReportingName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676280
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676280
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 4: factor=0]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 4: factor=0]",
+  "displayName": "[Run 4: factor=0]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 4: factor=0]",
+      "legacyReportingName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676281
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676281
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 4: factor=0]",
+  "legacyReportingName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676282
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 4: factor=0]",
+  "legacyReportingName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676283
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 4: factor=0]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 4: factor=0]",
+  "displayName": "[Run 4: factor=0]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 4: factor=0]",
+      "legacyReportingName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676283
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676283
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 5: factor=1]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 5: factor=1]",
+  "displayName": "[Run 5: factor=1]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 5: factor=1]",
+      "legacyReportingName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676283
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676283
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 5: factor=1]",
+  "legacyReportingName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676284
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 5: factor=1]",
+  "legacyReportingName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676285
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 5: factor=1]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 5: factor=1]",
+  "displayName": "[Run 5: factor=1]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 5: factor=1]",
+      "legacyReportingName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676285
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676285
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 6: factor=1]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 6: factor=1]",
+  "displayName": "[Run 6: factor=1]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 6: factor=1]",
+      "legacyReportingName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676286
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676286
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 6: factor=1]",
+  "legacyReportingName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676287
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 6: factor=1]",
+  "legacyReportingName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676288
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 6: factor=1]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 6: factor=1]",
+  "displayName": "[Run 6: factor=1]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 6: factor=1]",
+      "legacyReportingName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676288
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676288
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 7: factor=1]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 7: factor=1]",
+  "displayName": "[Run 7: factor=1]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 7: factor=1]",
+      "legacyReportingName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676289
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676289
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 7: factor=1]",
+  "legacyReportingName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676290
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 7: factor=1]",
+  "legacyReportingName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676291
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 7: factor=1]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 7: factor=1]",
+  "displayName": "[Run 7: factor=1]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 7: factor=1]",
+      "legacyReportingName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676291
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676291
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 8: factor=1]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 8: factor=1]",
+  "displayName": "[Run 8: factor=1]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 8: factor=1]",
+      "legacyReportingName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676292
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676292
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 8: factor=1]",
+  "legacyReportingName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676293
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 8: factor=1]",
+  "legacyReportingName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676294
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 8: factor=1]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 8: factor=1]",
+  "displayName": "[Run 8: factor=1]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 8: factor=1]",
+      "legacyReportingName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676294
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676294
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 9: factor=1]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 9: factor=1]",
+  "displayName": "[Run 9: factor=1]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 9: factor=1]",
+      "legacyReportingName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676295
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676295
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 9: factor=1]",
+  "legacyReportingName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676296
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 9: factor=1]",
+  "legacyReportingName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676297
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 9: factor=1]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 9: factor=1]",
+  "displayName": "[Run 9: factor=1]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 9: factor=1]",
+      "legacyReportingName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676298
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676298
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 10: factor=13]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 10: factor=13]",
+  "displayName": "[Run 10: factor=13]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 10: factor=13]",
+      "legacyReportingName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676298
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676298
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 10: factor=13]",
+  "legacyReportingName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676299
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 10: factor=13]",
+  "legacyReportingName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676300
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 10: factor=13]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 10: factor=13]",
+  "displayName": "[Run 10: factor=13]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 10: factor=13]",
+      "legacyReportingName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676300
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676300
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 11: factor=13]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 11: factor=13]",
+  "displayName": "[Run 11: factor=13]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 11: factor=13]",
+      "legacyReportingName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676301
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676301
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 11: factor=13]",
+  "legacyReportingName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676302
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 11: factor=13]",
+  "legacyReportingName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676302
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 11: factor=13]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 11: factor=13]",
+  "displayName": "[Run 11: factor=13]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 11: factor=13]",
+      "legacyReportingName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676303
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676303
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 12: factor=13]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 12: factor=13]",
+  "displayName": "[Run 12: factor=13]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 12: factor=13]",
+      "legacyReportingName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676303
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676303
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 12: factor=13]",
+  "legacyReportingName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676304
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 12: factor=13]",
+  "legacyReportingName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676305
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 12: factor=13]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 12: factor=13]",
+  "displayName": "[Run 12: factor=13]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 12: factor=13]",
+      "legacyReportingName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676305
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676305
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 13: factor=13]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 13: factor=13]",
+  "displayName": "[Run 13: factor=13]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 13: factor=13]",
+      "legacyReportingName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676306
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676306
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 13: factor=13]",
+  "legacyReportingName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676306
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 13: factor=13]",
+  "legacyReportingName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676307
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 13: factor=13]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 13: factor=13]",
+  "displayName": "[Run 13: factor=13]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 13: factor=13]",
+      "legacyReportingName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676307
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676307
+},{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "[Run 14: factor=13]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 14: factor=13]",
+  "displayName": "[Run 14: factor=13]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 14: factor=13]",
+      "legacyReportingName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676308
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676308
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 14: factor=13]",
+  "legacyReportingName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676309
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "methodName": "testMultiply[Run 14: factor=13]",
+  "legacyReportingName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "displayName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317676309
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "[Run 14: factor=13]",
+  "listener": "JUnit_4",
+  "legacyReportingName": "[Run 14: factor=13]",
+  "displayName": "[Run 14: factor=13]",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.junit.MoneyBagParameterizedTest",
+      "listener": "JUnit_4",
+      "methodName": "testMultiply[Run 14: factor=13]",
+      "legacyReportingName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "displayName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317676309
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676309
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "examples.junit.MoneyBagParameterizedTest",
+  "listener": "JUnit_4",
+  "legacyReportingName": "examples.junit.MoneyBagParameterizedTest",
+  "displayName": "examples.junit.MoneyBagParameterizedTest",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 0: factor=0]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 0: factor=0]",
+      "displayName": "[Run 0: factor=0]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 0: factor=0]",
+          "legacyReportingName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 0: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 1: factor=0]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 1: factor=0]",
+      "displayName": "[Run 1: factor=0]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 1: factor=0]",
+          "legacyReportingName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 1: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 2: factor=0]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 2: factor=0]",
+      "displayName": "[Run 2: factor=0]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 2: factor=0]",
+          "legacyReportingName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 2: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 3: factor=0]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 3: factor=0]",
+      "displayName": "[Run 3: factor=0]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 3: factor=0]",
+          "legacyReportingName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 3: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 4: factor=0]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 4: factor=0]",
+      "displayName": "[Run 4: factor=0]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 4: factor=0]",
+          "legacyReportingName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 4: factor=0](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 5: factor=1]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 5: factor=1]",
+      "displayName": "[Run 5: factor=1]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 5: factor=1]",
+          "legacyReportingName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 5: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 6: factor=1]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 6: factor=1]",
+      "displayName": "[Run 6: factor=1]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 6: factor=1]",
+          "legacyReportingName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 6: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 7: factor=1]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 7: factor=1]",
+      "displayName": "[Run 7: factor=1]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 7: factor=1]",
+          "legacyReportingName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 7: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 8: factor=1]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 8: factor=1]",
+      "displayName": "[Run 8: factor=1]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 8: factor=1]",
+          "legacyReportingName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 8: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 9: factor=1]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 9: factor=1]",
+      "displayName": "[Run 9: factor=1]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 9: factor=1]",
+          "legacyReportingName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 9: factor=1](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 10: factor=13]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 10: factor=13]",
+      "displayName": "[Run 10: factor=13]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 10: factor=13]",
+          "legacyReportingName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 10: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 11: factor=13]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 11: factor=13]",
+      "displayName": "[Run 11: factor=13]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 11: factor=13]",
+          "legacyReportingName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 11: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 12: factor=13]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 12: factor=13]",
+      "displayName": "[Run 12: factor=13]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 12: factor=13]",
+          "legacyReportingName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 12: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 13: factor=13]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 13: factor=13]",
+      "displayName": "[Run 13: factor=13]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 13: factor=13]",
+          "legacyReportingName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 13: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    },
+    {
+      "eventKind": "CHILD",
+      "classFQName": "[Run 14: factor=13]",
+      "listener": "JUnit_4",
+      "legacyReportingName": "[Run 14: factor=13]",
+      "displayName": "[Run 14: factor=13]",
+      "children": [
+        {
+          "eventKind": "CHILD",
+          "classFQName": "examples.junit.MoneyBagParameterizedTest",
+          "listener": "JUnit_4",
+          "methodName": "testMultiply[Run 14: factor=13]",
+          "legacyReportingName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "displayName": "testMultiply[Run 14: factor=13](examples.junit.MoneyBagParameterizedTest)",
+          "children": [],
+          "isSuite": false,
+          "isTest": true,
+          "isSubExecution": false,
+          "timestamp": 1663317676310
+        }
+      ],
+      "isSuite": true,
+      "isTest": false,
+      "isSubExecution": false,
+      "timestamp": 1663317676310
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317676310
+},

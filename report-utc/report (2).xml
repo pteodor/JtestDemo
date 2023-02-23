@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ResultsSession buildId="2022-09-16" climode="true" execEnv="win32_x86_64" hasViols="true" id="1664065710010" lang="en_US" machine="ulfar" prjModule="com.parasoft:demo" project="" tag="demo" time="2022-09-16T10:28:51+02:00" toolDispName="Jtest" toolId="jtest" toolName="DTP Engine for Java" toolVer="2022.1.0" user="pteodor">
+   <TestConfig machine="ulfar" name="Unit Tests" pseudoUrl="builtin://Unit Tests" user="pteodor" />
+   <Authors>
+      <Author id="dev1" name="pteodor" />
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.jtest.unittests.analyzers.UTDataAnalyzer" name="Parasoft JUnit Analyzer" ver="10.6.0.20220317" />
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IChangeImpactViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1" />
+   </VersionInfos>
+   <Goals tsks="2">
+      
+   </Goals>
+   <Scope>
+      <Repositories />
+      <Locations>
+         <Loc hash="836988928" locRef="1" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="META-INF/MANIFEST.MF" totLns="3" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/META-INF/MANIFEST.MF" />
+         <Loc hash="-2121569923" locRef="2" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/eval/Simple.java" totLns="68" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/eval/Simple.java" />
+         <Loc hash="-32679949" locRef="3" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseGSS.java" totLns="34" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseGSS.java" />
+         <Loc hash="1088242968" locRef="4" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseImages.java" totLns="35" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseImages.java" />
+         <Loc hash="-89489575" locRef="5" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseLogging.java" totLns="25" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseLogging.java" />
+         <Loc hash="1710944294" locRef="6" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseNIOChannels.java" totLns="40" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseNIOChannels.java" />
+         <Loc hash="-1842798386" locRef="7" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseRAFs.java" totLns="38" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseRAFs.java" />
+         <Loc hash="-69784133" locRef="8" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseSockets.java" totLns="33" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseSockets.java" />
+         <Loc hash="-1630627415" locRef="9" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseXMLEncDec.java" totLns="75" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseXMLEncDec.java" />
+         <Loc hash="726838777" locRef="10" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/DereferenceBeforeNullCheck.java" totLns="55" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/DereferenceBeforeNullCheck.java" />
+         <Loc hash="-1891737324" locRef="11" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/DivisionByZero.java" totLns="69" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/DivisionByZero.java" />
+         <Loc hash="686946442" locRef="12" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/FilesInjection.java" totLns="30" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/FilesInjection.java" />
+         <Loc hash="438092426" locRef="13" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/IncorrectIteratorUsage.java" totLns="41" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/IncorrectIteratorUsage.java" />
+         <Loc hash="1816383512" locRef="14" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/InefficientCollectionRemoval.java" totLns="32" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/InefficientCollectionRemoval.java" />
+         <Loc hash="-417185865" locRef="15" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/InefficientMapRemoval.java" totLns="59" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/InefficientMapRemoval.java" />
+         <Loc hash="-359565455" locRef="16" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/InefficientMapUsage.java" totLns="37" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/InefficientMapUsage.java" />
+         <Loc hash="1862789318" locRef="17" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/SQLInjection.java" totLns="58" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/SQLInjection.java" />
+         <Loc hash="-152258803" locRef="18" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/SystemInjection.java" totLns="55" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/SystemInjection.java" />
+         <Loc hash="1709312165" locRef="19" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/UnreachableCode.java" totLns="59" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/UnreachableCode.java" />
+         <Loc hash="-635152949" locRef="20" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/UseBeforeInConstructorInitialization.java" totLns="46" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/UseBeforeInConstructorInitialization.java" />
+         <Loc hash="2110246917" locRef="21" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/UseBeforeInitialization.java" totLns="67" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/UseBeforeInitialization.java" />
+         <Loc hash="565976681" locRef="22" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/WebApplication.java" totLns="51" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/WebApplication.java" />
+         <Loc hash="-367659159" locRef="23" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/XMLInjection.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/XMLInjection.java" />
+         <Loc hash="635578452" locRef="24" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/DatabaseObject.java" totLns="63" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/DatabaseObject.java" />
+         <Loc hash="1118499003" locRef="25" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/ExtendedNullPointer.java" totLns="57" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/ExtendedNullPointer.java" />
+         <Loc hash="796982299" locRef="26" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/MessageFormatter.java" totLns="15" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/MessageFormatter.java" />
+         <Loc hash="1067996598" locRef="27" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/MyDictionary.java" totLns="24" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/MyDictionary.java" />
+         <Loc hash="-51902665" locRef="28" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/NullPointer.java" totLns="31" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/NullPointer.java" />
+         <Loc hash="13842231" locRef="29" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/ChoosingConstructor.java" totLns="59" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/ChoosingConstructor.java" />
+         <Loc hash="1460192582" locRef="30" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/CustomMoney.java" totLns="15" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/CustomMoney.java" />
+         <Loc hash="-47973091" locRef="31" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/IMoney.java" totLns="52" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/IMoney.java" />
+         <Loc hash="1622384320" locRef="32" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/IntegerComparator.java" totLns="15" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/IntegerComparator.java" />
+         <Loc hash="-1765121077" locRef="33" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/Money.java" totLns="91" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/Money.java" />
+         <Loc hash="-113332437" locRef="34" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/MoneyBag.java" totLns="140" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/MoneyBag.java" />
+         <Loc hash="1434598914" locRef="35" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/NaiveStringBuilder.java" totLns="26" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/NaiveStringBuilder.java" />
+         <Loc hash="1554031451" locRef="36" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/SimpleObjectHandler.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/SimpleObjectHandler.java" />
+         <Loc hash="-1994237948" locRef="37" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/metrics/MetricsExample.java" totLns="52" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/metrics/MetricsExample.java" />
+         <Loc hash="1497176251" locRef="38" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/CharacterReader.java" totLns="57" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/CharacterReader.java" />
+         <Loc hash="1641622182" locRef="39" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/FileExample.java" totLns="35" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/FileExample.java" />
+         <Loc hash="1888280347" locRef="40" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/Interpreter.java" totLns="33" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/Interpreter.java" />
+         <Loc hash="-762775565" locRef="41" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/MultiSourceCharacterReader.java" totLns="34" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/MultiSourceCharacterReader.java" />
+         <Loc hash="922840071" locRef="42" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/PathUtil.java" totLns="18" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/PathUtil.java" />
+         <Loc hash="-251506569" locRef="43" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/AbstractTransaction.java" totLns="22" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/AbstractTransaction.java" />
+         <Loc hash="-2109136904" locRef="44" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Account.java" totLns="117" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Account.java" />
+         <Loc hash="-1683403269" locRef="45" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Bank.java" totLns="82" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Bank.java" />
+         <Loc hash="2120971007" locRef="46" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/BankState.java" totLns="22" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/BankState.java" />
+         <Loc hash="-368683629" locRef="47" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ConnectionException.java" totLns="8" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ConnectionException.java" />
+         <Loc hash="3241407" locRef="48" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/CreditCard.java" totLns="199" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/CreditCard.java" />
+         <Loc hash="2046383933" locRef="49" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Customer.java" totLns="106" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Customer.java" />
+         <Loc hash="-249228641" locRef="50" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/DepositTransaction.java" totLns="24" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/DepositTransaction.java" />
+         <Loc hash="1948271967" locRef="51" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ICreditAgency.java" totLns="8" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ICreditAgency.java" />
+         <Loc hash="1398902534" locRef="52" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ITransaction.java" totLns="25" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ITransaction.java" />
+         <Loc hash="-179143843" locRef="53" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/LogAccountInfo.java" totLns="48" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/LogAccountInfo.java" />
+         <Loc hash="-1206559161" locRef="54" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/WithdrawalTransaction.java" totLns="24" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/WithdrawalTransaction.java" />
+         <Loc hash="-981357238" locRef="55" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/queue/Queue.java" totLns="83" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/queue/Queue.java" />
+         <Loc hash="-1145404863" locRef="56" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/security/InputValidation.java" totLns="127" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/security/InputValidation.java" />
+         <Loc hash="-1999350871" locRef="57" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/servlets/ExampleServlet.java" totLns="42" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/servlets/ExampleServlet.java" />
+         <Loc hash="1553680728" locRef="58" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/AbstractStackMachine.java" totLns="123" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/AbstractStackMachine.java" />
+         <Loc hash="-1581767335" locRef="59" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/CommandLineStackMachine.java" totLns="147" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/CommandLineStackMachine.java" />
+         <Loc hash="1782082961" locRef="60" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/CustomListRenderer.java" totLns="30" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/CustomListRenderer.java" />
+         <Loc hash="-726989549" locRef="61" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/FifoStackMachine.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/FifoStackMachine.java" />
+         <Loc hash="-1559173645" locRef="62" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/LifoStackMachine.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/LifoStackMachine.java" />
+         <Loc hash="-339219917" locRef="63" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/RunnableStackMachine.java" totLns="396" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/RunnableStackMachine.java" />
+         <Loc hash="963698942" locRef="64" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/StackInterface.java" totLns="26" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/StackInterface.java" />
+         <Loc hash="-1082942404" locRef="65" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/StackList.java" totLns="100" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/StackList.java" />
+         <Loc hash="-2129128806" locRef="66" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/suppress/AllFileSuppress.java" totLns="13" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/suppress/AllFileSuppress.java" />
+         <Loc hash="2004133938" locRef="67" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/suppress/Example.java" totLns="10" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/suppress/Example.java" />
+         <Loc auth="pteodor" hash="623770480" locRef="68" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/junit/MoneyBagParameterizedTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/junit/MoneyBagParameterizedTest.java" />
+         <Loc auth="pteodor" hash="-1706145239" locRef="69" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/servlets/ExampleServletTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/servlets/ExampleServletTest.java" />
+         <Loc auth="pteodor" hash="-1290590071" locRef="70" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/junit/MoneyTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/junit/MoneyTest.java" />
+         <Loc auth="pteodor" hash="-1095385538" locRef="71" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/junit/NaiveStringBuilderParameterizedTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/junit/NaiveStringBuilderParameterizedTest.java" />
+         <Loc auth="pteodor" hash="-262894477" locRef="72" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/mock/InterpreterTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/mock/InterpreterTest.java" />
+         <Loc auth="pteodor" hash="-2098718545" locRef="73" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/mock/FileExampleTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/mock/FileExampleTest.java" />
+      </Locations>
+   </Scope>
+   
+  <SetupProblems>
+    <Problem msg="Could not report coverage" sev="2" totErrs="1" type="Coverage">
+      <ErrorList>
+        <Error val="Could not find coverage files, probably instrumentation was not done." />
+      </ErrorList>
+    </Problem>
+  </SetupProblems>
+
+   <Exec ownerId="com.parasoft.xtest.checkers.api.execution" time="0:00:00">
+      
+      <AssocUrls>
+         <Tag disp="Problem report" name="pr" url="http://bugzilla.company.com/show_bug.cgi?id=[%ID%]" />
+         <Tag disp="Task" name="task" url="http://dtp.company.com:8080/grs/jsf/planning/task/edit_task.jsf?entityId=[%ID%]" />
+         <Tag disp="Test" name="test" />
+         <Tag disp="Feature request" name="fr" />
+         <Tag disp="Asset" name="asset" />
+         <Tag disp="Requirement" name="req" url="http://req.company.com:8443/browse/[%ID%]" />
+      </AssocUrls>
+   
+      
+      <Categories>
+         <CategoryGroup authTot="2;" authUrg="2;" desc="This represents the findings arising from tests that have already been reviewed. This includes exceptions that have been marked as expected, assertion failures from previously reviewed tests, and any other kind of unexpected behavior that needs to be looked at (such as timeouts)." id="GROUP.UTEST.PROBL" label="Fix Unit Test Problems" name="Unit Test Problems" total="2">
+            <Category authTot="1;" authUrg="1;" id="EXC" name="Runtime Exceptions" short="exception" total="1">
+               <Type authTot="1;" authUrg="1;" name="java.lang.IllegalArgumentException" total="1" />
+            </Category>
+            <Category authTot="1;" authUrg="1;" id="FAIL" name="Assertion Failures" short="failure" total="1">
+               <Type authTot="1;" authUrg="1;" name="org.opentest4j.AssertionFailedError" total="1" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" id="CON.VIOL" name="Contract Violations" short="contract violation" total="0" />
+            <Category authTot="0;" authUrg="0;" id="PROF.PROBL" name="Profiling Problems" short="profiling problem" total="0" />
+            <Category authTot="0;" authUrg="0;" id="EXEC.PROBL" name="Execution Problems" short="execution problem" total="0" />
+            <Category authTot="0;" authUrg="0;" id="TEST.PROBL" name="Test Problems" short="test problem" total="0" />
+         </CategoryGroup>
+         <CategoryGroup authTot="0;" authUrg="0;" desc="These are exceptions thrown by automatically generated test cases that need to be reviewed. After review they will be marked as &quot;expected&quot; or code fixed so that the exception does not occur any more." id="GROUP.UNVER.EXC" label="Review Exceptions" name="Exceptions" total="0">
+            <Category authTot="0;" authUrg="0;" id="UNVER.EXC" name="Unverified Runtime Exceptions" short="unverified exception" total="0" />
+         </CategoryGroup>
+         <CategoryGroup authTot="0;" authUrg="0;" desc="These are assertion failures from automatically generated tests that have not been reviewed. This is expected to be zero when the tests are executed as soon as they are generated, but can be non-zero in cases where tests that have not been reviewed, but the execution is repeated." id="GROUP.UNVER.FAIL" label="Review Assertion Failures" name="Assertion Failures" total="0">
+            <Category authTot="0;" authUrg="0;" id="UNVER.FAIL" name="Unverified Assertion Failures" short="unverified failure" total="0" />
+         </CategoryGroup>
+      </Categories>
+      <Projects>
+         <Project err="1" fail="1" id="com.parasoft:demo" name="com.parasoft:demo" pass="48" total="50">
+            <CategoryGroupStats id="GROUP.UTEST.PROBL" total="2" />
+            <CategoryGroupStats id="GROUP.UNVER.EXC" total="0" />
+            <CategoryGroupStats id="GROUP.UNVER.FAIL" total="0" />
+         </Project>
+      </Projects>
+      
+  <APICoverage />
+
+      
+  <TrafficData />
+      
+  <EnvData />
+      <FuncAPISecurity pentest="false">
+         
+  <Categories />
+         
+  <Attacks />
+      </FuncAPISecurity>
+      
+  <ExecViols>
+    <UnitViol loc="/com.parasoft:demo/src/main/java/examples/junit/NaiveStringBuilder.java" ln="21" sev="1" auth="pteodor" analyzer="com.parasoft.jtest.unittests.analyzers.JUnitAnalyzer" locRef="35" cat="EXC" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" lnHash="-74292028" tcId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890, null) [3]" urgent="true" goals="1,">
+      <Thr>
+        <ThrPart type="java.lang.IllegalArgumentException" msg="java.lang.IllegalArgumentException">
+          <PathElem loc="/com.parasoft:demo/src/main/java/examples/junit/NaiveStringBuilder.java" locRef="35" lnHash="-74292028" ln="21" desc="examples.junit.NaiveStringBuilder.append(NaiveStringBuilder.java:21)" />
+          <PathElem loc="/com.parasoft:demo/src/test/java/examples/junit/NaiveStringBuilderParameterizedTest.java" locRef="71" lnHash="-278998998" ln="33" desc="examples.junit.NaiveStringBuilderParameterizedTest.testAppend(NaiveStringBuilderParameterizedTest.java:33)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(:-2)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)" />
+          <PathElem desc="java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)" />
+          <PathElem desc="java.base/java.lang.reflect.Method.invoke(Method.java:566)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)" />
+          <PathElem desc="org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)" />
+          <PathElem desc="junitparams.internal.InvokeParameterisedMethod.evaluate(InvokeParameterisedMethod.java:234)" />
+          <PathElem desc="org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)" />
+          <PathElem desc="junitparams.internal.ParameterisedTestMethodRunner.runMethodInvoker(ParameterisedTestMethodRunner.java:47)" />
+          <PathElem desc="junitparams.internal.ParameterisedTestMethodRunner.runTestMethod(ParameterisedTestMethodRunner.java:40)" />
+          <PathElem desc="junitparams.internal.ParameterisedTestClassRunner.runParameterisedTest(ParameterisedTestClassRunner.java:146)" />
+          <PathElem desc="junitparams.JUnitParamsRunner.runChild(JUnitParamsRunner.java:446)" />
+          <PathElem desc="junitparams.JUnitParamsRunner.runChild(JUnitParamsRunner.java:393)" />
+          <PathElem desc="org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)" />
+          <PathElem desc="org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)" />
+          <PathElem desc="org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)" />
+          <PathElem desc="org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)" />
+          <PathElem desc="org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)" />
+          <PathElem desc="org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)" />
+          <PathElem desc="org.junit.runners.ParentRunner.run(ParentRunner.java:413)" />
+          <PathElem desc="junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)" />
+          <PathElem desc="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)" />
+          <PathElem desc="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)" />
+          <PathElem desc="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)" />
+        </ThrPart>
+      </Thr>
+    </UnitViol>
+    <UnitViol loc="/com.parasoft:demo/src/test/java/examples/mock/InterpreterTest.java" ln="38" sev="1" auth="pteodor" analyzer="com.parasoft.jtest.unittests.analyzers.UTDataAnalyzer" locRef="72" cat="FAIL" testId="examples.mock.InterpreterTest|+|com.parasoft:demo#InterpreterTest.java#examples.mock.InterpreterTest#testAdd34" lnHash="566763764" urgent="true" goals="1,">
+      <Thr>
+        <ThrPart type="org.opentest4j.AssertionFailedError" msg="org.opentest4j.AssertionFailedError: value is:-1 ==> expected: &lt;true> but was: &lt;false>">
+          <PathElem desc="org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)" />
+          <PathElem desc="org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)" />
+          <PathElem desc="org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)" />
+          <PathElem loc="/com.parasoft:demo/src/test/java/examples/mock/InterpreterTest.java" locRef="72" lnHash="566763764" ln="38" desc="examples.mock.InterpreterTest.testAdd34(InterpreterTest.java:38)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(:-2)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)" />
+          <PathElem desc="java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)" />
+          <PathElem desc="java.base/java.lang.reflect.Method.invoke(Method.java:566)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)" />
+          <PathElem desc="org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)" />
+          <PathElem desc="org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)" />
+          <PathElem desc="org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)" />
+          <PathElem desc="org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)" />
+          <PathElem desc="java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)" />
+          <PathElem desc="java.base/java.lang.Thread.run(Thread.java:834)" />
+        </ThrPart>
+      </Thr>
+    </UnitViol>
+  </ExecViols>
+
+      
+   <ExecutedTestsDetails type="UT">
+      <Total fail="1" total="50" err="1" pass="48" name="Passed / Total" time="0:00:03.553" authErr="1;" authFail="1;">
+         <Project fail="1" total="50" err="1" pass="48" name="com.parasoft:demo" time="0:00:03.553" authErr="1;" id="com.parasoft:demo" authFail="1;">
+            <TestSuite locRef="68" root="true" name="examples.junit.MoneyBagParameterizedTest" id="examples.junit.MoneyBagParameterizedTest" total="15" pass="15" time="0:00:00.027" authErr="0;" authFail="0;">
+               <Test auth="pteodor" locRef="68" name="testMultiply" startTime="1663316917671" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" status="pass" total="15" pass="15" time="0:00:00.027" authErr="0;" authFail="0;">
+                  <TestCase auth="pteodor" name="testMultiply[Run 7: factor=1]" startTime="1663316917709" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 7: factor=1]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 1: factor=0]" startTime="1663316917694" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 1: factor=0]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 4: factor=0]" startTime="1663316917701" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 4: factor=0]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 5: factor=1]" startTime="1663316917704" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 5: factor=1]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 3: factor=0]" startTime="1663316917699" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 3: factor=0]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 2: factor=0]" startTime="1663316917697" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 2: factor=0]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 6: factor=1]" startTime="1663316917706" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 6: factor=1]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 9: factor=1]" startTime="1663316917714" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 9: factor=1]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 8: factor=1]" startTime="1663316917712" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 8: factor=1]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 0: factor=0]" startTime="1663316917671" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 0: factor=0]" status="pass" total="1" pass="1" time="0:00:00.020" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 14: factor=13]" startTime="1663316917725" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 14: factor=13]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 10: factor=13]" startTime="1663316917717" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 10: factor=13]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 11: factor=13]" startTime="1663316917719" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 11: factor=13]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 12: factor=13]" startTime="1663316917721" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 12: factor=13]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 13: factor=13]" startTime="1663316917723" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 13: factor=13]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+               </Test>
+            </TestSuite>
+            <TestSuite locRef="69" root="true" name="examples.servlets.ExampleServletTest" id="examples.servlets.ExampleServletTest" total="4" pass="4" time="0:00:01.097" authErr="0;" authFail="0;">
+               <Test auth="pteodor" locRef="69" name="testTryThis2" startTime="1663316924775" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis2" status="pass" total="1" pass="1" time="0:00:01.009" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="69" name="testTryThis3" startTime="1663316925785" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis3" status="pass" total="1" pass="1" time="0:00:00.065" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="69" name="testTryThis4" startTime="1663316925852" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis4" status="pass" total="1" pass="1" time="0:00:00.003" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="69" name="testTryThis1" startTime="1663316924754" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis1" status="pass" total="1" pass="1" time="0:00:00.020" authErr="0;" authFail="0;" />
+            </TestSuite>
+            <TestSuite locRef="70" root="true" name="examples.junit.MoneyTest" id="examples.junit.MoneyTest" total="23" pass="23" time="0:00:00.029" authErr="0;" authFail="0;">
+               <Test auth="pteodor" locRef="70" name="testBagNegate" startTime="1663316918664" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagNegate" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="zeroMoniesAreEqualRegardlessOfCurrency" startTime="1663316918655" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#zeroMoniesAreEqualRegardlessOfCurrency" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testBagNotEquals" startTime="1663316918652" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagNotEquals" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testMoneyEquals" startTime="1663316918673" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyEquals" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testSimpleBagAdd" startTime="1663316918659" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleBagAdd" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testPrint" startTime="1663316918656" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testPrint" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testSimpleNegate" startTime="1663316918661" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleNegate" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testMoneyBagEquals" startTime="1663316918668" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyBagEquals" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testBagSubtract" startTime="1663316918653" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagSubtract" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testBagMultiply" startTime="1663316918670" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagMultiply" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testBagSumAdd" startTime="1663316918667" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagSumAdd" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testNormalize4" startTime="1663316918651" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testNormalize4" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testSimplify" startTime="1663316918671" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimplify" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testMoneyHash" startTime="1663316918658" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyHash" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testNormalize3" startTime="1663316918649" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testNormalize3" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testSimpleSubtract" startTime="1663316918634" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleSubtract" status="pass" total="1" pass="1" time="0:00:00.013" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testMixedSimpleAdd" startTime="1663316918674" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMixedSimpleAdd" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testMoneyBagHash" startTime="1663316918662" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyBagHash" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testIsZero" startTime="1663316918672" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testIsZero" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testSimpleMultiply" startTime="1663316918665" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleMultiply" status="pass" total="1" pass="1" time="0:00:00.002" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testSimpleAdd" startTime="1663316918654" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleAdd" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testBagSimpleAdd" startTime="1663316918660" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagSimpleAdd" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="70" name="testNormalize2" startTime="1663316918648" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testNormalize2" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+            </TestSuite>
+            <TestSuite locRef="71" root="true" name="examples.junit.NaiveStringBuilderParameterizedTest" id="examples.junit.NaiveStringBuilderParameterizedTest" total="5" err="1" pass="4" time="0:00:00.016" authErr="1;" authFail="0;">
+               <Test auth="pteodor" locRef="71" name="testAppend" startTime="1663316919543" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" status="err" total="5" err="1" pass="4" time="0:00:00.016" authErr="1;" authFail="0;">
+                  <TestCase auth="pteodor" name="testAppend( , 01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890) [0]" startTime="1663316919543" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend( , 01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890) [0]" status="pass" total="1" pass="1" time="0:00:00.009" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testAppend(hello world,  ) [2]" startTime="1663316919555" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(hello world,  ) [2]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testAppend(01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890, null) [3]" startTime="1663316919556" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890, null) [3]" status="err" total="1" err="1" time="0:00:00.006" authErr="1;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testAppend(, hello world) [1]" startTime="1663316919554" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(, hello world) [1]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testAppend(null, ) [4]" startTime="1663316919563" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(null, ) [4]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               </Test>
+            </TestSuite>
+            <TestSuite locRef="72" root="true" name="examples.mock.InterpreterTest" id="examples.mock.InterpreterTest" fail="1" total="1" time="0:00:01.125" authErr="0;" authFail="1;">
+               <Test auth="pteodor" locRef="72" name="testAdd34" startTime="1663316922713" id="examples.mock.InterpreterTest|+|com.parasoft:demo#InterpreterTest.java#examples.mock.InterpreterTest#testAdd34" status="fail" fail="1" total="1" time="0:00:01.125" authErr="0;" authFail="1;" />
+            </TestSuite>
+            <TestSuite locRef="73" root="true" name="examples.mock.FileExampleTest" id="examples.mock.FileExampleTest" total="2" pass="2" time="0:00:01.259" authErr="0;" authFail="0;">
+               <Test auth="pteodor" locRef="73" name="testAnalyze" startTime="1663316920537" id="examples.mock.FileExampleTest|+|com.parasoft:demo#FileExampleTest.java#examples.mock.FileExampleTest#testAnalyze" status="pass" total="1" pass="1" time="0:00:01.120" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="73" name="testIsOversize" startTime="1663316921658" id="examples.mock.FileExampleTest|+|com.parasoft:demo#FileExampleTest.java#examples.mock.FileExampleTest#testIsOversize" status="pass" total="1" pass="1" time="0:00:00.139" authErr="0;" authFail="0;" />
+            </TestSuite>
+         </Project>
+      </Total>
+   </ExecutedTestsDetails>
+
+      
+  <FuncTestDetails />
+   </Exec>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

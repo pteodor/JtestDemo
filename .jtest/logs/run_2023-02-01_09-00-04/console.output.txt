@@ -1,0 +1,10 @@
+License: Machine id WIN32-5405352e
+Configuration: Recommended Rules (builtin://Recommended Rules).
+Command line: jtestcli -data demo.data.json -config builtin://Recommended Rules -resource src\main\java\examples\flowanalysis
+[ 0%] > Computing testing context.
+Number of excluded elements: 67.
+[ 2%] < Computing testing context.: 100% 
+Projects in context which were skipped: 
+com.parasoft:demo
+Error: Testing scope is empty.
+Technical support archive created: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\.\.jtest\com.parasoft.xtest.techsupport\TechnicalSupport_1.zip

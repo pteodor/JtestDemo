@@ -1,0 +1,1010 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ResultsSession buildId="2022-09-16" climode="true" execEnv="win32_x86_64" hasViols="true" id="1664065580945" lang="en_US" machine="ulfar" prjModule="com.parasoft:demo" project="" tag="demo" time="2022-09-16T10:26:42+02:00" toolDispName="Jtest" toolId="jtest" toolName="DTP Engine for Java" toolVer="2022.1.0" user="pteodor">
+   <TestConfig machine="ulfar" name="Unit Tests" pseudoUrl="builtin://Unit Tests" user="pteodor" />
+   <Authors>
+      <Author id="dev1" name="pteodor" />
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.jtest.coverage" name="Parasoft Coverage Analyzer" ver="10.6.0.20220317" />
+      <Analyzer id="com.parasoft.jtest.unittests.analyzers.UTDataAnalyzer" name="Parasoft JUnit Analyzer" ver="10.6.0.20220317" />
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IChangeImpactViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1" />
+   </VersionInfos>
+   <Goals tsks="2">
+      
+   </Goals>
+   <Scope>
+      <Repositories />
+      <Locations>
+         <Loc hash="-2121569923" locRef="1" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/eval/Simple.java" totLns="68" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/eval/Simple.java" />
+         <Loc hash="-32679949" locRef="2" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseGSS.java" totLns="34" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseGSS.java" />
+         <Loc hash="1088242968" locRef="3" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseImages.java" totLns="35" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseImages.java" />
+         <Loc hash="-89489575" locRef="4" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseLogging.java" totLns="25" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseLogging.java" />
+         <Loc hash="1710944294" locRef="5" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseNIOChannels.java" totLns="40" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseNIOChannels.java" />
+         <Loc hash="-1842798386" locRef="6" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseRAFs.java" totLns="38" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseRAFs.java" />
+         <Loc hash="-69784133" locRef="7" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseSockets.java" totLns="33" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseSockets.java" />
+         <Loc hash="-1630627415" locRef="8" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseXMLEncDec.java" totLns="75" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseXMLEncDec.java" />
+         <Loc hash="726838777" locRef="9" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/DereferenceBeforeNullCheck.java" totLns="55" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/DereferenceBeforeNullCheck.java" />
+         <Loc hash="-1891737324" locRef="10" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/DivisionByZero.java" totLns="69" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/DivisionByZero.java" />
+         <Loc hash="686946442" locRef="11" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/FilesInjection.java" totLns="30" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/FilesInjection.java" />
+         <Loc hash="438092426" locRef="12" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/IncorrectIteratorUsage.java" totLns="41" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/IncorrectIteratorUsage.java" />
+         <Loc hash="1816383512" locRef="13" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/InefficientCollectionRemoval.java" totLns="32" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/InefficientCollectionRemoval.java" />
+         <Loc hash="-417185865" locRef="14" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/InefficientMapRemoval.java" totLns="59" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/InefficientMapRemoval.java" />
+         <Loc hash="-359565455" locRef="15" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/InefficientMapUsage.java" totLns="37" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/InefficientMapUsage.java" />
+         <Loc hash="1862789318" locRef="16" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/SQLInjection.java" totLns="58" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/SQLInjection.java" />
+         <Loc hash="-152258803" locRef="17" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/SystemInjection.java" totLns="55" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/SystemInjection.java" />
+         <Loc hash="1709312165" locRef="18" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/UnreachableCode.java" totLns="59" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/UnreachableCode.java" />
+         <Loc hash="-635152949" locRef="19" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/UseBeforeInConstructorInitialization.java" totLns="46" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/UseBeforeInConstructorInitialization.java" />
+         <Loc hash="2110246917" locRef="20" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/UseBeforeInitialization.java" totLns="67" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/UseBeforeInitialization.java" />
+         <Loc hash="565976681" locRef="21" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/WebApplication.java" totLns="51" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/WebApplication.java" />
+         <Loc hash="-367659159" locRef="22" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/XMLInjection.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/XMLInjection.java" />
+         <Loc hash="635578452" locRef="23" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/DatabaseObject.java" totLns="63" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/DatabaseObject.java" />
+         <Loc hash="1118499003" locRef="24" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/ExtendedNullPointer.java" totLns="57" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/ExtendedNullPointer.java" />
+         <Loc hash="796982299" locRef="25" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/MessageFormatter.java" totLns="15" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/MessageFormatter.java" />
+         <Loc hash="1067996598" locRef="26" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/MyDictionary.java" totLns="24" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/MyDictionary.java" />
+         <Loc hash="-51902665" locRef="27" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/NullPointer.java" totLns="31" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/NullPointer.java" />
+         <Loc hash="13842231" locRef="28" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/ChoosingConstructor.java" totLns="59" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/ChoosingConstructor.java" />
+         <Loc hash="1460192582" locRef="29" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/CustomMoney.java" totLns="15" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/CustomMoney.java" />
+         <Loc hash="-47973091" locRef="30" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/IMoney.java" totLns="52" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/IMoney.java" />
+         <Loc hash="1622384320" locRef="31" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/IntegerComparator.java" totLns="15" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/IntegerComparator.java" />
+         <Loc hash="-1765121077" locRef="32" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/Money.java" totLns="91" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/Money.java" />
+         <Loc hash="-113332437" locRef="33" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/MoneyBag.java" totLns="140" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/MoneyBag.java" />
+         <Loc hash="1434598914" locRef="34" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/NaiveStringBuilder.java" totLns="26" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/NaiveStringBuilder.java" />
+         <Loc hash="1554031451" locRef="35" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/SimpleObjectHandler.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/SimpleObjectHandler.java" />
+         <Loc hash="-1994237948" locRef="36" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/metrics/MetricsExample.java" totLns="52" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/metrics/MetricsExample.java" />
+         <Loc hash="1497176251" locRef="37" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/CharacterReader.java" totLns="57" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/CharacterReader.java" />
+         <Loc hash="1641622182" locRef="38" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/FileExample.java" totLns="35" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/FileExample.java" />
+         <Loc hash="1888280347" locRef="39" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/Interpreter.java" totLns="33" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/Interpreter.java" />
+         <Loc hash="-762775565" locRef="40" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/MultiSourceCharacterReader.java" totLns="34" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/MultiSourceCharacterReader.java" />
+         <Loc hash="922840071" locRef="41" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/PathUtil.java" totLns="18" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/PathUtil.java" />
+         <Loc hash="-251506569" locRef="42" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/AbstractTransaction.java" totLns="22" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/AbstractTransaction.java" />
+         <Loc hash="-2109136904" locRef="43" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Account.java" totLns="117" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Account.java" />
+         <Loc hash="-1683403269" locRef="44" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Bank.java" totLns="82" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Bank.java" />
+         <Loc hash="2120971007" locRef="45" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/BankState.java" totLns="22" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/BankState.java" />
+         <Loc hash="-368683629" locRef="46" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ConnectionException.java" totLns="8" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ConnectionException.java" />
+         <Loc hash="3241407" locRef="47" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/CreditCard.java" totLns="199" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/CreditCard.java" />
+         <Loc hash="2046383933" locRef="48" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Customer.java" totLns="106" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Customer.java" />
+         <Loc hash="-249228641" locRef="49" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/DepositTransaction.java" totLns="24" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/DepositTransaction.java" />
+         <Loc hash="1948271967" locRef="50" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ICreditAgency.java" totLns="8" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ICreditAgency.java" />
+         <Loc hash="1398902534" locRef="51" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ITransaction.java" totLns="25" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ITransaction.java" />
+         <Loc hash="-179143843" locRef="52" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/LogAccountInfo.java" totLns="48" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/LogAccountInfo.java" />
+         <Loc hash="-1206559161" locRef="53" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/WithdrawalTransaction.java" totLns="24" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/WithdrawalTransaction.java" />
+         <Loc hash="-981357238" locRef="54" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/queue/Queue.java" totLns="83" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/queue/Queue.java" />
+         <Loc hash="-1145404863" locRef="55" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/security/InputValidation.java" totLns="127" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/security/InputValidation.java" />
+         <Loc hash="-1999350871" locRef="56" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/servlets/ExampleServlet.java" totLns="42" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/servlets/ExampleServlet.java" />
+         <Loc hash="1553680728" locRef="57" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/AbstractStackMachine.java" totLns="123" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/AbstractStackMachine.java" />
+         <Loc hash="-1581767335" locRef="58" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/CommandLineStackMachine.java" totLns="147" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/CommandLineStackMachine.java" />
+         <Loc hash="1782082961" locRef="59" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/CustomListRenderer.java" totLns="30" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/CustomListRenderer.java" />
+         <Loc hash="-726989549" locRef="60" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/FifoStackMachine.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/FifoStackMachine.java" />
+         <Loc hash="-1559173645" locRef="61" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/LifoStackMachine.java" totLns="39" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/LifoStackMachine.java" />
+         <Loc hash="-339219917" locRef="62" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/RunnableStackMachine.java" totLns="396" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/RunnableStackMachine.java" />
+         <Loc hash="963698942" locRef="63" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/StackInterface.java" totLns="26" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/StackInterface.java" />
+         <Loc hash="-1082942404" locRef="64" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/StackList.java" totLns="100" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/StackList.java" />
+         <Loc hash="-2129128806" locRef="65" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/suppress/AllFileSuppress.java" totLns="13" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/suppress/AllFileSuppress.java" />
+         <Loc hash="2004133938" locRef="66" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/main/java/examples/suppress/Example.java" totLns="10" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/suppress/Example.java" />
+         <Loc hash="836988928" locRef="67" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="META-INF/MANIFEST.MF" totLns="3" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/META-INF/MANIFEST.MF" />
+         <Loc auth="pteodor" hash="-1706145239" locRef="68" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/servlets/ExampleServletTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/servlets/ExampleServletTest.java" />
+         <Loc auth="pteodor" hash="-1290590071" locRef="69" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/junit/MoneyTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/junit/MoneyTest.java" />
+         <Loc auth="pteodor" hash="-1095385538" locRef="70" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/junit/NaiveStringBuilderParameterizedTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/junit/NaiveStringBuilderParameterizedTest.java" />
+         <Loc auth="pteodor" hash="623770480" locRef="71" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/junit/MoneyBagParameterizedTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/junit/MoneyBagParameterizedTest.java" />
+         <Loc auth="pteodor" hash="-262894477" locRef="72" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/mock/InterpreterTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/mock/InterpreterTest.java" />
+         <Loc auth="pteodor" hash="-2098718545" locRef="73" projId="com.parasoft:demo" projPath="/com.parasoft:demo" project="com.parasoft:demo" resProjPath="src/test/java/examples/mock/FileExampleTest.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/test/java/examples/mock/FileExampleTest.java" />
+      </Locations>
+   </Scope>
+   
+  <SetupProblems />
+
+   <Exec ownerId="com.parasoft.xtest.checkers.api.execution" time="0:00:00">
+      
+      <AssocUrls>
+         <Tag disp="Problem report" name="pr" url="http://bugzilla.company.com/show_bug.cgi?id=[%ID%]" />
+         <Tag disp="Task" name="task" url="http://dtp.company.com:8080/grs/jsf/planning/task/edit_task.jsf?entityId=[%ID%]" />
+         <Tag disp="Test" name="test" />
+         <Tag disp="Feature request" name="fr" />
+         <Tag disp="Asset" name="asset" />
+         <Tag disp="Requirement" name="req" url="http://req.company.com:8443/browse/[%ID%]" />
+      </AssocUrls>
+   
+      
+      <Categories>
+         <CategoryGroup authTot="2;" authUrg="2;" desc="This represents the findings arising from tests that have already been reviewed. This includes exceptions that have been marked as expected, assertion failures from previously reviewed tests, and any other kind of unexpected behavior that needs to be looked at (such as timeouts)." id="GROUP.UTEST.PROBL" label="Fix Unit Test Problems" name="Unit Test Problems" total="2">
+            <Category authTot="1;" authUrg="1;" id="EXC" name="Runtime Exceptions" short="exception" total="1">
+               <Type authTot="1;" authUrg="1;" name="java.lang.IllegalArgumentException" total="1" />
+            </Category>
+            <Category authTot="1;" authUrg="1;" id="FAIL" name="Assertion Failures" short="failure" total="1">
+               <Type authTot="1;" authUrg="1;" name="org.opentest4j.AssertionFailedError" total="1" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" id="CON.VIOL" name="Contract Violations" short="contract violation" total="0" />
+            <Category authTot="0;" authUrg="0;" id="PROF.PROBL" name="Profiling Problems" short="profiling problem" total="0" />
+            <Category authTot="0;" authUrg="0;" id="EXEC.PROBL" name="Execution Problems" short="execution problem" total="0" />
+            <Category authTot="0;" authUrg="0;" id="TEST.PROBL" name="Test Problems" short="test problem" total="0" />
+         </CategoryGroup>
+         <CategoryGroup authTot="0;" authUrg="0;" desc="These are exceptions thrown by automatically generated test cases that need to be reviewed. After review they will be marked as &quot;expected&quot; or code fixed so that the exception does not occur any more." id="GROUP.UNVER.EXC" label="Review Exceptions" name="Exceptions" total="0">
+            <Category authTot="0;" authUrg="0;" id="UNVER.EXC" name="Unverified Runtime Exceptions" short="unverified exception" total="0" />
+         </CategoryGroup>
+         <CategoryGroup authTot="0;" authUrg="0;" desc="These are assertion failures from automatically generated tests that have not been reviewed. This is expected to be zero when the tests are executed as soon as they are generated, but can be non-zero in cases where tests that have not been reviewed, but the execution is repeated." id="GROUP.UNVER.FAIL" label="Review Assertion Failures" name="Assertion Failures" total="0">
+            <Category authTot="0;" authUrg="0;" id="UNVER.FAIL" name="Unverified Assertion Failures" short="unverified failure" total="0" />
+         </CategoryGroup>
+      </Categories>
+      <Projects>
+         <Project err="1" fail="1" id="com.parasoft:demo" name="com.parasoft:demo" pass="48" total="50">
+            <CategoryGroupStats id="GROUP.UTEST.PROBL" total="2" />
+            <CategoryGroupStats id="GROUP.UNVER.EXC" total="0" />
+            <CategoryGroupStats id="GROUP.UNVER.FAIL" total="0" />
+         </Project>
+      </Projects>
+      
+  <APICoverage />
+
+      
+  <TrafficData />
+      
+  <EnvData />
+      <FuncAPISecurity pentest="false">
+         
+  <Categories />
+         
+  <Attacks />
+      </FuncAPISecurity>
+      
+  <ExecViols>
+    <UnitViol loc="/com.parasoft:demo/src/main/java/examples/junit/NaiveStringBuilder.java" ln="21" sev="1" auth="pteodor" analyzer="com.parasoft.jtest.unittests.analyzers.JUnitAnalyzer" locRef="34" cat="EXC" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" lnHash="-74292028" tcId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890, null) [3]" urgent="true" goals="1,">
+      <Thr>
+        <ThrPart type="java.lang.IllegalArgumentException" msg="java.lang.IllegalArgumentException">
+          <PathElem loc="/com.parasoft:demo/src/main/java/examples/junit/NaiveStringBuilder.java" locRef="34" lnHash="-74292028" ln="21" desc="examples.junit.NaiveStringBuilder.append(NaiveStringBuilder.java:21)" />
+          <PathElem loc="/com.parasoft:demo/src/test/java/examples/junit/NaiveStringBuilderParameterizedTest.java" locRef="70" lnHash="-278998998" ln="33" desc="examples.junit.NaiveStringBuilderParameterizedTest.testAppend(NaiveStringBuilderParameterizedTest.java:33)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(:-2)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)" />
+          <PathElem desc="java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)" />
+          <PathElem desc="java.base/java.lang.reflect.Method.invoke(Method.java:566)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)" />
+          <PathElem desc="org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)" />
+          <PathElem desc="junitparams.internal.InvokeParameterisedMethod.evaluate(InvokeParameterisedMethod.java:234)" />
+          <PathElem desc="org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)" />
+          <PathElem desc="junitparams.internal.ParameterisedTestMethodRunner.runMethodInvoker(ParameterisedTestMethodRunner.java:47)" />
+          <PathElem desc="junitparams.internal.ParameterisedTestMethodRunner.runTestMethod(ParameterisedTestMethodRunner.java:40)" />
+          <PathElem desc="junitparams.internal.ParameterisedTestClassRunner.runParameterisedTest(ParameterisedTestClassRunner.java:146)" />
+          <PathElem desc="junitparams.JUnitParamsRunner.runChild(JUnitParamsRunner.java:446)" />
+          <PathElem desc="junitparams.JUnitParamsRunner.runChild(JUnitParamsRunner.java:393)" />
+          <PathElem desc="org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)" />
+          <PathElem desc="org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)" />
+          <PathElem desc="org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)" />
+          <PathElem desc="org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)" />
+          <PathElem desc="org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)" />
+          <PathElem desc="org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)" />
+          <PathElem desc="org.junit.runners.ParentRunner.run(ParentRunner.java:413)" />
+          <PathElem desc="junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)" />
+          <PathElem desc="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)" />
+          <PathElem desc="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)" />
+          <PathElem desc="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)" />
+        </ThrPart>
+      </Thr>
+    </UnitViol>
+    <UnitViol loc="/com.parasoft:demo/src/test/java/examples/mock/InterpreterTest.java" ln="38" sev="1" auth="pteodor" analyzer="com.parasoft.jtest.unittests.analyzers.UTDataAnalyzer" locRef="72" cat="FAIL" testId="examples.mock.InterpreterTest|+|com.parasoft:demo#InterpreterTest.java#examples.mock.InterpreterTest#testAdd34" lnHash="566763764" urgent="true" goals="1,">
+      <Thr>
+        <ThrPart type="org.opentest4j.AssertionFailedError" msg="org.opentest4j.AssertionFailedError: value is:-1 ==> expected: &lt;true> but was: &lt;false>">
+          <PathElem desc="org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)" />
+          <PathElem desc="org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)" />
+          <PathElem desc="org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)" />
+          <PathElem loc="/com.parasoft:demo/src/test/java/examples/mock/InterpreterTest.java" locRef="72" lnHash="566763764" ln="38" desc="examples.mock.InterpreterTest.testAdd34(InterpreterTest.java:38)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(:-2)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)" />
+          <PathElem desc="java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)" />
+          <PathElem desc="java.base/java.lang.reflect.Method.invoke(Method.java:566)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)" />
+          <PathElem desc="org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)" />
+          <PathElem desc="org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)" />
+          <PathElem desc="org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)" />
+          <PathElem desc="org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)" />
+          <PathElem desc="java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)" />
+          <PathElem desc="java.base/java.lang.Thread.run(Thread.java:834)" />
+        </ThrPart>
+      </Thr>
+    </UnitViol>
+  </ExecViols>
+
+      
+   <ExecutedTestsDetails type="UT">
+      <Total fail="1" total="50" err="1" pass="48" name="Passed / Total" time="0:00:03.616" authErr="1;" authFail="1;">
+         <Project fail="1" total="50" err="1" pass="48" name="com.parasoft:demo" time="0:00:03.616" authErr="1;" id="com.parasoft:demo" authFail="1;">
+            <TestSuite locRef="68" root="true" name="examples.servlets.ExampleServletTest" id="examples.servlets.ExampleServletTest" total="4" pass="4" time="0:00:01.120" authErr="0;" authFail="0;">
+               <Test auth="pteodor" locRef="68" name="testTryThis2" startTime="1663316794147" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis2" startPos="5" startLn="45" endLn="60" endPos="5" status="pass" total="1" pass="1" time="0:00:01.033" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="68" name="testTryThis3" startTime="1663316795181" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis3" startPos="5" startLn="69" endLn="84" endPos="5" status="pass" total="1" pass="1" time="0:00:00.062" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="68" name="testTryThis4" startTime="1663316795244" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis4" startPos="5" startLn="93" endLn="109" endPos="5" status="pass" total="1" pass="1" time="0:00:00.003" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="68" name="testTryThis1" startTime="1663316794124" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis1" startPos="5" startLn="24" endLn="36" endPos="5" status="pass" total="1" pass="1" time="0:00:00.022" authErr="0;" authFail="0;" />
+            </TestSuite>
+            <TestSuite locRef="69" root="true" name="examples.junit.MoneyTest" id="examples.junit.MoneyTest" total="23" pass="23" time="0:00:00.024" authErr="0;" authFail="0;">
+               <Test auth="pteodor" locRef="69" name="testBagNegate" startTime="1663316788067" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagNegate" startPos="5" startLn="76" endLn="82" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="zeroMoniesAreEqualRegardlessOfCurrency" startTime="1663316788057" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#zeroMoniesAreEqualRegardlessOfCurrency" startPos="5" startLn="161" endLn="168" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testBagNotEquals" startTime="1663316788054" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagNotEquals" startPos="5" startLn="123" endLn="128" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testMoneyEquals" startTime="1663316788076" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyEquals" startPos="5" startLn="150" endLn="159" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testSimpleBagAdd" startTime="1663316788061" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleBagAdd" startPos="5" startLn="224" endLn="230" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testPrint" startTime="1663316788058" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testPrint" startPos="5" startLn="210" endLn="214" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testSimpleNegate" startTime="1663316788065" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleNegate" startPos="5" startLn="240" endLn="246" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testMoneyBagEquals" startTime="1663316788071" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyBagEquals" startPos="5" startLn="130" endLn="141" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testBagSubtract" startTime="1663316788055" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagSubtract" startPos="5" startLn="92" endLn="98" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testBagMultiply" startTime="1663316788072" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagMultiply" startPos="5" startLn="53" endLn="61" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="PR111" tag="pr" />
+                  <assoc id="PR112" tag="pr" />
+                  <assoc id="ABC-123" tag="task" />
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testBagSumAdd" startTime="1663316788070" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagSumAdd" startPos="5" startLn="100" endLn="106" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testNormalize4" startTime="1663316788053" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testNormalize4" startPos="5" startLn="202" endLn="208" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testSimplify" startTime="1663316788074" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimplify" startPos="5" startLn="178" endLn="183" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testMoneyHash" startTime="1663316788059" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyHash" startPos="5" startLn="170" endLn="176" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testNormalize3" startTime="1663316788052" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testNormalize3" startPos="5" startLn="193" endLn="200" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testSimpleSubtract" startTime="1663316788036" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleSubtract" startPos="5" startLn="248" endLn="254" endPos="5" status="pass" total="1" pass="1" time="0:00:00.013" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testMixedSimpleAdd" startTime="1663316788077" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMixedSimpleAdd" startPos="5" startLn="115" endLn="121" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testMoneyBagHash" startTime="1663316788066" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyBagHash" startPos="5" startLn="143" endLn="148" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testIsZero" startTime="1663316788075" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testIsZero" startPos="5" startLn="108" endLn="113" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testSimpleMultiply" startTime="1663316788068" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleMultiply" startPos="5" startLn="232" endLn="238" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testSimpleAdd" startTime="1663316788056" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleAdd" startPos="5" startLn="216" endLn="222" endPos="5" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testBagSimpleAdd" startTime="1663316788063" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagSimpleAdd" startPos="5" startLn="84" endLn="90" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+               <Test auth="pteodor" locRef="69" name="testNormalize2" startTime="1663316788050" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testNormalize2" startPos="5" startLn="185" endLn="191" endPos="5" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;">
+                  <assoc id="REQ-1" tag="req" />
+               </Test>
+            </TestSuite>
+            <TestSuite locRef="70" root="true" name="examples.junit.NaiveStringBuilderParameterizedTest" id="examples.junit.NaiveStringBuilderParameterizedTest" total="5" err="1" pass="4" time="0:00:00.017" authErr="1;" authFail="0;">
+               <Test auth="pteodor" locRef="70" name="testAppend" startTime="1663316789001" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" startPos="5" startLn="25" endLn="37" endPos="5" status="err" total="5" err="1" pass="4" time="0:00:00.017" authErr="1;" authFail="0;">
+                  <TestCase auth="pteodor" name="testAppend( , 01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890) [0]" startTime="1663316789001" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend( , 01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890) [0]" status="pass" total="1" pass="1" time="0:00:00.010" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testAppend(01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890, null) [3]" startTime="1663316789015" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890, null) [3]" status="err" total="1" err="1" time="0:00:00.006" authErr="1;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testAppend(hello world,  ) [2]" startTime="1663316789014" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(hello world,  ) [2]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testAppend(null, ) [4]" startTime="1663316789023" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(null, ) [4]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testAppend(, hello world) [1]" startTime="1663316789012" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(, hello world) [1]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               </Test>
+            </TestSuite>
+            <TestSuite locRef="71" root="true" name="examples.junit.MoneyBagParameterizedTest" id="examples.junit.MoneyBagParameterizedTest" total="15" pass="15" time="0:00:00.029" authErr="0;" authFail="0;">
+               <Test auth="pteodor" locRef="71" name="testMultiply" startTime="1663316787063" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" startPos="5" startLn="33" endLn="49" endPos="5" status="pass" total="15" pass="15" time="0:00:00.029" authErr="0;" authFail="0;">
+                  <TestCase auth="pteodor" name="testMultiply[Run 4: factor=0]" startTime="1663316787095" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 4: factor=0]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 1: factor=0]" startTime="1663316787088" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 1: factor=0]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 5: factor=1]" startTime="1663316787097" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 5: factor=1]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 3: factor=0]" startTime="1663316787093" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 3: factor=0]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 2: factor=0]" startTime="1663316787090" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 2: factor=0]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 9: factor=1]" startTime="1663316787108" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 9: factor=1]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 6: factor=1]" startTime="1663316787100" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 6: factor=1]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 0: factor=0]" startTime="1663316787063" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 0: factor=0]" status="pass" total="1" pass="1" time="0:00:00.022" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 8: factor=1]" startTime="1663316787106" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 8: factor=1]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 13: factor=13]" startTime="1663316787117" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 13: factor=13]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 11: factor=13]" startTime="1663316787113" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 11: factor=13]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 12: factor=13]" startTime="1663316787115" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 12: factor=13]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 10: factor=13]" startTime="1663316787110" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 10: factor=13]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 14: factor=13]" startTime="1663316787119" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 14: factor=13]" status="pass" total="1" pass="1" time="0:00:00.000" authErr="0;" authFail="0;" />
+                  <TestCase auth="pteodor" name="testMultiply[Run 7: factor=1]" startTime="1663316787103" testId="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 7: factor=1]" status="pass" total="1" pass="1" time="0:00:00.001" authErr="0;" authFail="0;" />
+               </Test>
+            </TestSuite>
+            <TestSuite locRef="72" root="true" name="examples.mock.InterpreterTest" id="examples.mock.InterpreterTest" fail="1" total="1" time="0:00:01.119" authErr="0;" authFail="1;">
+               <Test auth="pteodor" locRef="72" name="testAdd34" startTime="1663316792105" id="examples.mock.InterpreterTest|+|com.parasoft:demo#InterpreterTest.java#examples.mock.InterpreterTest#testAdd34" startPos="5" startLn="26" endLn="43" endPos="5" status="fail" fail="1" total="1" time="0:00:01.119" authErr="0;" authFail="1;" />
+            </TestSuite>
+            <TestSuite locRef="73" root="true" name="examples.mock.FileExampleTest" id="examples.mock.FileExampleTest" total="2" pass="2" time="0:00:01.307" authErr="0;" authFail="0;">
+               <Test auth="pteodor" locRef="73" name="testAnalyze" startTime="1663316789901" id="examples.mock.FileExampleTest|+|com.parasoft:demo#FileExampleTest.java#examples.mock.FileExampleTest#testAnalyze" startPos="2" startLn="26" endLn="38" endPos="5" status="pass" total="1" pass="1" time="0:00:01.152" authErr="0;" authFail="0;" />
+               <Test auth="pteodor" locRef="73" name="testIsOversize" startTime="1663316791054" id="examples.mock.FileExampleTest|+|com.parasoft:demo#FileExampleTest.java#examples.mock.FileExampleTest#testIsOversize" startPos="2" startLn="55" endLn="65" endPos="2" status="pass" total="1" pass="1" time="0:00:00.155" authErr="0;" authFail="0;" />
+            </TestSuite>
+         </Project>
+      </Total>
+   </ExecutedTestsDetails>
+
+      
+  <FuncTestDetails />
+      <Coverage>
+         <Types>
+            <CvgType cvgDecor="Marker" dispCvg="executable lines" dispId="Line" dispName="Line Coverage" dispNoCvg="no executable lines" id="LC" />
+         </Types>
+         <CvgStats>
+            <CvgInfo elem="Total" exp="1" num="140" total="1496" val="9">
+               <CvgInfo elem="com.parasoft:demo" exp="1" num="140" total="1496" val="9">
+                  <CvgInfo elem="src/main/java/examples" exp="1" num="140" total="1496" val="9">
+                     <CvgInfo elem="eval" exp="1" num="0" total="10" val="0">
+                        <CvgInfo elem="Simple.java" num="0" total="10" val="0">
+                           <CvgInfo elem="Simple" num="0" total="10" val="0">
+                              <CvgInfo elem="Simple()" num="0" total="1" val="0" />
+                              <CvgInfo elem="map( int )" num="0" total="5" val="0" />
+                              <CvgInfo elem="startsWith( java.lang.String, java.lang.String )" num="0" total="4" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                     <CvgInfo elem="flowanalysis" exp="1" num="0" total="493" val="0">
+                        <CvgInfo elem="np" exp="1" num="0" total="83" val="0">
+                           <CvgInfo elem="DatabaseObject.java" num="0" total="30" val="0">
+                              <CvgInfo elem="DatabaseObject" num="0" total="30" val="0">
+                                 <CvgInfo elem="DatabaseObject()" num="0" total="2" val="0" />
+                                 <CvgInfo elem="close( java.sql.ResultSet )" num="0" total="6" val="0" />
+                                 <CvgInfo elem="close( java.sql.Statement )" num="0" total="6" val="0" />
+                                 <CvgInfo elem="getClassName()" num="0" total="1" val="0" />
+                                 <CvgInfo elem="getOID()" num="0" total="1" val="0" />
+                                 <CvgInfo elem="getObjectFromDatabase( java.sql.Connection, java.lang.String, java.lang.String )" num="0" total="14" val="0" />
+                              </CvgInfo>
+                           </CvgInfo>
+                           <CvgInfo elem="ExtendedNullPointer.java" num="0" total="25" val="0">
+                              <CvgInfo elem="ExtendedNullPointer" num="0" total="25" val="0">
+                                 <CvgInfo elem="ExtendedNullPointer()" num="0" total="3" val="0" />
+                                 <CvgInfo elem="close( java.io.Reader )" num="0" total="6" val="0" />
+                                 <CvgInfo elem="getCountry( java.lang.String, boolean )" num="0" total="4" val="0" />
+                                 <CvgInfo elem="getCurrentCountryName()" num="0" total="2" val="0" />
+                                 <CvgInfo elem="getLineLength()" num="0" total="10" val="0" />
+                              </CvgInfo>
+                           </CvgInfo>
+                           <CvgInfo elem="MessageFormatter.java" num="0" total="5" val="0">
+                              <CvgInfo elem="MessageFormatter" num="0" total="5" val="0">
+                                 <CvgInfo elem="MessageFormatter()" num="0" total="1" val="0" />
+                                 <CvgInfo elem="printMessage( examples.flowanalysis.np.DatabaseObject )" num="0" total="2" val="0" />
+                                 <CvgInfo elem="printMessage( java.lang.Object, java.lang.Object )" num="0" total="2" val="0" />
+                              </CvgInfo>
+                           </CvgInfo>
+                           <CvgInfo elem="MyDictionary.java" num="0" total="8" val="0">
+                              <CvgInfo elem="MyDictionary" num="0" total="8" val="0">
+                                 <CvgInfo elem="MyDictionary()" num="0" total="2" val="0" />
+                                 <CvgInfo elem="getFromDictionary( java.lang.Object )" num="0" total="1" val="0" />
+                                 <CvgInfo elem="putToDictionary( java.lang.Object, java.lang.Object )" num="0" total="5" val="0" />
+                              </CvgInfo>
+                           </CvgInfo>
+                           <CvgInfo elem="NullPointer.java" num="0" total="15" val="0">
+                              <CvgInfo elem="NullPointer" num="0" total="15" val="0">
+                                 <CvgInfo elem="NullPointer()" num="0" total="2" val="0" />
+                                 <CvgInfo elem="close( java.io.Reader )" num="0" total="4" val="0" />
+                                 <CvgInfo elem="getLineLength()" num="0" total="9" val="0" />
+                              </CvgInfo>
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="AlwaysCloseGSS.java" num="0" total="19" val="0">
+                           <CvgInfo elem="AlwaysCloseGSS" num="0" total="19" val="0">
+                              <CvgInfo elem="AlwaysCloseGSS()" num="0" total="1" val="0" />
+                              <CvgInfo elem="process( byte[] )" num="0" total="6" val="0" />
+                              <CvgInfo elem="processClose( byte[] )" num="0" total="12" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="AlwaysCloseImages.java" num="0" total="17" val="0">
+                           <CvgInfo elem="AlwaysCloseImages" num="0" total="17" val="0">
+                              <CvgInfo elem="AlwaysCloseImages()" num="0" total="1" val="0" />
+                              <CvgInfo elem="readImage( javax.imageio.spi.ImageReaderSpi )" num="0" total="7" val="0" />
+                              <CvgInfo elem="readImageClose( javax.imageio.spi.ImageReaderSpi )" num="0" total="9" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="AlwaysCloseLogging.java" num="0" total="12" val="0">
+                           <CvgInfo elem="AlwaysCloseLogging" num="0" total="12" val="0">
+                              <CvgInfo elem="AlwaysCloseLogging()" num="0" total="1" val="0" />
+                              <CvgInfo elem="log( java.util.logging.Level, java.lang.String )" num="0" total="4" val="0" />
+                              <CvgInfo elem="logClose( java.util.logging.Level, java.lang.String )" num="0" total="7" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="AlwaysCloseNIOChannels.java" num="0" total="22" val="0">
+                           <CvgInfo elem="AlwaysCloseNIOChannels" num="0" total="22" val="0">
+                              <CvgInfo elem="AlwaysCloseNIOChannels()" num="0" total="1" val="0" />
+                              <CvgInfo elem="process( java.lang.String )" num="0" total="8" val="0" />
+                              <CvgInfo elem="processClose( java.lang.String )" num="0" total="13" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="AlwaysCloseRAFs.java" num="0" total="24" val="0">
+                           <CvgInfo elem="AlwaysCloseRAFs" num="0" total="24" val="0">
+                              <CvgInfo elem="AlwaysCloseRAFs()" num="0" total="1" val="0" />
+                              <CvgInfo elem="read( java.lang.String, java.lang.String, int )" num="0" total="9" val="0" />
+                              <CvgInfo elem="readClose( java.lang.String, java.lang.String, int )" num="0" total="14" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="AlwaysCloseSockets.java" num="0" total="16" val="0">
+                           <CvgInfo elem="AlwaysCloseSockets" num="0" total="16" val="0">
+                              <CvgInfo elem="AlwaysCloseSockets()" num="0" total="1" val="0" />
+                              <CvgInfo elem="connectClient( java.net.ServerSocket )" num="0" total="5" val="0" />
+                              <CvgInfo elem="connectClientClose( java.net.ServerSocket )" num="0" total="10" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="AlwaysCloseXMLEncDec.java" num="0" total="41" val="0">
+                           <CvgInfo elem="AlwaysCloseXMLEncDec" num="0" total="41" val="0">
+                              <CvgInfo elem="AlwaysCloseXMLEncDec()" num="0" total="1" val="0" />
+                              <CvgInfo elem="read( java.io.InputStream )" num="0" total="11" val="0" />
+                              <CvgInfo elem="readClose( java.io.InputStream )" num="0" total="13" val="0" />
+                              <CvgInfo elem="store( java.io.OutputStream, java.lang.Object[] )" num="0" total="7" val="0" />
+                              <CvgInfo elem="storeClose( java.io.OutputStream, java.lang.Object[] )" num="0" total="9" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="DereferenceBeforeNullCheck.java" num="0" total="20" val="0">
+                           <CvgInfo elem="DereferenceBeforeNullCheck" num="0" total="20" val="0">
+                              <CvgInfo elem="DereferenceBeforeNullCheck()" num="0" total="1" val="0" />
+                              <CvgInfo elem="closeReader( java.io.Reader )" num="0" total="6" val="0" />
+                              <CvgInfo elem="readFirstLine( java.lang.String )" num="0" total="13" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="DivisionByZero.java" num="0" total="30" val="0">
+                           <CvgInfo elem="DivisionByZero" num="0" total="30" val="0">
+                              <CvgInfo elem="DivisionByZero$Consumer" num="0" total="9" val="0">
+                                 <CvgInfo elem="DivisionByZero$Consumer( examples.flowanalysis.DivisionByZero )" num="0" total="3" val="0" />
+                                 <CvgInfo elem="getOverallSum()" num="0" total="1" val="0" />
+                                 <CvgInfo elem="getPersonalDiscountCoefficient()" num="0" total="1" val="0" />
+                                 <CvgInfo elem="setOverallSum( float )" num="0" total="2" val="0" />
+                                 <CvgInfo elem="setPersonalDiscountCoefficient( float )" num="0" total="2" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="DivisionByZero()" num="0" total="1" val="0" />
+                              <CvgInfo elem="calculateCommonDiscountedSum( float )" num="0" total="6" val="0" />
+                              <CvgInfo elem="calculateDiscountedSum( int, float, examples.flowanalysis.DivisionByZero$Consumer )" num="0" total="13" val="0" />
+                              <CvgInfo elem="getSpecialOfferDiscountCoefficient()" num="0" total="1" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="FilesInjection.java" num="0" total="12" val="0">
+                           <CvgInfo elem="FilesInjection" num="0" total="12" val="0">
+                              <CvgInfo elem="FilesInjection()" num="0" total="1" val="0" />
+                              <CvgInfo elem="fileNameContentsInjection( javax.servlet.http.HttpServletRequest )" num="0" total="4" val="0" />
+                              <CvgInfo elem="store( java.lang.String, java.lang.String )" num="0" total="7" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="IncorrectIteratorUsage.java" num="0" total="17" val="0">
+                           <CvgInfo elem="IncorrectIteratorUsage" num="0" total="17" val="0">
+                              <CvgInfo elem="IncorrectIteratorUsage()" num="0" total="1" val="0" />
+                              <CvgInfo elem="removeAllElementsCorrect( java.util.HashSet, java.lang.Class )" num="0" total="8" val="0" />
+                              <CvgInfo elem="removeAllElementsIncorrect( java.util.HashSet, java.lang.Class )" num="0" total="8" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="InefficientCollectionRemoval.java" num="0" total="11" val="0">
+                           <CvgInfo elem="InefficientCollectionRemoval" num="0" total="11" val="0">
+                              <CvgInfo elem="InefficientCollectionRemoval()" num="0" total="1" val="0" />
+                              <CvgInfo elem="effectiveRemoval( java.util.Collection )" num="0" total="4" val="0" />
+                              <CvgInfo elem="inefficientRemoval( java.util.Collection )" num="0" total="6" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="InefficientMapRemoval.java" num="0" total="22" val="0">
+                           <CvgInfo elem="InefficientMapRemoval" num="0" total="22" val="0">
+                              <CvgInfo elem="InefficientMapRemoval()" num="0" total="1" val="0" />
+                              <CvgInfo elem="effectiveRemoval( java.util.Map )" num="0" total="4" val="0" />
+                              <CvgInfo elem="effectiveRemovalKeySet( java.util.Map )" num="0" total="4" val="0" />
+                              <CvgInfo elem="inefficientRemoval( java.util.Map )" num="0" total="6" val="0" />
+                              <CvgInfo elem="inefficientRemovalEntry( java.util.Map )" num="0" total="7" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="InefficientMapUsage.java" num="0" total="14" val="0">
+                           <CvgInfo elem="InefficientMapUsage" num="0" total="14" val="0">
+                              <CvgInfo elem="InefficientMapUsage()" num="0" total="1" val="0" />
+                              <CvgInfo elem="effectiveIteration( java.util.Map )" num="0" total="7" val="0" />
+                              <CvgInfo elem="inefficientIteration( java.util.Map )" num="0" total="6" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="SQLInjection.java" num="0" total="26" val="0">
+                           <CvgInfo elem="SQLInjection" num="0" total="26" val="0">
+                              <CvgInfo elem="SQLInjection()" num="0" total="1" val="0" />
+                              <CvgInfo elem="auth( javax.servlet.http.HttpServletRequest, java.sql.Connection )" num="0" total="13" val="0" />
+                              <CvgInfo elem="close( java.sql.ResultSet )" num="0" total="6" val="0" />
+                              <CvgInfo elem="close( java.sql.Statement )" num="0" total="6" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="SystemInjection.java" num="0" total="15" val="0">
+                           <CvgInfo elem="SystemInjection" num="0" total="15" val="0">
+                              <CvgInfo elem="SystemInjection()" num="0" total="2" val="0" />
+                              <CvgInfo elem="environmentInjection()" num="0" total="3" val="0" />
+                              <CvgInfo elem="execInjection()" num="0" total="3" val="0" />
+                              <CvgInfo elem="getData( java.lang.String )" num="0" total="1" val="0" />
+                              <CvgInfo elem="libraryInjection()" num="0" total="3" val="0" />
+                              <CvgInfo elem="reflectionInjection()" num="0" total="3" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="UnreachableCode.java" num="0" total="25" val="0">
+                           <CvgInfo elem="UnreachableCode" num="0" total="25" val="0">
+                              <CvgInfo elem="UnreachableCode()" num="0" total="1" val="0" />
+                              <CvgInfo elem="guessFigure( boolean, boolean )" num="0" total="18" val="0" />
+                              <CvgInfo elem="printCalculationResult( java.lang.Object )" num="0" total="6" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="UseBeforeInConstructorInitialization.java" num="0" total="13" val="0">
+                           <CvgInfo elem="UseBeforeInConstructorInitialization" num="0" total="13" val="0">
+                              <CvgInfo elem="UseBeforeInConstructorInitialization$RestrictedUser" num="0" total="6" val="0">
+                                 <CvgInfo elem="UseBeforeInConstructorInitialization$RestrictedUser( java.lang.String, java.lang.String )" num="0" total="3" val="0" />
+                                 <CvgInfo elem="checkData()" num="0" total="3" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="UseBeforeInConstructorInitialization$User" num="0" total="6" val="0">
+                                 <CvgInfo elem="UseBeforeInConstructorInitialization$User( java.lang.String, java.lang.String )" num="0" total="5" val="0" />
+                                 <CvgInfo elem="checkData()" num="0" total="1" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="UseBeforeInConstructorInitialization()" num="0" total="1" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="UseBeforeInitialization.java" num="0" total="27" val="0">
+                           <CvgInfo elem="UseBeforeInitialization" num="0" total="27" val="0">
+                              <CvgInfo elem="UseBeforeInitialization$ValueStorage" num="0" total="4" val="0">
+                                 <CvgInfo elem="UseBeforeInitialization$ValueStorage( examples.flowanalysis.UseBeforeInitialization )" num="0" total="1" val="0" />
+                                 <CvgInfo elem="getValue()" num="0" total="1" val="0" />
+                                 <CvgInfo elem="setValue( java.lang.Object )" num="0" total="2" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="UseBeforeInitialization()" num="0" total="1" val="0" />
+                              <CvgInfo elem="close( java.io.InputStream )" num="0" total="3" val="0" />
+                              <CvgInfo elem="process( java.lang.String )" num="0" total="19" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="WebApplication.java" num="0" total="19" val="0">
+                           <CvgInfo elem="WebApplication" num="0" total="19" val="0">
+                              <CvgInfo elem="WebApplication()" num="0" total="1" val="0" />
+                              <CvgInfo elem="addFooter( javax.servlet.ServletOutputStream )" num="0" total="3" val="0" />
+                              <CvgInfo elem="addHeader( javax.servlet.ServletOutputStream )" num="0" total="4" val="0" />
+                              <CvgInfo elem="doGet( javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse )" num="0" total="9" val="0" />
+                              <CvgInfo elem="doPost( javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse )" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="XMLInjection.java" num="0" total="8" val="0">
+                           <CvgInfo elem="XMLInjection" num="0" total="8" val="0">
+                              <CvgInfo elem="XMLInjection()" num="0" total="1" val="0" />
+                              <CvgInfo elem="createXMLDocumentAndStoreData( org.w3c.dom.Document, java.lang.String, java.lang.String, java.lang.String, java.lang.String )" num="0" total="7" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                     <CvgInfo elem="junit" exp="1" num="101" total="148" val="68">
+                        <CvgInfo elem="ChoosingConstructor.java" num="0" total="24" val="0">
+                           <CvgInfo elem="ChoosingConstructor" num="0" total="24" val="0">
+                              <CvgInfo elem="ChoosingConstructor( java.io.InputStream )" num="0" total="2" val="0" />
+                              <CvgInfo elem="ChoosingConstructor( java.io.OutputStream )" num="0" total="2" val="0" />
+                              <CvgInfo elem="ChoosingConstructor( java.lang.Readable )" num="0" total="3" val="0" />
+                              <CvgInfo elem="ChoosingConstructor( java.lang.Readable, java.io.InputStream, java.io.OutputStream )" num="0" total="5" val="0" />
+                              <CvgInfo elem="ChoosingConstructor()" num="0" total="2" val="0" />
+                              <CvgInfo elem="getFromStream()" num="0" total="2" val="0" />
+                              <CvgInfo elem="performAction()" num="0" total="4" val="0" />
+                              <CvgInfo elem="putToStream()" num="0" total="2" val="0" />
+                              <CvgInfo elem="read()" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="CustomMoney.java" num="0" total="4" val="0">
+                           <CvgInfo elem="CustomMoney" num="0" total="4" val="0">
+                              <CvgInfo elem="CustomMoney( int, java.lang.String )" num="0" total="2" val="0" />
+                              <CvgInfo elem="changeCurrency( java.lang.String )" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="IntegerComparator.java" num="0" total="3" val="0">
+                           <CvgInfo elem="IntegerComparator" num="0" total="3" val="0">
+                              <CvgInfo elem="IntegerComparator()" num="0" total="2" val="0" />
+                              <CvgInfo elem="isGreater( int, int )" num="0" total="1" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="Money.java" num="30" total="30" val="100">
+                           <CvgInfo elem="Money" num="30" total="30" val="100">
+                              <CvgInfo elem="Money( int, java.lang.String )" num="4" total="4" val="100" />
+                              <CvgInfo elem="add( examples.junit.IMoney )" num="1" total="1" val="100" />
+                              <CvgInfo elem="addMoney( examples.junit.Money )" num="3" total="3" val="100" />
+                              <CvgInfo elem="addMoneyBag( examples.junit.MoneyBag )" num="1" total="1" val="100" />
+                              <CvgInfo elem="amount()" num="1" total="1" val="100" />
+                              <CvgInfo elem="appendTo( examples.junit.MoneyBag )" num="2" total="2" val="100" />
+                              <CvgInfo elem="currency()" num="1" total="1" val="100" />
+                              <CvgInfo elem="equals( java.lang.Object )" num="7" total="7" val="100" />
+                              <CvgInfo elem="hashCode()" num="3" total="3" val="100" />
+                              <CvgInfo elem="isZero()" num="1" total="1" val="100" />
+                              <CvgInfo elem="multiply( int )" num="1" total="1" val="100" />
+                              <CvgInfo elem="negate()" num="1" total="1" val="100" />
+                              <CvgInfo elem="subtract( examples.junit.IMoney )" num="1" total="1" val="100" />
+                              <CvgInfo elem="toString()" num="3" total="3" val="100" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="MoneyBag.java" num="63" total="70" val="90">
+                           <CvgInfo elem="MoneyBag" num="63" total="70" val="90">
+                              <CvgInfo elem="MoneyBag()" num="2" total="2" val="100" />
+                              <CvgInfo elem="add( examples.junit.IMoney )" num="1" total="1" val="100" />
+                              <CvgInfo elem="addMoney( examples.junit.Money )" num="1" total="1" val="100" />
+                              <CvgInfo elem="addMoneyBag( examples.junit.MoneyBag )" num="1" total="1" val="100" />
+                              <CvgInfo elem="appendBag( examples.junit.MoneyBag )" num="3" total="3" val="100" />
+                              <CvgInfo elem="appendMoney( examples.junit.Money )" num="12" total="12" val="100" />
+                              <CvgInfo elem="appendTo( examples.junit.MoneyBag )" num="2" total="2" val="100" />
+                              <CvgInfo elem="contains( examples.junit.Money )" num="4" total="4" val="100" />
+                              <CvgInfo elem="create( examples.junit.IMoney, examples.junit.IMoney )" num="4" total="4" val="100" />
+                              <CvgInfo elem="equals( java.lang.Object )" num="11" total="12" val="92" />
+                              <CvgInfo elem="findMoney( java.lang.String )" num="4" total="4" val="100" />
+                              <CvgInfo elem="hashCode()" num="4" total="4" val="100" />
+                              <CvgInfo elem="isZero()" num="1" total="1" val="100" />
+                              <CvgInfo elem="multiply( int )" num="5" total="5" val="100" />
+                              <CvgInfo elem="negate()" num="4" total="4" val="100" />
+                              <CvgInfo elem="simplify()" num="3" total="3" val="100" />
+                              <CvgInfo elem="subtract( examples.junit.IMoney )" num="1" total="1" val="100" />
+                              <CvgInfo elem="toString()" num="0" total="6" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="NaiveStringBuilder.java" num="8" total="8" val="100">
+                           <CvgInfo elem="NaiveStringBuilder" num="8" total="8" val="100">
+                              <CvgInfo elem="NaiveStringBuilder( java.lang.String )" num="3" total="3" val="100" />
+                              <CvgInfo elem="append( java.lang.String )" num="4" total="4" val="100" />
+                              <CvgInfo elem="createInstance( java.lang.String )" num="1" total="1" val="100" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="SimpleObjectHandler.java" num="0" total="9" val="0">
+                           <CvgInfo elem="SimpleObjectHandler" num="0" total="9" val="0">
+                              <CvgInfo elem="SimpleObjectHandler( java.lang.Object )" num="0" total="3" val="0" />
+                              <CvgInfo elem="getElement()" num="0" total="1" val="0" />
+                              <CvgInfo elem="getList()" num="0" total="2" val="0" />
+                              <CvgInfo elem="getMap()" num="0" total="2" val="0" />
+                              <CvgInfo elem="getString()" num="0" total="1" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                     <CvgInfo elem="metrics" exp="1" num="0" total="27" val="0">
+                        <CvgInfo elem="MetricsExample.java" num="0" total="27" val="0">
+                           <CvgInfo elem="MetricsExample" num="0" total="27" val="0">
+                              <CvgInfo elem="MetricsExample()" num="0" total="1" val="0" />
+                              <CvgInfo elem="collectErrorCodesFromFiles( java.io.File[] )" num="0" total="26" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                     <CvgInfo elem="mock" exp="1" num="24" total="65" val="37">
+                        <CvgInfo elem="CharacterReader.java" num="0" total="24" val="0">
+                           <CvgInfo elem="CharacterReader" num="0" total="24" val="0">
+                              <CvgInfo elem="CharacterReader$1ReadableHandler" num="0" total="4" val="0">
+                                 <CvgInfo elem="CharacterReader$1ReadableHandler( examples.mock.CharacterReader )" num="0" total="1" val="0" />
+                                 <CvgInfo elem="read( java.lang.Readable )" num="0" total="3" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="CharacterReader()" num="0" total="1" val="0" />
+                              <CvgInfo elem="prepareCharBuffer( java.io.Reader )" num="0" total="2" val="0" />
+                              <CvgInfo elem="read( java.io.Reader )" num="0" total="3" val="0" />
+                              <CvgInfo elem="readString( java.io.Reader )" num="0" total="14" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="FileExample.java" num="11" total="15" val="73">
+                           <CvgInfo elem="FileExample" num="11" total="15" val="73">
+                              <CvgInfo elem="FileExample()" num="0" total="1" val="0" />
+                              <CvgInfo elem="analyze( java.io.File )" num="10" total="10" val="100" />
+                              <CvgInfo elem="isOversize( java.lang.String, long )" num="1" total="4" val="25" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="Interpreter.java" num="11" total="14" val="79">
+                           <CvgInfo elem="Interpreter" num="11" total="14" val="79">
+                              <CvgInfo elem="Interpreter( java.io.InputStream )" num="3" total="3" val="100" />
+                              <CvgInfo elem="getNext()" num="8" total="11" val="73" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="MultiSourceCharacterReader.java" num="0" total="9" val="0">
+                           <CvgInfo elem="MultiSourceCharacterReader" num="0" total="9" val="0">
+                              <CvgInfo elem="MultiSourceCharacterReader( java.lang.Readable )" num="0" total="3" val="0" />
+                              <CvgInfo elem="initialize()" num="0" total="2" val="0" />
+                              <CvgInfo elem="performAction( java.nio.CharBuffer )" num="0" total="4" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="PathUtil.java" num="2" total="3" val="67">
+                           <CvgInfo elem="PathUtil" num="2" total="3" val="67">
+                              <CvgInfo elem="PathUtil()" num="0" total="1" val="0" />
+                              <CvgInfo elem="getFileLength( java.lang.String )" num="2" total="2" val="100" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                     <CvgInfo elem="nbank" exp="1" num="0" total="238" val="0">
+                        <CvgInfo elem="AbstractTransaction.java" num="0" total="6" val="0">
+                           <CvgInfo elem="AbstractTransaction" num="0" total="6" val="0">
+                              <CvgInfo elem="AbstractTransaction()" num="0" total="4" val="0" />
+                              <CvgInfo elem="fee()" num="0" total="1" val="0" />
+                              <CvgInfo elem="isTransactionAvailable()" num="0" total="1" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="Account.java" num="0" total="45" val="0">
+                           <CvgInfo elem="Account" num="0" total="45" val="0">
+                              <CvgInfo elem="Account( examples.nbank.Customer, int )" num="0" total="8" val="0" />
+                              <CvgInfo elem="apply( examples.nbank.ITransaction )" num="0" total="3" val="0" />
+                              <CvgInfo elem="class initialization()" num="0" total="1" val="0" />
+                              <CvgInfo elem="getBalance()" num="0" total="1" val="0" />
+                              <CvgInfo elem="getCustomer()" num="0" total="1" val="0" />
+                              <CvgInfo elem="getID()" num="0" total="1" val="0" />
+                              <CvgInfo elem="getStatus()" num="0" total="1" val="0" />
+                              <CvgInfo elem="isOverdrawn( int )" num="0" total="14" val="0" />
+                              <CvgInfo elem="reportToCreditAgency( examples.nbank.ICreditAgency )" num="0" total="3" val="0" />
+                              <CvgInfo elem="setAccountStatus( int )" num="0" total="5" val="0" />
+                              <CvgInfo elem="setBalance( int )" num="0" total="7" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="Bank.java" num="0" total="40" val="0">
+                           <CvgInfo elem="Bank" num="0" total="40" val="0">
+                              <CvgInfo elem="Bank()" num="0" total="4" val="0" />
+                              <CvgInfo elem="addAccount( examples.nbank.Account )" num="0" total="5" val="0" />
+                              <CvgInfo elem="class initialization()" num="0" total="2" val="0" />
+                              <CvgInfo elem="closeAccounts( java.util.List )" num="0" total="7" val="0" />
+                              <CvgInfo elem="endMaintenance()" num="0" total="2" val="0" />
+                              <CvgInfo elem="getAccount( java.lang.String, java.lang.String )" num="0" total="8" val="0" />
+                              <CvgInfo elem="initialize()" num="0" total="7" val="0" />
+                              <CvgInfo elem="isMaintenanceMode()" num="0" total="1" val="0" />
+                              <CvgInfo elem="setAccountsLimit( java.lang.Integer )" num="0" total="2" val="0" />
+                              <CvgInfo elem="startMaintenance()" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="BankState.java" num="0" total="9" val="0">
+                           <CvgInfo elem="BankState" num="0" total="9" val="0">
+                              <CvgInfo elem="BankState()" num="0" total="1" val="0" />
+                              <CvgInfo elem="endMaintenance()" num="0" total="2" val="0" />
+                              <CvgInfo elem="isMaintenanceMode()" num="0" total="4" val="0" />
+                              <CvgInfo elem="startMaintenance()" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="ConnectionException.java" num="0" total="2" val="0">
+                           <CvgInfo elem="ConnectionException" num="0" total="2" val="0">
+                              <CvgInfo elem="ConnectionException( java.lang.String )" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="CreditCard.java" num="0" total="53" val="0">
+                           <CvgInfo elem="CreditCard" num="0" total="53" val="0">
+                              <CvgInfo elem="CreditCard( int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String )" num="0" total="10" val="0" />
+                              <CvgInfo elem="class initialization()" num="0" total="3" val="0" />
+                              <CvgInfo elem="displayStatement()" num="0" total="5" val="0" />
+                              <CvgInfo elem="get_creditCardNumber()" num="0" total="1" val="0" />
+                              <CvgInfo elem="get_currentBalance()" num="0" total="1" val="0" />
+                              <CvgInfo elem="get_customerId()" num="0" total="1" val="0" />
+                              <CvgInfo elem="get_customerName()" num="0" total="1" val="0" />
+                              <CvgInfo elem="get_socialSecurityNumber()" num="0" total="1" val="0" />
+                              <CvgInfo elem="get_zipcode()" num="0" total="1" val="0" />
+                              <CvgInfo elem="makePayment( examples.nbank.Account )" num="0" total="5" val="0" />
+                              <CvgInfo elem="set_creditCardNumber( java.lang.String )" num="0" total="2" val="0" />
+                              <CvgInfo elem="set_currentBalance( int )" num="0" total="2" val="0" />
+                              <CvgInfo elem="set_customerId( java.lang.String )" num="0" total="2" val="0" />
+                              <CvgInfo elem="set_customerName( java.lang.String )" num="0" total="2" val="0" />
+                              <CvgInfo elem="set_socialSecurityNumber( java.lang.String )" num="0" total="2" val="0" />
+                              <CvgInfo elem="set_zipcode( java.lang.String )" num="0" total="2" val="0" />
+                              <CvgInfo elem="validate( int[], java.lang.String )" num="0" total="9" val="0" />
+                              <CvgInfo elem="validate()" num="0" total="3" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="Customer.java" num="0" total="51" val="0">
+                           <CvgInfo elem="Customer" num="0" total="51" val="0">
+                              <CvgInfo elem="Customer( java.lang.String, java.lang.String )" num="0" total="8" val="0" />
+                              <CvgInfo elem="equals( java.lang.Object )" num="0" total="6" val="0" />
+                              <CvgInfo elem="getName()" num="0" total="1" val="0" />
+                              <CvgInfo elem="getSSN()" num="0" total="1" val="0" />
+                              <CvgInfo elem="hashCode()" num="0" total="1" val="0" />
+                              <CvgInfo elem="loadCustomer()" num="0" total="23" val="0" />
+                              <CvgInfo elem="main( java.lang.String[] )" num="0" total="6" val="0" />
+                              <CvgInfo elem="setName( java.lang.String )" num="0" total="2" val="0" />
+                              <CvgInfo elem="setSSN( java.lang.String )" num="0" total="2" val="0" />
+                              <CvgInfo elem="toStrng()" num="0" total="1" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="DepositTransaction.java" num="0" total="7" val="0">
+                           <CvgInfo elem="DepositTransaction" num="0" total="7" val="0">
+                              <CvgInfo elem="DepositTransaction( int )" num="0" total="3" val="0" />
+                              <CvgInfo elem="apply( examples.nbank.Account )" num="0" total="4" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="LogAccountInfo.java" num="0" total="18" val="0">
+                           <CvgInfo elem="LogAccountInfo" num="0" total="18" val="0">
+                              <CvgInfo elem="LogAccountInfo$LoggingThread" num="0" total="13" val="0">
+                                 <CvgInfo elem="LogAccountInfo$LoggingThread( examples.nbank.LogAccountInfo, examples.nbank.Account )" num="0" total="4" val="0" />
+                                 <CvgInfo elem="run()" num="0" total="9" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="LogAccountInfo()" num="0" total="3" val="0" />
+                              <CvgInfo elem="log( examples.nbank.Account )" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="WithdrawalTransaction.java" num="0" total="7" val="0">
+                           <CvgInfo elem="WithdrawalTransaction" num="0" total="7" val="0">
+                              <CvgInfo elem="WithdrawalTransaction( int )" num="0" total="5" val="0" />
+                              <CvgInfo elem="apply( examples.nbank.Account )" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                     <CvgInfo elem="queue" exp="1" num="0" total="33" val="0">
+                        <CvgInfo elem="Queue.java" num="0" total="33" val="0">
+                           <CvgInfo elem="EmptyQueueException" num="0" total="1" val="0">
+                              <CvgInfo elem="EmptyQueueException()" num="0" total="1" val="0" />
+                           </CvgInfo>
+                           <CvgInfo elem="Queue" num="0" total="32" val="0">
+                              <CvgInfo elem="Queue$QueueItem" num="0" total="7" val="0">
+                                 <CvgInfo elem="Queue$QueueItem( examples.queue.Queue, java.lang.String )" num="0" total="3" val="0" />
+                                 <CvgInfo elem="getItem()" num="0" total="1" val="0" />
+                                 <CvgInfo elem="getNext()" num="0" total="1" val="0" />
+                                 <CvgInfo elem="setNext( examples.queue.Queue$QueueItem )" num="0" total="2" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="Queue()" num="0" total="4" val="0" />
+                              <CvgInfo elem="add( java.lang.String )" num="0" total="7" val="0" />
+                              <CvgInfo elem="isEmpty()" num="0" total="1" val="0" />
+                              <CvgInfo elem="remove()" num="0" total="3" val="0" />
+                              <CvgInfo elem="removeAll()" num="0" total="3" val="0" />
+                              <CvgInfo elem="toString()" num="0" total="7" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                     <CvgInfo elem="security" exp="1" num="0" total="28" val="0">
+                        <CvgInfo elem="InputValidation.java" num="0" total="28" val="0">
+                           <CvgInfo elem="InputValidation" num="0" total="28" val="0">
+                              <CvgInfo elem="InputValidation()" num="0" total="1" val="0" />
+                              <CvgInfo elem="authorize( java.lang.String, java.lang.String )" num="0" total="10" val="0" />
+                              <CvgInfo elem="doGet( javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse )" num="0" total="8" val="0" />
+                              <CvgInfo elem="logInvalidLogin( java.lang.String, java.lang.String )" num="0" total="6" val="0" />
+                              <CvgInfo elem="validate( java.lang.String )" num="0" total="3" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                     <CvgInfo elem="servlets" exp="1" num="15" total="20" val="75">
+                        <CvgInfo elem="ExampleServlet.java" num="15" total="20" val="75">
+                           <CvgInfo elem="ExampleServlet" num="15" total="20" val="75">
+                              <CvgInfo elem="ExampleServlet()" num="1" total="1" val="100" />
+                              <CvgInfo elem="doGet( javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse )" num="0" total="5" val="0" />
+                              <CvgInfo elem="tryThis( javax.servlet.ServletContext )" num="14" total="14" val="100" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                     <CvgInfo elem="stackmachine" exp="1" num="0" total="427" val="0">
+                        <CvgInfo elem="AbstractStackMachine.java" num="0" total="26" val="0">
+                           <CvgInfo elem="AbstractStackMachine" num="0" total="26" val="0">
+                              <CvgInfo elem="AbstractStackMachine()" num="0" total="1" val="0" />
+                              <CvgInfo elem="add()" num="0" total="5" val="0" />
+                              <CvgInfo elem="at( int )" num="0" total="1" val="0" />
+                              <CvgInfo elem="divide()" num="0" total="5" val="0" />
+                              <CvgInfo elem="isInteger( java.lang.String )" num="0" total="4" val="0" />
+                              <CvgInfo elem="multiply()" num="0" total="5" val="0" />
+                              <CvgInfo elem="subtract()" num="0" total="5" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="CommandLineStackMachine.java" num="0" total="73" val="0">
+                           <CvgInfo elem="CommandLineStackMachine" num="0" total="73" val="0">
+                              <CvgInfo elem="CommandLineStackMachine()" num="0" total="1" val="0" />
+                              <CvgInfo elem="autoMode( java.lang.String[] )" num="0" total="16" val="0" />
+                              <CvgInfo elem="class initialization()" num="0" total="1" val="0" />
+                              <CvgInfo elem="displayMenu()" num="0" total="9" val="0" />
+                              <CvgInfo elem="getStack()" num="0" total="1" val="0" />
+                              <CvgInfo elem="main( java.lang.String[] )" num="0" total="9" val="0" />
+                              <CvgInfo elem="nextCommand()" num="0" total="6" val="0" />
+                              <CvgInfo elem="printUsage()" num="0" total="9" val="0" />
+                              <CvgInfo elem="processCommand( java.lang.String )" num="0" total="21" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="CustomListRenderer.java" num="0" total="8" val="0">
+                           <CvgInfo elem="CustomListRenderer" num="0" total="8" val="0">
+                              <CvgInfo elem="CustomListRenderer()" num="0" total="2" val="0" />
+                              <CvgInfo elem="paint( java.awt.Graphics )" num="0" total="6" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="FifoStackMachine.java" num="0" total="8" val="0">
+                           <CvgInfo elem="FifoStackMachine" num="0" total="8" val="0">
+                              <CvgInfo elem="FifoStackMachine()" num="0" total="1" val="0" />
+                              <CvgInfo elem="pop()" num="0" total="2" val="0" />
+                              <CvgInfo elem="popInt()" num="0" total="1" val="0" />
+                              <CvgInfo elem="push( java.lang.String )" num="0" total="2" val="0" />
+                              <CvgInfo elem="pushInt( int )" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="LifoStackMachine.java" num="0" total="8" val="0">
+                           <CvgInfo elem="LifoStackMachine" num="0" total="8" val="0">
+                              <CvgInfo elem="LifoStackMachine()" num="0" total="1" val="0" />
+                              <CvgInfo elem="pop()" num="0" total="2" val="0" />
+                              <CvgInfo elem="popInt()" num="0" total="1" val="0" />
+                              <CvgInfo elem="push( java.lang.String )" num="0" total="2" val="0" />
+                              <CvgInfo elem="pushInt( int )" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="RunnableStackMachine.java" num="0" total="245" val="0">
+                           <CvgInfo elem="RunnableStackMachine" num="0" total="245" val="0">
+                              <CvgInfo elem="RunnableStackMachine$AddButton" num="0" total="6" val="0">
+                                 <CvgInfo elem="RunnableStackMachine$AddButton( examples.stackmachine.RunnableStackMachine )" num="0" total="4" val="0" />
+                                 <CvgInfo elem="actionPerformed( java.awt.event.ActionEvent )" num="0" total="2" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="RunnableStackMachine$DivideButton" num="0" total="6" val="0">
+                                 <CvgInfo elem="RunnableStackMachine$DivideButton( examples.stackmachine.RunnableStackMachine )" num="0" total="4" val="0" />
+                                 <CvgInfo elem="actionPerformed( java.awt.event.ActionEvent )" num="0" total="2" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="RunnableStackMachine$FifoRadioButton" num="0" total="9" val="0">
+                                 <CvgInfo elem="RunnableStackMachine$FifoRadioButton( examples.stackmachine.RunnableStackMachine )" num="0" total="5" val="0" />
+                                 <CvgInfo elem="actionPerformed( java.awt.event.ActionEvent )" num="0" total="4" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="RunnableStackMachine$ImageButton" num="0" total="9" val="0">
+                                 <CvgInfo elem="RunnableStackMachine$ImageButton( examples.stackmachine.RunnableStackMachine, java.lang.String, java.lang.String, java.lang.String )" num="0" total="9" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="RunnableStackMachine$LifoRadioButton" num="0" total="10" val="0">
+                                 <CvgInfo elem="RunnableStackMachine$LifoRadioButton( examples.stackmachine.RunnableStackMachine )" num="0" total="6" val="0" />
+                                 <CvgInfo elem="actionPerformed( java.awt.event.ActionEvent )" num="0" total="4" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="RunnableStackMachine$MultiplyButton" num="0" total="6" val="0">
+                                 <CvgInfo elem="RunnableStackMachine$MultiplyButton( examples.stackmachine.RunnableStackMachine )" num="0" total="4" val="0" />
+                                 <CvgInfo elem="actionPerformed( java.awt.event.ActionEvent )" num="0" total="2" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="RunnableStackMachine$PopButton" num="0" total="6" val="0">
+                                 <CvgInfo elem="RunnableStackMachine$PopButton( examples.stackmachine.RunnableStackMachine )" num="0" total="4" val="0" />
+                                 <CvgInfo elem="actionPerformed( java.awt.event.ActionEvent )" num="0" total="2" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="RunnableStackMachine$PushButton" num="0" total="6" val="0">
+                                 <CvgInfo elem="RunnableStackMachine$PushButton( examples.stackmachine.RunnableStackMachine )" num="0" total="4" val="0" />
+                                 <CvgInfo elem="actionPerformed( java.awt.event.ActionEvent )" num="0" total="2" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="RunnableStackMachine$PushTextField" num="0" total="7" val="0">
+                                 <CvgInfo elem="RunnableStackMachine$PushTextField( examples.stackmachine.RunnableStackMachine )" num="0" total="4" val="0" />
+                                 <CvgInfo elem="actionPerformed( java.awt.event.ActionEvent )" num="0" total="3" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="RunnableStackMachine$SubtractButton" num="0" total="6" val="0">
+                                 <CvgInfo elem="RunnableStackMachine$SubtractButton( examples.stackmachine.RunnableStackMachine )" num="0" total="4" val="0" />
+                                 <CvgInfo elem="actionPerformed( java.awt.event.ActionEvent )" num="0" total="2" val="0" />
+                              </CvgInfo>
+                              <CvgInfo elem="RunnableStackMachine()" num="0" total="29" val="0" />
+                              <CvgInfo elem="componentHidden( java.awt.event.ComponentEvent )" num="0" total="1" val="0" />
+                              <CvgInfo elem="componentMoved( java.awt.event.ComponentEvent )" num="0" total="1" val="0" />
+                              <CvgInfo elem="componentResized( java.awt.event.ComponentEvent )" num="0" total="2" val="0" />
+                              <CvgInfo elem="componentShown( java.awt.event.ComponentEvent )" num="0" total="1" val="0" />
+                              <CvgInfo elem="createApiPanel()" num="0" total="6" val="0" />
+                              <CvgInfo elem="createInputFieldsPanel()" num="0" total="10" val="0" />
+                              <CvgInfo elem="createInputPanel()" num="0" total="21" val="0" />
+                              <CvgInfo elem="createOperationButtonsPanel()" num="0" total="20" val="0" />
+                              <CvgInfo elem="createPushPanel()" num="0" total="17" val="0" />
+                              <CvgInfo elem="createRadioOptionsPanel()" num="0" total="21" val="0" />
+                              <CvgInfo elem="createStackButtonPanel()" num="0" total="16" val="0" />
+                              <CvgInfo elem="createStackPanel()" num="0" total="17" val="0" />
+                              <CvgInfo elem="main( java.lang.String[] )" num="0" total="4" val="0" />
+                              <CvgInfo elem="windowActivated( java.awt.event.WindowEvent )" num="0" total="1" val="0" />
+                              <CvgInfo elem="windowClosed( java.awt.event.WindowEvent )" num="0" total="1" val="0" />
+                              <CvgInfo elem="windowClosing( java.awt.event.WindowEvent )" num="0" total="2" val="0" />
+                              <CvgInfo elem="windowDeactivated( java.awt.event.WindowEvent )" num="0" total="1" val="0" />
+                              <CvgInfo elem="windowDeiconified( java.awt.event.WindowEvent )" num="0" total="1" val="0" />
+                              <CvgInfo elem="windowIconified( java.awt.event.WindowEvent )" num="0" total="1" val="0" />
+                              <CvgInfo elem="windowOpened( java.awt.event.WindowEvent )" num="0" total="1" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="StackList.java" num="0" total="59" val="0">
+                           <CvgInfo elem="StackList" num="0" total="59" val="0">
+                              <CvgInfo elem="StackList( examples.stackmachine.RunnableStackMachine )" num="0" total="12" val="0" />
+                              <CvgInfo elem="add()" num="0" total="4" val="0" />
+                              <CvgInfo elem="adjustScroll()" num="0" total="16" val="0" />
+                              <CvgInfo elem="divide()" num="0" total="4" val="0" />
+                              <CvgInfo elem="multiply()" num="0" total="4" val="0" />
+                              <CvgInfo elem="pop()" num="0" total="4" val="0" />
+                              <CvgInfo elem="push( java.lang.String )" num="0" total="4" val="0" />
+                              <CvgInfo elem="subtract()" num="0" total="4" val="0" />
+                              <CvgInfo elem="updateModel( boolean )" num="0" total="5" val="0" />
+                              <CvgInfo elem="updateStackSizeLabel()" num="0" total="2" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                     <CvgInfo elem="suppress" exp="1" num="0" total="7" val="0">
+                        <CvgInfo elem="AllFileSuppress.java" num="0" total="6" val="0">
+                           <CvgInfo elem="AllFileSuppress" num="0" total="6" val="0">
+                              <CvgInfo elem="AllFileSuppress()" num="0" total="1" val="0" />
+                              <CvgInfo elem="main( java.lang.String[] )" num="0" total="5" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                        <CvgInfo elem="Example.java" num="0" total="1" val="0">
+                           <CvgInfo elem="Example" num="0" total="1" val="0">
+                              <CvgInfo elem="Example()" num="0" total="1" val="0" />
+                           </CvgInfo>
+                        </CvgInfo>
+                     </CvgInfo>
+                  </CvgInfo>
+               </CvgInfo>
+            </CvgInfo>
+         </CvgStats>
+         
+      </Coverage>
+   </Exec>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

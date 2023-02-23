@@ -1,0 +1,91 @@
+{
+  "eventKind": "START_TEST_PLAN",
+  "classFQName": "examples.mock.InterpreterTest",
+  "listener": "JUnit_4",
+  "legacyReportingName": "examples.mock.InterpreterTest",
+  "displayName": "examples.mock.InterpreterTest",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.mock.InterpreterTest",
+      "listener": "JUnit_4",
+      "methodName": "testAdd34",
+      "legacyReportingName": "testAdd34(examples.mock.InterpreterTest)",
+      "displayName": "testAdd34(examples.mock.InterpreterTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317681348
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317681347
+},{
+  "eventKind": "START_TEST",
+  "classFQName": "examples.mock.InterpreterTest",
+  "listener": "JUnit_4",
+  "methodName": "testAdd34",
+  "legacyReportingName": "testAdd34(examples.mock.InterpreterTest)",
+  "displayName": "testAdd34(examples.mock.InterpreterTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317681377
+},{
+  "eventKind": "FAILURE_TEST",
+  "classFQName": "examples.mock.InterpreterTest",
+  "listener": "JUnit_4",
+  "methodName": "testAdd34",
+  "legacyReportingName": "testAdd34(examples.mock.InterpreterTest)",
+  "displayName": "testAdd34(examples.mock.InterpreterTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "failureResult": {
+    "stackTrace": "org.opentest4j.AssertionFailedError: value is:-1 ==> expected: <true> but was: <false>\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)\r\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)\r\n\tat examples.mock.InterpreterTest.testAdd34(InterpreterTest.java:38)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\r\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n",
+    "state": "ASSERTION_ERROR"
+  },
+  "timestamp": 1663317682524
+},{
+  "eventKind": "FINISH_TEST",
+  "classFQName": "examples.mock.InterpreterTest",
+  "listener": "JUnit_4",
+  "methodName": "testAdd34",
+  "legacyReportingName": "testAdd34(examples.mock.InterpreterTest)",
+  "displayName": "testAdd34(examples.mock.InterpreterTest)",
+  "children": [],
+  "isSuite": false,
+  "isTest": true,
+  "isSubExecution": false,
+  "timestamp": 1663317682525
+},{
+  "eventKind": "FINISH_TEST_PLAN",
+  "classFQName": "examples.mock.InterpreterTest",
+  "listener": "JUnit_4",
+  "legacyReportingName": "examples.mock.InterpreterTest",
+  "displayName": "examples.mock.InterpreterTest",
+  "children": [
+    {
+      "eventKind": "CHILD",
+      "classFQName": "examples.mock.InterpreterTest",
+      "listener": "JUnit_4",
+      "methodName": "testAdd34",
+      "legacyReportingName": "testAdd34(examples.mock.InterpreterTest)",
+      "displayName": "testAdd34(examples.mock.InterpreterTest)",
+      "children": [],
+      "isSuite": false,
+      "isTest": true,
+      "isSubExecution": false,
+      "timestamp": 1663317682526
+    }
+  ],
+  "isSuite": true,
+  "isTest": false,
+  "isSubExecution": false,
+  "timestamp": 1663317682526
+},

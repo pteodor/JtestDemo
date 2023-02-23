@@ -1,0 +1,1507 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Coverage ver="2" toolVer="2022.1.0" execEnv="win32_x86_64" hasViols="false" project="" buildId="2022-09-16" climode="true" toolDispName="Jtest" prjModule="com.parasoft:demo" toolId="jtest" machine="ulfar" tag="demo" time="2022-09-16T10:41:31+02:00" id="1664066470971" lang="en_US" user="pteodor" toolName="DTP Engine for Java">
+	<TestConfig machine="ulfar" pseudoUrl="builtin://Unit Tests" name="Unit Tests" user="pteodor" />
+	<VersionInfos>
+		<VersionInfo id="LC" ver="1" />
+	</VersionInfos>
+	<Repositories />
+	<Locations>
+		<Loc locRef="1" projId="com.parasoft:demo" covId="1500161497" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/DereferenceBeforeNullCheck.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/DereferenceBeforeNullCheck.java" projPath="/com.parasoft:demo" hash="726838777" />
+		<Loc locRef="2" projId="com.parasoft:demo" covId="612924750" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/PathUtil.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/PathUtil.java" projPath="/com.parasoft:demo" hash="922840071" />
+		<Loc locRef="3" projId="com.parasoft:demo" covId="-1649912147" project="com.parasoft:demo" resProjPath="src/main/java/examples/eval/Simple.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/eval/Simple.java" projPath="/com.parasoft:demo" hash="-2121569923" />
+		<Loc locRef="4" projId="com.parasoft:demo" covId="-822599770" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/MoneyBag.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/MoneyBag.java" projPath="/com.parasoft:demo" hash="-113332437" />
+		<Loc locRef="5" projId="com.parasoft:demo" covId="-490338111" project="com.parasoft:demo" resProjPath="src/main/java/examples/suppress/AllFileSuppress.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/suppress/AllFileSuppress.java" projPath="/com.parasoft:demo" hash="-2129128806" />
+		<Loc locRef="6" projId="com.parasoft:demo" covId="1775037425" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/AbstractStackMachine.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/AbstractStackMachine.java" projPath="/com.parasoft:demo" hash="1553680728" />
+		<Loc locRef="7" projId="com.parasoft:demo" covId="-1747271921" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/SystemInjection.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/SystemInjection.java" projPath="/com.parasoft:demo" hash="-152258803" />
+		<Loc locRef="8" projId="com.parasoft:demo" covId="699401627" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/DepositTransaction.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/DepositTransaction.java" projPath="/com.parasoft:demo" hash="-249228641" />
+		<Loc locRef="9" projId="com.parasoft:demo" covId="2012096019" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/MessageFormatter.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/MessageFormatter.java" projPath="/com.parasoft:demo" hash="796982299" />
+		<Loc locRef="10" projId="com.parasoft:demo" covId="-488916111" project="com.parasoft:demo" resProjPath="src/main/java/examples/suppress/Example.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/suppress/Example.java" projPath="/com.parasoft:demo" hash="2004133938" />
+		<Loc locRef="11" projId="com.parasoft:demo" covId="562751628" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ICreditAgency.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ICreditAgency.java" projPath="/com.parasoft:demo" hash="1948271967" />
+		<Loc locRef="12" projId="com.parasoft:demo" covId="-281394042" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/MyDictionary.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/MyDictionary.java" projPath="/com.parasoft:demo" hash="1067996598" />
+		<Loc locRef="13" projId="com.parasoft:demo" covId="823577555,997336061" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/DivisionByZero.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/DivisionByZero.java" projPath="/com.parasoft:demo" hash="-1891737324" />
+		<Loc locRef="14" projId="com.parasoft:demo" covId="-1629748774" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/UnreachableCode.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/UnreachableCode.java" projPath="/com.parasoft:demo" hash="1709312165" />
+		<Loc locRef="15" projId="com.parasoft:demo" covId="-405415710" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseGSS.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseGSS.java" projPath="/com.parasoft:demo" hash="-32679949" />
+		<Loc locRef="16" projId="com.parasoft:demo" covId="-1775877930" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/CommandLineStackMachine.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/CommandLineStackMachine.java" projPath="/com.parasoft:demo" hash="-1581767335" />
+		<Loc locRef="17" projId="com.parasoft:demo" covId="1357966635" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseImages.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseImages.java" projPath="/com.parasoft:demo" hash="1088242968" />
+		<Loc locRef="18" projId="com.parasoft:demo" covId="1613644121" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/AbstractTransaction.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/AbstractTransaction.java" projPath="/com.parasoft:demo" hash="-251506569" />
+		<Loc locRef="19" projId="com.parasoft:demo" covId="-1336554003,-1553175784,-1841694132" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/UseBeforeInConstructorInitialization.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/UseBeforeInConstructorInitialization.java" projPath="/com.parasoft:demo" hash="-635152949" />
+		<Loc locRef="20" projId="com.parasoft:demo" covId="-1530960759" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/CustomListRenderer.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/CustomListRenderer.java" projPath="/com.parasoft:demo" hash="1782082961" />
+		<Loc locRef="21" projId="com.parasoft:demo" covId="664580040" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/FilesInjection.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/FilesInjection.java" projPath="/com.parasoft:demo" hash="686946442" />
+		<Loc locRef="22" projId="com.parasoft:demo" covId="-969062112" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ITransaction.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ITransaction.java" projPath="/com.parasoft:demo" hash="1398902534" />
+		<Loc locRef="23" projId="com.parasoft:demo" covId="-1543762970" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/NullPointer.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/NullPointer.java" projPath="/com.parasoft:demo" hash="-51902665" />
+		<Loc locRef="24" projId="com.parasoft:demo" covId="-141857775" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseLogging.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseLogging.java" projPath="/com.parasoft:demo" hash="-89489575" />
+		<Loc locRef="25" projId="com.parasoft:demo" covId="-204026392,1783378132" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/UseBeforeInitialization.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/UseBeforeInitialization.java" projPath="/com.parasoft:demo" hash="2110246917" />
+		<Loc locRef="26" projId="com.parasoft:demo" covId="302025534" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Account.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Account.java" projPath="/com.parasoft:demo" hash="-2109136904" />
+		<Loc locRef="27" projId="com.parasoft:demo" covId="-793489726,-1899178847" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/LogAccountInfo.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/LogAccountInfo.java" projPath="/com.parasoft:demo" hash="-179143843" />
+		<Loc locRef="28" projId="com.parasoft:demo" covId="-1778416583" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/IncorrectIteratorUsage.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/IncorrectIteratorUsage.java" projPath="/com.parasoft:demo" hash="438092426" />
+		<Loc locRef="29" projId="com.parasoft:demo" covId="1023330399" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/FifoStackMachine.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/FifoStackMachine.java" projPath="/com.parasoft:demo" hash="-726989549" />
+		<Loc locRef="30" projId="com.parasoft:demo" covId="75507444" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/NaiveStringBuilder.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/NaiveStringBuilder.java" projPath="/com.parasoft:demo" hash="1434598914" />
+		<Loc locRef="31" projId="com.parasoft:demo" covId="2121381129" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseNIOChannels.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseNIOChannels.java" projPath="/com.parasoft:demo" hash="1710944294" />
+		<Loc locRef="32" projId="com.parasoft:demo" covId="11112837" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/ChoosingConstructor.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/ChoosingConstructor.java" projPath="/com.parasoft:demo" hash="13842231" />
+		<Loc locRef="33" projId="com.parasoft:demo" covId="-893790044" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Bank.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Bank.java" projPath="/com.parasoft:demo" hash="-1683403269" />
+		<Loc locRef="34" projId="com.parasoft:demo" covId="-493044151" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/WebApplication.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/WebApplication.java" projPath="/com.parasoft:demo" hash="565976681" />
+		<Loc locRef="35" projId="com.parasoft:demo" covId="-1086295100" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/InefficientCollectionRemoval.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/InefficientCollectionRemoval.java" projPath="/com.parasoft:demo" hash="1816383512" />
+		<Loc locRef="36" projId="com.parasoft:demo" covId="1210975969" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/LifoStackMachine.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/LifoStackMachine.java" projPath="/com.parasoft:demo" hash="-1559173645" />
+		<Loc locRef="37" projId="com.parasoft:demo" covId="-838952385" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/SimpleObjectHandler.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/SimpleObjectHandler.java" projPath="/com.parasoft:demo" hash="1554031451" />
+		<Loc locRef="38" projId="com.parasoft:demo" covId="1306327362" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseRAFs.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseRAFs.java" projPath="/com.parasoft:demo" hash="-1842798386" />
+		<Loc locRef="39" projId="com.parasoft:demo" covId="-1048112522" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/CustomMoney.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/CustomMoney.java" projPath="/com.parasoft:demo" hash="1460192582" />
+		<Loc locRef="40" projId="com.parasoft:demo" covId="-1282574582" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/WithdrawalTransaction.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/WithdrawalTransaction.java" projPath="/com.parasoft:demo" hash="-1206559161" />
+		<Loc locRef="41" projId="com.parasoft:demo" covId="-797687865" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/BankState.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/BankState.java" projPath="/com.parasoft:demo" hash="2120971007" />
+		<Loc locRef="42" projId="com.parasoft:demo" covId="1739722953,-137905085,233111947,-610702107,-411604362,-1574480364,1712881510,-467837529,507005732,-1145477600,1685562634" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/RunnableStackMachine.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/RunnableStackMachine.java" projPath="/com.parasoft:demo" hash="-339219917" />
+		<Loc locRef="43" projId="com.parasoft:demo" covId="1595866225" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/XMLInjection.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/XMLInjection.java" projPath="/com.parasoft:demo" hash="-367659159" />
+		<Loc locRef="44" projId="com.parasoft:demo" covId="739176607" project="com.parasoft:demo" resProjPath="src/main/java/examples/metrics/MetricsExample.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/metrics/MetricsExample.java" projPath="/com.parasoft:demo" hash="-1994237948" />
+		<Loc locRef="45" projId="com.parasoft:demo" covId="-72490645" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/InefficientMapRemoval.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/InefficientMapRemoval.java" projPath="/com.parasoft:demo" hash="-417185865" />
+		<Loc locRef="46" projId="com.parasoft:demo" covId="-1510636155,-201384252,898137499" project="com.parasoft:demo" resProjPath="src/main/java/examples/queue/Queue.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/queue/Queue.java" projPath="/com.parasoft:demo" hash="-981357238" />
+		<Loc locRef="47" projId="com.parasoft:demo" covId="1282541445" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/ConnectionException.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/ConnectionException.java" projPath="/com.parasoft:demo" hash="-368683629" />
+		<Loc locRef="48" projId="com.parasoft:demo" covId="1568551366" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/DatabaseObject.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/DatabaseObject.java" projPath="/com.parasoft:demo" hash="635578452" />
+		<Loc locRef="49" projId="com.parasoft:demo" covId="-883157560,222282131" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/CharacterReader.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/CharacterReader.java" projPath="/com.parasoft:demo" hash="1497176251" />
+		<Loc locRef="50" projId="com.parasoft:demo" covId="1333628174" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseSockets.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseSockets.java" projPath="/com.parasoft:demo" hash="-69784133" />
+		<Loc locRef="51" projId="com.parasoft:demo" covId="-433257266" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/InefficientMapUsage.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/InefficientMapUsage.java" projPath="/com.parasoft:demo" hash="-359565455" />
+		<Loc locRef="52" projId="com.parasoft:demo" covId="-54429504" project="com.parasoft:demo" resProjPath="src/main/java/examples/security/InputValidation.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/security/InputValidation.java" projPath="/com.parasoft:demo" hash="-1145404863" />
+		<Loc locRef="53" projId="com.parasoft:demo" covId="-1968338602" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/IMoney.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/IMoney.java" projPath="/com.parasoft:demo" hash="-47973091" />
+		<Loc locRef="54" projId="com.parasoft:demo" covId="1387565339" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/FileExample.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/FileExample.java" projPath="/com.parasoft:demo" hash="1641622182" />
+		<Loc locRef="55" projId="com.parasoft:demo" covId="-454771277" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/np/ExtendedNullPointer.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/np/ExtendedNullPointer.java" projPath="/com.parasoft:demo" hash="1118499003" />
+		<Loc locRef="56" projId="com.parasoft:demo" covId="-968863958" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/CreditCard.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/CreditCard.java" projPath="/com.parasoft:demo" hash="3241407" />
+		<Loc locRef="57" projId="com.parasoft:demo" covId="924092578" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/AlwaysCloseXMLEncDec.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/AlwaysCloseXMLEncDec.java" projPath="/com.parasoft:demo" hash="-1630627415" />
+		<Loc locRef="58" projId="com.parasoft:demo" covId="-1987392546" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/IntegerComparator.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/IntegerComparator.java" projPath="/com.parasoft:demo" hash="1622384320" />
+		<Loc locRef="59" projId="com.parasoft:demo" covId="-427809161" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/StackInterface.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/StackInterface.java" projPath="/com.parasoft:demo" hash="963698942" />
+		<Loc locRef="60" projId="com.parasoft:demo" covId="1876781364" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/Interpreter.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/Interpreter.java" projPath="/com.parasoft:demo" hash="1888280347" />
+		<Loc locRef="61" projId="com.parasoft:demo" covId="1518219991" project="com.parasoft:demo" resProjPath="src/main/java/examples/servlets/ExampleServlet.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/servlets/ExampleServlet.java" projPath="/com.parasoft:demo" hash="-1999350871" />
+		<Loc locRef="62" projId="com.parasoft:demo" covId="1858346945" project="com.parasoft:demo" resProjPath="src/main/java/examples/flowanalysis/SQLInjection.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/flowanalysis/SQLInjection.java" projPath="/com.parasoft:demo" hash="1862789318" />
+		<Loc locRef="63" projId="com.parasoft:demo" covId="712150342" project="com.parasoft:demo" resProjPath="src/main/java/examples/nbank/Customer.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/nbank/Customer.java" projPath="/com.parasoft:demo" hash="2046383933" />
+		<Loc locRef="64" projId="com.parasoft:demo" covId="576143748" project="com.parasoft:demo" resProjPath="src/main/java/examples/mock/MultiSourceCharacterReader.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/mock/MultiSourceCharacterReader.java" projPath="/com.parasoft:demo" hash="-762775565" />
+		<Loc locRef="65" projId="com.parasoft:demo" covId="213226095" project="com.parasoft:demo" resProjPath="src/main/java/examples/stackmachine/StackList.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/stackmachine/StackList.java" projPath="/com.parasoft:demo" hash="-1082942404" />
+		<Loc locRef="66" projId="com.parasoft:demo" covId="803204903" project="com.parasoft:demo" resProjPath="src/main/java/examples/junit/Money.java" uri="file://ulfar/C:/Parasoft/parasoft_jtest_2022.1.0_win32_x86_64/examples/demo/src/main/java/examples/junit/Money.java" projPath="/com.parasoft:demo" hash="-1765121077" />
+	</Locations>
+	<Tests>
+		<Test testRef="1" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 0: factor=0]" />
+		<Test testRef="2" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 10: factor=13]" />
+		<Test testRef="3" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 11: factor=13]" />
+		<Test testRef="4" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 12: factor=13]" />
+		<Test testRef="5" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 13: factor=13]" />
+		<Test testRef="6" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 14: factor=13]" />
+		<Test testRef="7" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 1: factor=0]" />
+		<Test testRef="8" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 2: factor=0]" />
+		<Test testRef="9" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 3: factor=0]" />
+		<Test testRef="10" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 4: factor=0]" />
+		<Test testRef="11" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 5: factor=1]" />
+		<Test testRef="12" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 6: factor=1]" />
+		<Test testRef="13" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 7: factor=1]" />
+		<Test testRef="14" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 8: factor=1]" />
+		<Test testRef="15" id="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply" tCase="examples.junit.MoneyBagParameterizedTest|+|com.parasoft:demo#MoneyBagParameterizedTest.java#examples.junit.MoneyBagParameterizedTest#testMultiply[Run 9: factor=1]" />
+		<Test testRef="16" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagMultiply" />
+		<Test testRef="17" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagNegate" />
+		<Test testRef="18" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagNotEquals" />
+		<Test testRef="19" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagSimpleAdd" />
+		<Test testRef="20" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagSubtract" />
+		<Test testRef="21" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testBagSumAdd" />
+		<Test testRef="22" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testIsZero" />
+		<Test testRef="23" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMixedSimpleAdd" />
+		<Test testRef="24" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyBagEquals" />
+		<Test testRef="25" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyBagHash" />
+		<Test testRef="26" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyEquals" />
+		<Test testRef="27" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testMoneyHash" />
+		<Test testRef="28" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testNormalize2" />
+		<Test testRef="29" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testNormalize3" />
+		<Test testRef="30" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testNormalize4" />
+		<Test testRef="31" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testPrint" />
+		<Test testRef="32" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleAdd" />
+		<Test testRef="33" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleBagAdd" />
+		<Test testRef="34" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleMultiply" />
+		<Test testRef="35" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleNegate" />
+		<Test testRef="36" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimpleSubtract" />
+		<Test testRef="37" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#testSimplify" />
+		<Test testRef="38" id="examples.junit.MoneyTest|+|com.parasoft:demo#MoneyTest.java#examples.junit.MoneyTest#zeroMoniesAreEqualRegardlessOfCurrency" />
+		<Test testRef="39" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" tCase="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend( , 01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890) [0]" />
+		<Test testRef="40" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" tCase="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(, hello world) [1]" />
+		<Test testRef="41" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" tCase="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890, null) [3]" />
+		<Test testRef="42" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" tCase="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(hello world,  ) [2]" />
+		<Test testRef="43" id="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" tCase="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(null, ) [4]" />
+		<Test testRef="44" id="examples.mock.FileExampleTest|+|com.parasoft:demo#FileExampleTest.java#examples.mock.FileExampleTest#testAnalyze" />
+		<Test testRef="45" id="examples.mock.FileExampleTest|+|com.parasoft:demo#FileExampleTest.java#examples.mock.FileExampleTest#testIsOversize" />
+		<Test testRef="46" id="examples.mock.InterpreterTest|+|com.parasoft:demo#InterpreterTest.java#examples.mock.InterpreterTest#testAdd34" />
+		<Test testRef="47" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis1" />
+		<Test testRef="48" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis2" />
+		<Test testRef="49" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis3" />
+		<Test testRef="50" id="examples.servlets.ExampleServletTest|+|com.parasoft:demo#ExampleServletTest.java#examples.servlets.ExampleServletTest#testTryThis4" />
+	</Tests>
+	<CoverageData type="LC">
+		<CvgData locRef="1">
+			<Stats>
+				<Item itemRef="1" id="DereferenceBeforeNullCheck.java#DereferenceBeforeNullCheck" name="DereferenceBeforeNullCheck">
+					<Item itemRef="2" id="DereferenceBeforeNullCheck.java#DereferenceBeforeNullCheck#closeReader#(Ljava/io/Reader;)V" name="closeReader( java.io.Reader )" />
+					<Item itemRef="3" id="DereferenceBeforeNullCheck.java#DereferenceBeforeNullCheck#readFirstLine#(Ljava/lang/String;)Ljava/lang/String;" name="readFirstLine( java.lang.String )" />
+					<Item itemRef="4" id="DereferenceBeforeNullCheck.java#DereferenceBeforeNullCheck#&lt;init>#()V" name="DereferenceBeforeNullCheck()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="44 47 50 51 53 54" hashes="581797843 -1196601077 -2039937235 100324464 1508372605 30537853" />
+				<StatCvg itemRef="3" elems="20 21 23 24 25 29 31 32 34 35 38 39 40" hashes="191709394 -989328207 -1664407388 -1008512868 -641444005 -180413641 972376221 -1003613316 1178724477 -1593537770 -1547852062 1508372605 -1904307238" />
+				<StatCvg itemRef="4" elems="15" hashes="-2139298151" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="2">
+			<Stats>
+				<Item itemRef="1" id="PathUtil.java#PathUtil" name="PathUtil">
+					<Item itemRef="2" id="PathUtil.java#PathUtil#getFileLength#(Ljava/lang/String;)J" name="getFileLength( java.lang.String )" />
+					<Item itemRef="3" id="PathUtil.java#PathUtil#&lt;init>#()V" name="PathUtil()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="15 16" hashes="435681260 361094935" />
+				<StatCvg itemRef="3" elems="12" hashes="-1954391807" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="45" elemRefs="15 16" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="3">
+			<Stats>
+				<Item itemRef="1" id="Simple.java#Simple" name="Simple">
+					<Item itemRef="2" id="Simple.java#Simple#&lt;init>#()V" name="Simple()" />
+					<Item itemRef="3" id="Simple.java#Simple#map#(I)I" name="map( int )" />
+					<Item itemRef="4" id="Simple.java#Simple#startsWith#(Ljava/lang/String;Ljava/lang/String;)Z" name="startsWith( java.lang.String, java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="13" hashes="-1063671316" />
+				<StatCvg itemRef="3" elems="22 24 27 29 31" hashes="2101657198 337657500 207609628 285112390 1941627643" />
+				<StatCvg itemRef="4" elems="63 64 65 66" hashes="-1989293143 1872987476 -1437933464 -1525876355" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="4">
+			<Stats>
+				<Item itemRef="1" id="MoneyBag.java#MoneyBag" name="MoneyBag">
+					<Item itemRef="2" id="MoneyBag.java#MoneyBag#contains#(Lexamples/junit/Money;)Z" name="contains( examples.junit.Money )" />
+					<Item itemRef="3" id="MoneyBag.java#MoneyBag#add#(Lexamples/junit/IMoney;)Lexamples/junit/IMoney;" name="add( examples.junit.IMoney )" />
+					<Item itemRef="4" id="MoneyBag.java#MoneyBag#hashCode#()I" name="hashCode()" />
+					<Item itemRef="5" id="MoneyBag.java#MoneyBag#equals#(Ljava/lang/Object;)Z" name="equals( java.lang.Object )" />
+					<Item itemRef="6" id="MoneyBag.java#MoneyBag#appendMoney#(Lexamples/junit/Money;)V" name="appendMoney( examples.junit.Money )" />
+					<Item itemRef="7" id="MoneyBag.java#MoneyBag#subtract#(Lexamples/junit/IMoney;)Lexamples/junit/IMoney;" name="subtract( examples.junit.IMoney )" />
+					<Item itemRef="8" id="MoneyBag.java#MoneyBag#addMoney#(Lexamples/junit/Money;)Lexamples/junit/IMoney;" name="addMoney( examples.junit.Money )" />
+					<Item itemRef="9" id="MoneyBag.java#MoneyBag#toString#()Ljava/lang/String;" name="toString()" />
+					<Item itemRef="10" id="MoneyBag.java#MoneyBag#create#(Lexamples/junit/IMoney;Lexamples/junit/IMoney;)Lexamples/junit/IMoney;" name="create( examples.junit.IMoney, examples.junit.IMoney )" />
+					<Item itemRef="11" id="MoneyBag.java#MoneyBag#multiply#(I)Lexamples/junit/IMoney;" name="multiply( int )" />
+					<Item itemRef="12" id="MoneyBag.java#MoneyBag#negate#()Lexamples/junit/IMoney;" name="negate()" />
+					<Item itemRef="13" id="MoneyBag.java#MoneyBag#simplify#()Lexamples/junit/IMoney;" name="simplify()" />
+					<Item itemRef="14" id="MoneyBag.java#MoneyBag#&lt;init>#()V" name="MoneyBag()" />
+					<Item itemRef="15" id="MoneyBag.java#MoneyBag#findMoney#(Ljava/lang/String;)Lexamples/junit/Money;" name="findMoney( java.lang.String )" />
+					<Item itemRef="16" id="MoneyBag.java#MoneyBag#isZero#()Z" name="isZero()" />
+					<Item itemRef="17" id="MoneyBag.java#MoneyBag#addMoneyBag#(Lexamples/junit/MoneyBag;)Lexamples/junit/IMoney;" name="addMoneyBag( examples.junit.MoneyBag )" />
+					<Item itemRef="18" id="MoneyBag.java#MoneyBag#appendTo#(Lexamples/junit/MoneyBag;)V" name="appendTo( examples.junit.MoneyBag )" />
+					<Item itemRef="19" id="MoneyBag.java#MoneyBag#appendBag#(Lexamples/junit/MoneyBag;)V" name="appendBag( examples.junit.MoneyBag )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="84 85 86 87" hashes="839944071 172229381 14739560 1684854156" />
+				<StatCvg itemRef="3" elems="28" hashes="-2079654016" />
+				<StatCvg itemRef="4" elems="92 93 94 95" hashes="-1086018129 -2088105684 963702081 -1537466883" />
+				<StatCvg itemRef="5" elems="61 62 63 64 65 66 67 68 69 70 71 73" hashes="1181393 188568557 -966268327 -2062084265 -261050246 846790365 -1437933464 -2049502932 -2122890903 502847592 -817364611 -474288024" />
+				<StatCvg itemRef="6" elems="45 46 47 48 49 50 52 53 54 55 56 57" hashes="1322628268 -1196601077 -210416179 -803811429 472946037 -1196601077 146087538 -1872945434 562209134 -1196601077 1198018585 30537853" />
+				<StatCvg itemRef="7" elems="124" hashes="1694989869" />
+				<StatCvg itemRef="8" elems="32" hashes="1128868859" />
+				<StatCvg itemRef="9" elems="129 130 131 132 133 134" hashes="-761553643 -2081986309 -2088105684 1287488403 -2081926727 -1456469584" />
+				<StatCvg itemRef="10" elems="21 22 23 24" hashes="-44216508 -2023976808 1426518617 -1928486320" />
+				<StatCvg itemRef="11" elems="103 104 105 106 107" hashes="-44216508 1110865073 -2049502932 -351212205 363132110" />
+				<StatCvg itemRef="12" elems="111 112 113 114" hashes="-44216508 -2088105684 -1835385120 363132110" />
+				<StatCvg itemRef="13" elems="118 119 120" hashes="1366624668 1721434165 -1526185363" />
+				<StatCvg itemRef="14" elems="16 18" hashes="1889963241 1529497269" />
+				<StatCvg itemRef="15" elems="77 78 79 80" hashes="-2088105684 -1007878298 -740054166 -1531336540" />
+				<StatCvg itemRef="16" elems="99" hashes="-1455546086" />
+				<StatCvg itemRef="17" elems="36" hashes="-1125923327" />
+				<StatCvg itemRef="18" elems="138 139" hashes="-192012405 30537853" />
+				<StatCvg itemRef="19" elems="40 41 42" hashes="-648733333 -1616045931 30537853" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="13">
+					<CtxCvg testRefs="25 17 20 16 35 38 36 34 31 26 22 19 18 32 23 27 24 21 33" elemRefs="118 120" />
+					<CtxCvg testRefs="37 28 30 29" elemRefs="118 119 120" />
+				</DynCvg>
+				<DynCvg itemRef="11">
+					<CtxCvg testRefs="2 16 4 13 11 15 3 12 6" elemRefs="103 104 105 106 107" />
+					<CtxCvg testRefs="5 14 9" elemRefs="103 104 107" />
+					<CtxCvg testRefs="7 8 10 1" elemRefs="103 104 105 107" />
+				</DynCvg>
+				<DynCvg itemRef="17">
+					<CtxCvg testRefs="22 20 21 29" elemRefs="36" />
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="22" elemRefs="45 46 47 48 49 50 52 53 54 55" />
+					<CtxCvg testRefs="5 14" elemRefs="45 46 47 48 49 50" />
+					<CtxCvg testRefs="7 8 9 10 1" elemRefs="45 46" />
+					<CtxCvg testRefs="29" elemRefs="45 47 48 49 50 52 53 54 55 56 57" />
+					<CtxCvg testRefs="20 21 33 37 19" elemRefs="45 47 48 49 50 52 53 54 56 57" />
+					<CtxCvg testRefs="28 30" elemRefs="45 47 48 49 50 52 53 54 55" />
+					<CtxCvg testRefs="2 16 13 35 38 36 34 15 32 25 17 4 11 31 3 26 18 23 27 24 12 6" elemRefs="45 47 48 49 50" />
+				</DynCvg>
+				<DynCvg itemRef="14">
+					<CtxCvg testRefs="5 14 7 2 20 16 13 8 35 38 36 34 15 32 21 9 33 25 17 37 4 11 10 31 1 3 26 22 19 18 28 23 27 24 12 30 6 29" elemRefs="16 18" />
+				</DynCvg>
+				<DynCvg itemRef="19">
+					<CtxCvg testRefs="22 19 28 20 30 21 33 29" elemRefs="40 41 42" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="25" elemRefs="92 93 94 95" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="22 19 28 20 21 29" elemRefs="28" />
+				</DynCvg>
+				<DynCvg itemRef="10">
+					<CtxCvg testRefs="25 17 37 20 16 35 38 36 34 31 26 22 19 18 28 32 23 27 24 30 21 33 29" elemRefs="21 22 23 24" />
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="5 14 7 8 10 1 9" elemRefs="61 62 63" />
+					<CtxCvg testRefs="24" elemRefs="61 64 65 66 68 69 70 71 73" />
+					<CtxCvg testRefs="17 2 20 16 4 13 11 15 3 19 23 12 21 6 33" elemRefs="61 64 65 66 68 69 71" />
+					<CtxCvg testRefs="18" elemRefs="61 64 65 66 68 69 70" />
+				</DynCvg>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="22 28 20 29" elemRefs="124" />
+				</DynCvg>
+				<DynCvg itemRef="12">
+					<CtxCvg testRefs="17 22 20 30 29" elemRefs="111 112 113 114" />
+				</DynCvg>
+				<DynCvg itemRef="18">
+					<CtxCvg testRefs="22 19 28 20 30 21 33 29" elemRefs="138 139" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="17 2 20 16 4 13 11 15 3 19 23 24 12 21 6 33" elemRefs="84 85 87" />
+					<CtxCvg testRefs="18" elemRefs="84 85 86" />
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="19 28 30 33" elemRefs="32" />
+				</DynCvg>
+				<DynCvg itemRef="15">
+					<CtxCvg testRefs="35 38 36 34 32 25 31 26 18 27" elemRefs="77 78 80" />
+					<CtxCvg testRefs="2 20 16 13 15 21 33 17 37 4 11 3 22 19 28 23 24 12 30 6 29" elemRefs="77 78 79 80" />
+					<CtxCvg testRefs="5 14" elemRefs="77 80" />
+				</DynCvg>
+				<DynCvg itemRef="16">
+					<CtxCvg testRefs="5 14 7 2 20 16 13 8 15 21 9 33 17 4 11 10 1 3 22 19 18 23 24 12 6" elemRefs="99" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="5">
+			<Stats>
+				<Item itemRef="1" id="AllFileSuppress.java#AllFileSuppress" name="AllFileSuppress">
+					<Item itemRef="2" id="AllFileSuppress.java#AllFileSuppress#&lt;init>#()V" name="AllFileSuppress()" />
+					<Item itemRef="3" id="AllFileSuppress.java#AllFileSuppress#main#([Ljava/lang/String;)V" name="main( java.lang.String[] )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="4" hashes="-1631767826" />
+				<StatCvg itemRef="3" elems="7 8 9 10 11" hashes="933442442 1062526122 -1066111800 -1066110839 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="6">
+			<Stats>
+				<Item itemRef="1" id="AbstractStackMachine.java#AbstractStackMachine" name="AbstractStackMachine">
+					<Item itemRef="2" id="AbstractStackMachine.java#AbstractStackMachine#isInteger#(Ljava/lang/String;)Z" name="isInteger( java.lang.String )" />
+					<Item itemRef="3" id="AbstractStackMachine.java#AbstractStackMachine#multiply#()I" name="multiply()" />
+					<Item itemRef="4" id="AbstractStackMachine.java#AbstractStackMachine#&lt;init>#()V" name="AbstractStackMachine()" />
+					<Item itemRef="5" id="AbstractStackMachine.java#AbstractStackMachine#add#()I" name="add()" />
+					<Item itemRef="6" id="AbstractStackMachine.java#AbstractStackMachine#subtract#()I" name="subtract()" />
+					<Item itemRef="7" id="AbstractStackMachine.java#AbstractStackMachine#at#(I)I" name="at( int )" />
+					<Item itemRef="8" id="AbstractStackMachine.java#AbstractStackMachine#divide#()I" name="divide()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="103 104 105 106" hashes="1790161823 -817364611 -1225249488 14739560" />
+				<StatCvg itemRef="3" elems="57 58 59 62 63" hashes="-1831560520 -2124963527 -725951739 -1945062558 363132110" />
+				<StatCvg itemRef="4" elems="11" hashes="595651901" />
+				<StatCvg itemRef="5" elems="23 24 25 26 27" hashes="-1831560520 -2124963527 -697322588 -1945062558 363132110" />
+				<StatCvg itemRef="6" elems="40 41 42 43 44" hashes="-1831560520 -2124963527 -586557893 -1945062558 363132110" />
+				<StatCvg itemRef="7" elems="91" hashes="-964380730" />
+				<StatCvg itemRef="8" elems="76 77 78 79 80" hashes="-1831560520 -2124963527 -582805984 -1945062558 363132110" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="7">
+			<Stats>
+				<Item itemRef="1" id="SystemInjection.java#SystemInjection" name="SystemInjection">
+					<Item itemRef="2" id="SystemInjection.java#SystemInjection#environmentInjection#()V" name="environmentInjection()" />
+					<Item itemRef="3" id="SystemInjection.java#SystemInjection#&lt;init>#()V" name="SystemInjection()" />
+					<Item itemRef="4" id="SystemInjection.java#SystemInjection#execInjection#()V" name="execInjection()" />
+					<Item itemRef="5" id="SystemInjection.java#SystemInjection#libraryInjection#()V" name="libraryInjection()" />
+					<Item itemRef="6" id="SystemInjection.java#SystemInjection#reflectionInjection#()V" name="reflectionInjection()" />
+					<Item itemRef="7" id="SystemInjection.java#SystemInjection#getData#(Ljava/lang/String;)Ljava/lang/String;" name="getData( java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="31 32 33" hashes="1635634366 -1399063460 30537853" />
+				<StatCvg itemRef="3" elems="8 10" hashes="1622145492 -1241065721" />
+				<StatCvg itemRef="4" elems="22 23 24" hashes="1451955906 1948805676 30537853" />
+				<StatCvg itemRef="5" elems="41 42 43" hashes="-2010188740 -308926192 30537853" />
+				<StatCvg itemRef="6" elems="48 49 50" hashes="-197347714 -1369445572 30537853" />
+				<StatCvg itemRef="7" elems="13" hashes="-881776851" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="8">
+			<Stats>
+				<Item itemRef="1" id="DepositTransaction.java#DepositTransaction" name="DepositTransaction">
+					<Item itemRef="2" id="DepositTransaction.java#DepositTransaction#apply#(Lexamples/nbank/Account;)Z" name="apply( examples.nbank.Account )" />
+					<Item itemRef="3" id="DepositTransaction.java#DepositTransaction#&lt;init>#(I)V" name="DepositTransaction( int )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="15 16 18 20" hashes="-1988199012 1382969797 397299817 -1525876355" />
+				<StatCvg itemRef="3" elems="10 11 12" hashes="1567225130 -235470185 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="9">
+			<Stats>
+				<Item itemRef="1" id="MessageFormatter.java#MessageFormatter" name="MessageFormatter">
+					<Item itemRef="2" id="MessageFormatter.java#MessageFormatter#printMessage#(Ljava/lang/Object;Ljava/lang/Object;)V" name="printMessage( java.lang.Object, java.lang.Object )" />
+					<Item itemRef="3" id="MessageFormatter.java#MessageFormatter#printMessage#(Lexamples/flowanalysis/np/DatabaseObject;)V" name="printMessage( examples.flowanalysis.np.DatabaseObject )" />
+					<Item itemRef="4" id="MessageFormatter.java#MessageFormatter#&lt;init>#()V" name="MessageFormatter()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="13 14" hashes="-568163166 30537853" />
+				<StatCvg itemRef="3" elems="9 10" hashes="2011414693 30537853" />
+				<StatCvg itemRef="4" elems="6" hashes="-1206696515" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="10">
+			<Stats>
+				<Item itemRef="1" id="Example.java#Example" name="Example">
+					<Item itemRef="2" id="Example.java#Example#&lt;init>#()V" name="Example()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="3" hashes="-849193274" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="12">
+			<Stats>
+				<Item itemRef="1" id="MyDictionary.java#MyDictionary" name="MyDictionary">
+					<Item itemRef="2" id="MyDictionary.java#MyDictionary#getFromDictionary#(Ljava/lang/Object;)Ljava/lang/String;" name="getFromDictionary( java.lang.Object )" />
+					<Item itemRef="3" id="MyDictionary.java#MyDictionary#&lt;init>#()V" name="MyDictionary()" />
+					<Item itemRef="4" id="MyDictionary.java#MyDictionary#putToDictionary#(Ljava/lang/Object;Ljava/lang/Object;)V" name="putToDictionary( java.lang.Object, java.lang.Object )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="22" hashes="191066503" />
+				<StatCvg itemRef="3" elems="9 11" hashes="966327388 1424644925" />
+				<StatCvg itemRef="4" elems="14 15 16 18 19" hashes="-1935852018 1183172741 599401111 -1504762512 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="13">
+			<Stats>
+				<Item itemRef="1" id="DivisionByZero.java#DivisionByZero" name="DivisionByZero">
+					<Item itemRef="2" id="DivisionByZero.java#DivisionByZero#&lt;init>#()V" name="DivisionByZero()" />
+					<Item itemRef="3" id="DivisionByZero.java#DivisionByZero#getSpecialOfferDiscountCoefficient#()F" name="getSpecialOfferDiscountCoefficient()" />
+					<Item itemRef="4" id="DivisionByZero.java#DivisionByZero#calculateCommonDiscountedSum#(F)F" name="calculateCommonDiscountedSum( float )" />
+					<Item itemRef="5" id="DivisionByZero.java#DivisionByZero#DivisionByZero$Consumer" name="DivisionByZero$Consumer">
+						<Item itemRef="6" id="DivisionByZero.java#DivisionByZero#DivisionByZero$Consumer#getOverallSum#()F" name="getOverallSum()" />
+						<Item itemRef="7" id="DivisionByZero.java#DivisionByZero#DivisionByZero$Consumer#getPersonalDiscountCoefficient#()F" name="getPersonalDiscountCoefficient()" />
+						<Item itemRef="8" id="DivisionByZero.java#DivisionByZero#DivisionByZero$Consumer#&lt;init>#(Lexamples/flowanalysis/DivisionByZero;)V" name="DivisionByZero$Consumer( examples.flowanalysis.DivisionByZero )" />
+						<Item itemRef="9" id="DivisionByZero.java#DivisionByZero#DivisionByZero$Consumer#setPersonalDiscountCoefficient#(F)V" name="setPersonalDiscountCoefficient( float )" />
+						<Item itemRef="10" id="DivisionByZero.java#DivisionByZero#DivisionByZero$Consumer#setOverallSum#(F)V" name="setOverallSum( float )" />
+					</Item>
+					<Item itemRef="11" id="DivisionByZero.java#DivisionByZero#calculateDiscountedSum#(IFLexamples/flowanalysis/DivisionByZero$Consumer;)F" name="calculateDiscountedSum( int, float, examples.flowanalysis.DivisionByZero$Consumer )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="6" elems="58" hashes="954365038" />
+				<StatCvg itemRef="2" elems="6" hashes="-193399450" />
+				<StatCvg itemRef="3" elems="44" hashes="-2069000223" />
+				<StatCvg itemRef="7" elems="66" hashes="-135165738" />
+				<StatCvg itemRef="4" elems="33 34 35 37 38 40" hashes="1694878475 -167050145 -1903317562 -847108515 -1903314679 -184886784" />
+				<StatCvg itemRef="8" elems="47 49 51" hashes="-1389700455 1263871872 -105492390" />
+				<StatCvg itemRef="11" elems="15 16 17 18 19 21 22 23 24 25 26 28 29" hashes="-1076318677 424308118 2035788877 -1311457596 -1617160313 424308118 203027039 1656749243 2045055159 -1095642192 1040862464 1105188217 -184886784" />
+				<StatCvg itemRef="9" elems="62 63" hashes="-1762505341 1508372605" />
+				<StatCvg itemRef="10" elems="54 55" hashes="1822030139 1508372605" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="14">
+			<Stats>
+				<Item itemRef="1" id="UnreachableCode.java#UnreachableCode" name="UnreachableCode">
+					<Item itemRef="2" id="UnreachableCode.java#UnreachableCode#printCalculationResult#(Ljava/lang/Object;)V" name="printCalculationResult( java.lang.Object )" />
+					<Item itemRef="3" id="UnreachableCode.java#UnreachableCode#&lt;init>#()V" name="UnreachableCode()" />
+					<Item itemRef="4" id="UnreachableCode.java#UnreachableCode#guessFigure#(ZZ)V" name="guessFigure( boolean, boolean )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="9 10 11 13 15 17" hashes="1532976715 711302723 -1443263063 97751814 404167856 30537853" />
+				<StatCvg itemRef="3" elems="6" hashes="1331041661" />
+				<StatCvg itemRef="4" elems="21 22 23 24 25 26 28 30 32 33 35 37 39 40 42 43 45 48" hashes="733119465 -702241041 2035781366 2086335052 834780796 -1168435257 -661725281 552005156 182383146 207609628 645970007 207609628 -55584185 207609628 1995739522 207609628 463322842 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="15">
+			<Stats>
+				<Item itemRef="1" id="AlwaysCloseGSS.java#AlwaysCloseGSS" name="AlwaysCloseGSS">
+					<Item itemRef="2" id="AlwaysCloseGSS.java#AlwaysCloseGSS#processClose#([B)V" name="processClose( byte[] )" />
+					<Item itemRef="3" id="AlwaysCloseGSS.java#AlwaysCloseGSS#&lt;init>#()V" name="AlwaysCloseGSS()" />
+					<Item itemRef="4" id="AlwaysCloseGSS.java#AlwaysCloseGSS#process#([B)V" name="process( byte[] )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="19 21 22 23 25 26 28 29 30 31 32 33" hashes="-1434008792 1900478135 -1084133542 -852100649 2103670358 1266022184 161885014 -1273380230 1175112816 1178724477 1508372605 30537853" />
+				<StatCvg itemRef="3" elems="6" hashes="-1152693928" />
+				<StatCvg itemRef="4" elems="10 11 13 14 15 16" hashes="-1084133542 395283062 2103670358 1266022184 1508372605 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="16">
+			<Stats>
+				<Item itemRef="1" id="CommandLineStackMachine.java#CommandLineStackMachine" name="CommandLineStackMachine">
+					<Item itemRef="2" id="CommandLineStackMachine.java#CommandLineStackMachine#nextCommand#()Ljava/lang/String;" name="nextCommand()" />
+					<Item itemRef="3" id="CommandLineStackMachine.java#CommandLineStackMachine#processCommand#(Ljava/lang/String;)Z" name="processCommand( java.lang.String )" />
+					<Item itemRef="4" id="CommandLineStackMachine.java#CommandLineStackMachine#displayMenu#()V" name="displayMenu()" />
+					<Item itemRef="5" id="CommandLineStackMachine.java#CommandLineStackMachine#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="6" id="CommandLineStackMachine.java#CommandLineStackMachine#autoMode#([Ljava/lang/String;)V" name="autoMode( java.lang.String[] )" />
+					<Item itemRef="7" id="CommandLineStackMachine.java#CommandLineStackMachine#getStack#()Ljava/lang/String;" name="getStack()" />
+					<Item itemRef="8" id="CommandLineStackMachine.java#CommandLineStackMachine#printUsage#()V" name="printUsage()" />
+					<Item itemRef="9" id="CommandLineStackMachine.java#CommandLineStackMachine#main#([Ljava/lang/String;)V" name="main( java.lang.String[] )" />
+					<Item itemRef="10" id="CommandLineStackMachine.java#CommandLineStackMachine#&lt;init>#()V" name="CommandLineStackMachine()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="43 44 46 47 48 49" hashes="585159166 -1516514038 938501982 -1656881970 2094668668 361532841" />
+				<StatCvg itemRef="3" elems="61 62 63 65 66 67 68 69 70 71 72 73 74 75 76 79 80 81 82 83 85" hashes="593890582 -79467494 -817364611 1863558263 -1750065378 -896571647 -1960204575 -1840400777 377192913 1410336158 118921756 1804263292 -1310111890 542923235 1132998265 100329092 1392242740 -181076312 -67372973 1178724477 -474288024" />
+				<StatCvg itemRef="4" elems="18 19 20 21 22 23 24 25 26" hashes="1300419954 883210702 1594507265 965634877 1178584314 1321380252 570670995 1084251376 30537853" />
+				<StatCvg itemRef="5" elems="15" hashes="-380820315" />
+				<StatCvg itemRef="6" elems="112 113 114 115 118 119 120 121 124 126 127 128 129 130 132 133" hashes="703215231 1278069743 -1778176026 -1196601077 -437580380 -1987515317 -1778176026 -1196601077 -2144858711 1551307810 -2020750704 869819890 1039232369 -208574787 1645795027 30537853" />
+				<StatCvg itemRef="7" elems="34" hashes="92730745" />
+				<StatCvg itemRef="8" elems="137 138 139 140 141 142 143 144 146" hashes="-1068539286 1300419954 -1068539286 509958792 -1068539286 -1434727757 -872152814 1078431004 30537853" />
+				<StatCvg itemRef="9" elems="96 97 98 101 104 105 106 107 108" hashes="-1302030890 -740545339 -1196601077 -1141954951 -208574787 -622800119 -368293834 1612078875 30537853" />
+				<StatCvg itemRef="10" elems="13" hashes="-1638081926" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="17">
+			<Stats>
+				<Item itemRef="1" id="AlwaysCloseImages.java#AlwaysCloseImages" name="AlwaysCloseImages">
+					<Item itemRef="2" id="AlwaysCloseImages.java#AlwaysCloseImages#readImageClose#(Ljavax/imageio/spi/ImageReaderSpi;)Ljava/awt/Image;" name="readImageClose( javax.imageio.spi.ImageReaderSpi )" />
+					<Item itemRef="3" id="AlwaysCloseImages.java#AlwaysCloseImages#&lt;init>#()V" name="AlwaysCloseImages()" />
+					<Item itemRef="4" id="AlwaysCloseImages.java#AlwaysCloseImages#readImage#(Ljavax/imageio/spi/ImageReaderSpi;)Ljava/awt/Image;" name="readImage( javax.imageio.spi.ImageReaderSpi )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="23 24 26 27 28 29 31 32 33" hashes="-2075299321 1423331445 379037799 1833758656 100324464 957734862 -281777821 1508372605 -377657552" />
+				<StatCvg itemRef="3" elems="9" hashes="-384530595" />
+				<StatCvg itemRef="4" elems="12 14 15 16 17 18 19" hashes="-2075299321 -442960859 1833758656 100324464 957734862 1508372605 -377657552" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="18">
+			<Stats>
+				<Item itemRef="1" id="AbstractTransaction.java#AbstractTransaction" name="AbstractTransaction">
+					<Item itemRef="2" id="AbstractTransaction.java#AbstractTransaction#isTransactionAvailable#()Ljava/lang/Boolean;" name="isTransactionAvailable()" />
+					<Item itemRef="3" id="AbstractTransaction.java#AbstractTransaction#&lt;init>#()V" name="AbstractTransaction()" />
+					<Item itemRef="4" id="AbstractTransaction.java#AbstractTransaction#fee#()I" name="fee()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="20" hashes="1622313272" />
+				<StatCvg itemRef="3" elems="10 11 12 13" hashes="1793344417 347821559 -2000652401 30537853" />
+				<StatCvg itemRef="4" elems="16" hashes="1941627643" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="19">
+			<Stats>
+				<Item itemRef="1" id="UseBeforeInConstructorInitialization.java#UseBeforeInConstructorInitialization" name="UseBeforeInConstructorInitialization">
+					<Item itemRef="2" id="UseBeforeInConstructorInitialization.java#UseBeforeInConstructorInitialization#&lt;init>#()V" name="UseBeforeInConstructorInitialization()" />
+					<Item itemRef="3" id="UseBeforeInConstructorInitialization.java#UseBeforeInConstructorInitialization#UseBeforeInConstructorInitialization$RestrictedUser" name="UseBeforeInConstructorInitialization$RestrictedUser">
+						<Item itemRef="4" id="UseBeforeInConstructorInitialization.java#UseBeforeInConstructorInitialization#UseBeforeInConstructorInitialization$RestrictedUser#checkData#()V" name="checkData()" />
+						<Item itemRef="5" id="UseBeforeInConstructorInitialization.java#UseBeforeInConstructorInitialization#UseBeforeInConstructorInitialization$RestrictedUser#&lt;init>#(Ljava/lang/String;Ljava/lang/String;)V" name="UseBeforeInConstructorInitialization$RestrictedUser( java.lang.String, java.lang.String )" />
+					</Item>
+					<Item itemRef="6" id="UseBeforeInConstructorInitialization.java#UseBeforeInConstructorInitialization#UseBeforeInConstructorInitialization$User" name="UseBeforeInConstructorInitialization$User">
+						<Item itemRef="7" id="UseBeforeInConstructorInitialization.java#UseBeforeInConstructorInitialization#UseBeforeInConstructorInitialization$User#checkData#()V" name="checkData()" />
+						<Item itemRef="8" id="UseBeforeInConstructorInitialization.java#UseBeforeInConstructorInitialization#UseBeforeInConstructorInitialization$User#&lt;init>#(Ljava/lang/String;Ljava/lang/String;)V" name="UseBeforeInConstructorInitialization$User( java.lang.String, java.lang.String )" />
+					</Item>
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="7" elems="23" hashes="1508372605" />
+				<StatCvg itemRef="4" elems="40 41 44" hashes="-395689623 1887049872 1508372605" />
+				<StatCvg itemRef="8" elems="15 16 17 18 19" hashes="-1721703509 32660008 555503656 1197745480 1508372605" />
+				<StatCvg itemRef="5" elems="28 31 32" hashes="-749467591 1444358553 1508372605" />
+				<StatCvg itemRef="2" elems="7" hashes="1897762354" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="20">
+			<Stats>
+				<Item itemRef="1" id="CustomListRenderer.java#CustomListRenderer" name="CustomListRenderer">
+					<Item itemRef="2" id="CustomListRenderer.java#CustomListRenderer#&lt;init>#()V" name="CustomListRenderer()" />
+					<Item itemRef="3" id="CustomListRenderer.java#CustomListRenderer#paint#(Ljava/awt/Graphics;)V" name="paint( java.awt.Graphics )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="15 17" hashes="-218264151 296400610" />
+				<StatCvg itemRef="3" elems="24 25 26 27 28 29" hashes="1194447849 159458652 1883185323 1862204224 -1209829236 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="21">
+			<Stats>
+				<Item itemRef="1" id="FilesInjection.java#FilesInjection" name="FilesInjection">
+					<Item itemRef="2" id="FilesInjection.java#FilesInjection#store#(Ljava/lang/String;Ljava/lang/String;)V" name="store( java.lang.String, java.lang.String )" />
+					<Item itemRef="3" id="FilesInjection.java#FilesInjection#&lt;init>#()V" name="FilesInjection()" />
+					<Item itemRef="4" id="FilesInjection.java#FilesInjection#fileNameContentsInjection#(Ljavax/servlet/http/HttpServletRequest;)V" name="fileNameContentsInjection( javax.servlet.http.HttpServletRequest )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="21 23 24 25 27 28 29" hashes="1883769468 760693331 1826395322 7888607 -1243101048 1508372605 30537853" />
+				<StatCvg itemRef="3" elems="8" hashes="495598042" />
+				<StatCvg itemRef="4" elems="15 16 17 18" hashes="9287163 1383325620 1051795638 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="23">
+			<Stats>
+				<Item itemRef="1" id="NullPointer.java#NullPointer" name="NullPointer">
+					<Item itemRef="2" id="NullPointer.java#NullPointer#getLineLength#()I" name="getLineLength()" />
+					<Item itemRef="3" id="NullPointer.java#NullPointer#&lt;init>#()V" name="NullPointer()" />
+					<Item itemRef="4" id="NullPointer.java#NullPointer#close#(Ljava/io/Reader;)V" name="close( java.io.Reader )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="12 13 15 16 17 18 20 21 22" hashes="-989328207 191709394 -1664407388 1992150455 100324464 -747252483 853738085 1508372605 -1543564921" />
+				<StatCvg itemRef="3" elems="7 9" hashes="-673999726 1503928259" />
+				<StatCvg itemRef="4" elems="27 28 29 30" hashes="-2039937235 100324464 1508372605 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="24">
+			<Stats>
+				<Item itemRef="1" id="AlwaysCloseLogging.java#AlwaysCloseLogging" name="AlwaysCloseLogging">
+					<Item itemRef="2" id="AlwaysCloseLogging.java#AlwaysCloseLogging#logClose#(Ljava/util/logging/Level;Ljava/lang/String;)V" name="logClose( java.util.logging.Level, java.lang.String )" />
+					<Item itemRef="3" id="AlwaysCloseLogging.java#AlwaysCloseLogging#&lt;init>#()V" name="AlwaysCloseLogging()" />
+					<Item itemRef="4" id="AlwaysCloseLogging.java#AlwaysCloseLogging#log#(Ljava/util/logging/Level;Ljava/lang/String;)V" name="log( java.util.logging.Level, java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="16 18 19 20 22 23 24" hashes="490070798 924124014 -461411621 -545554592 333488262 1508372605 30537853" />
+				<StatCvg itemRef="3" elems="7" hashes="61376176" />
+				<StatCvg itemRef="4" elems="10 11 12 13" hashes="-653749919 552956635 495744864 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="25">
+			<Stats>
+				<Item itemRef="1" id="UseBeforeInitialization.java#UseBeforeInitialization" name="UseBeforeInitialization">
+					<Item itemRef="2" id="UseBeforeInitialization.java#UseBeforeInitialization#process#(Ljava/lang/String;)V" name="process( java.lang.String )" />
+					<Item itemRef="3" id="UseBeforeInitialization.java#UseBeforeInitialization#UseBeforeInitialization$ValueStorage" name="UseBeforeInitialization$ValueStorage">
+						<Item itemRef="4" id="UseBeforeInitialization.java#UseBeforeInitialization#UseBeforeInitialization$ValueStorage#setValue#(Ljava/lang/Object;)V" name="setValue( java.lang.Object )" />
+						<Item itemRef="5" id="UseBeforeInitialization.java#UseBeforeInitialization#UseBeforeInitialization$ValueStorage#&lt;init>#(Lexamples/flowanalysis/UseBeforeInitialization;)V" name="UseBeforeInitialization$ValueStorage( examples.flowanalysis.UseBeforeInitialization )" />
+						<Item itemRef="6" id="UseBeforeInitialization.java#UseBeforeInitialization#UseBeforeInitialization$ValueStorage#getValue#()Ljava/lang/Object;" name="getValue()" />
+					</Item>
+					<Item itemRef="7" id="UseBeforeInitialization.java#UseBeforeInitialization#&lt;init>#()V" name="UseBeforeInitialization()" />
+					<Item itemRef="8" id="UseBeforeInitialization.java#UseBeforeInitialization#close#(Ljava/io/InputStream;)V" name="close( java.io.InputStream )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="20 22 23 24 25 26 27 28 31 32 33 34 35 37 38 39 41 42 43" hashes="274607265 1794515364 -1163022704 -895251233 -416744069 -1865899342 -1615636243 -1577110525 570134625 721741501 -1711883152 -1963747990 -742270851 -107142727 728817534 1178724477 -827876419 1508372605 30537853" />
+				<StatCvg itemRef="7" elems="11" hashes="-2048090094" />
+				<StatCvg itemRef="8" elems="50 51 53" hashes="-738218796 -509192944 30537853" />
+				<StatCvg itemRef="4" elems="64 65" hashes="-831755749 1508372605" />
+				<StatCvg itemRef="5" elems="55" hashes="1017003716" />
+				<StatCvg itemRef="6" elems="60" hashes="-869770471" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="26">
+			<Stats>
+				<Item itemRef="1" id="Account.java#Account" name="Account">
+					<Item itemRef="2" id="Account.java#Account#&lt;init>#(Lexamples/nbank/Customer;I)V" name="Account( examples.nbank.Customer, int )" />
+					<Item itemRef="3" id="Account.java#Account#getID#()Ljava/lang/String;" name="getID()" />
+					<Item itemRef="4" id="Account.java#Account#getBalance#()I" name="getBalance()" />
+					<Item itemRef="5" id="Account.java#Account#getStatus#()Ljava/lang/String;" name="getStatus()" />
+					<Item itemRef="6" id="Account.java#Account#reportToCreditAgency#(Lexamples/nbank/ICreditAgency;)Z" name="reportToCreditAgency( examples.nbank.ICreditAgency )" />
+					<Item itemRef="7" id="Account.java#Account#apply#(Lexamples/nbank/ITransaction;)V" name="apply( examples.nbank.ITransaction )" />
+					<Item itemRef="8" id="Account.java#Account#isOverdrawn#(I)Z" name="isOverdrawn( int )" />
+					<Item itemRef="9" id="Account.java#Account#setAccountStatus#(I)Ljava/lang/String;" name="setAccountStatus( int )" />
+					<Item itemRef="10" id="Account.java#Account#getCustomer#()Lexamples/nbank/Customer;" name="getCustomer()" />
+					<Item itemRef="11" id="Account.java#Account#setBalance#(I)V" name="setBalance( int )" />
+					<Item itemRef="12" id="Account.java#Account#&lt;clinit>#()V" name="class initialization()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="24 25 26 27 28 29 30 31" hashes="1014411894 -414148191 1400578931 -1648520809 -694304501 1916944480 -164635233 30537853" />
+				<StatCvg itemRef="3" elems="54" hashes="99950369" />
+				<StatCvg itemRef="4" elems="62" hashes="1062884174" />
+				<StatCvg itemRef="5" elems="66" hashes="1440413387" />
+				<StatCvg itemRef="6" elems="47 48 49" hashes="-1201901173 -1593537770 -1957581378" />
+				<StatCvg itemRef="7" elems="105 106 108" hashes="1437100845 -581842607 30537853" />
+				<StatCvg itemRef="8" elems="81 82 83 85 86 87 88 89 90 92 93 94 95 96" hashes="-1225305588 -345162457 14739560 2005776303 1972350536 2121324745 1823644771 -213158584 1962587782 1972350536 2121324745 1823644771 -1942165084 1962587782" />
+				<StatCvg itemRef="9" elems="34 35 36 37 39" hashes="1153895073 76636273 729855832 -77863362 1467612274" />
+				<StatCvg itemRef="10" elems="58" hashes="-258579570" />
+				<StatCvg itemRef="11" elems="70 71 72 73 74 76 78" hashes="-1662992443 1153895073 754683748 729855832 -430230031 236206757 30537853" />
+				<StatCvg itemRef="12" elems="116" hashes="2040230778" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="27">
+			<Stats>
+				<Item itemRef="1" id="LogAccountInfo.java#LogAccountInfo" name="LogAccountInfo">
+					<Item itemRef="2" id="LogAccountInfo.java#LogAccountInfo#log#(Lexamples/nbank/Account;)Z" name="log( examples.nbank.Account )" />
+					<Item itemRef="3" id="LogAccountInfo.java#LogAccountInfo#LogAccountInfo$LoggingThread" name="LogAccountInfo$LoggingThread">
+						<Item itemRef="4" id="LogAccountInfo.java#LogAccountInfo#LogAccountInfo$LoggingThread#&lt;init>#(Lexamples/nbank/LogAccountInfo;Lexamples/nbank/Account;)V" name="LogAccountInfo$LoggingThread( examples.nbank.LogAccountInfo, examples.nbank.Account )" />
+						<Item itemRef="5" id="LogAccountInfo.java#LogAccountInfo#LogAccountInfo$LoggingThread#run#()V" name="run()" />
+					</Item>
+					<Item itemRef="6" id="LogAccountInfo.java#LogAccountInfo#&lt;init>#()V" name="LogAccountInfo()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="4" elems="31 32 33 34" hashes="-606552800 1069571747 366436514 1508372605" />
+				<StatCvg itemRef="2" elems="23 24" hashes="-2087145973 -1525876355" />
+				<StatCvg itemRef="5" elems="37 38 40 41 42 43 44 45 46" hashes="2025121804 -918936336 -134000497 2128842844 -206170878 485917462 -1238508370 1178724477 1508372605" />
+				<StatCvg itemRef="6" elems="18 19 20" hashes="1519593322 1322396221 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="28">
+			<Stats>
+				<Item itemRef="1" id="IncorrectIteratorUsage.java#IncorrectIteratorUsage" name="IncorrectIteratorUsage">
+					<Item itemRef="2" id="IncorrectIteratorUsage.java#IncorrectIteratorUsage#removeAllElementsCorrect#(Ljava/util/HashSet;Ljava/lang/Class;)V" name="removeAllElementsCorrect( java.util.HashSet, java.lang.Class )" />
+					<Item itemRef="3" id="IncorrectIteratorUsage.java#IncorrectIteratorUsage#removeAllElementsIncorrect#(Ljava/util/HashSet;Ljava/lang/Class;)V" name="removeAllElementsIncorrect( java.util.HashSet, java.lang.Class )" />
+					<Item itemRef="4" id="IncorrectIteratorUsage.java#IncorrectIteratorUsage#&lt;init>#()V" name="IncorrectIteratorUsage()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="32 33 34 35 36 38 39 40" hashes="-385742572 -1314484653 -1317928354 985784051 2129938548 -369324800 1508372605 30537853" />
+				<StatCvg itemRef="3" elems="15 16 17 18 19 21 22 23" hashes="-385742572 -1314484653 -1317928354 985784051 2129938548 1295664149 1508372605 30537853" />
+				<StatCvg itemRef="4" elems="6" hashes="1422236815" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="29">
+			<Stats>
+				<Item itemRef="1" id="FifoStackMachine.java#FifoStackMachine" name="FifoStackMachine">
+					<Item itemRef="2" id="FifoStackMachine.java#FifoStackMachine#&lt;init>#()V" name="FifoStackMachine()" />
+					<Item itemRef="3" id="FifoStackMachine.java#FifoStackMachine#push#(Ljava/lang/String;)V" name="push( java.lang.String )" />
+					<Item itemRef="4" id="FifoStackMachine.java#FifoStackMachine#pop#()V" name="pop()" />
+					<Item itemRef="5" id="FifoStackMachine.java#FifoStackMachine#popInt#()I" name="popInt()" />
+					<Item itemRef="6" id="FifoStackMachine.java#FifoStackMachine#pushInt#(I)V" name="pushInt( int )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="7" hashes="1947627385" />
+				<StatCvg itemRef="3" elems="14 15" hashes="-34272401 30537853" />
+				<StatCvg itemRef="4" elems="21 22" hashes="-963777617 30537853" />
+				<StatCvg itemRef="5" elems="29" hashes="-927392293" />
+				<StatCvg itemRef="6" elems="37 38" hashes="1222863336 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="30">
+			<Stats>
+				<Item itemRef="1" id="NaiveStringBuilder.java#NaiveStringBuilder" name="NaiveStringBuilder">
+					<Item itemRef="2" id="NaiveStringBuilder.java#NaiveStringBuilder#append#(Ljava/lang/String;)Ljava/lang/String;" name="append( java.lang.String )" />
+					<Item itemRef="3" id="NaiveStringBuilder.java#NaiveStringBuilder#createInstance#(Ljava/lang/String;)Lexamples/junit/NaiveStringBuilder;" name="createInstance( java.lang.String )" />
+					<Item itemRef="4" id="NaiveStringBuilder.java#NaiveStringBuilder#&lt;init>#(Ljava/lang/String;)V" name="NaiveStringBuilder( java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="20 21 23 24" hashes="1864925427 -74292028 -270001689 1076883274" />
+				<StatCvg itemRef="3" elems="16" hashes="1400727504" />
+				<StatCvg itemRef="4" elems="11 12 13" hashes="969470638 316034732 30537853" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="39 40 42 41 43" elemRefs="16" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="39 40 42 41 43" elemRefs="11 12 13" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="39 40 42 43" elemRefs="20 23 24" />
+					<CtxCvg testRefs="41" elemRefs="20 21" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="31">
+			<Stats>
+				<Item itemRef="1" id="AlwaysCloseNIOChannels.java#AlwaysCloseNIOChannels" name="AlwaysCloseNIOChannels">
+					<Item itemRef="2" id="AlwaysCloseNIOChannels.java#AlwaysCloseNIOChannels#process#(Ljava/lang/String;)V" name="process( java.lang.String )" />
+					<Item itemRef="3" id="AlwaysCloseNIOChannels.java#AlwaysCloseNIOChannels#processClose#(Ljava/lang/String;)V" name="processClose( java.lang.String )" />
+					<Item itemRef="4" id="AlwaysCloseNIOChannels.java#AlwaysCloseNIOChannels#&lt;init>#()V" name="AlwaysCloseNIOChannels()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="13 14 15 16 18 19 20 21" hashes="-408098528 -1002974916 526245805 1533291916 2103670358 1266022184 1508372605 30537853" />
+				<StatCvg itemRef="3" elems="24 26 27 28 29 31 32 34 35 36 37 38 39" hashes="1200399739 -408098528 798975427 526245805 1533291916 2103670358 1266022184 161885014 843047661 1175112816 1178724477 1508372605 30537853" />
+				<StatCvg itemRef="4" elems="9" hashes="-566807275" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="32">
+			<Stats>
+				<Item itemRef="1" id="ChoosingConstructor.java#ChoosingConstructor" name="ChoosingConstructor">
+					<Item itemRef="2" id="ChoosingConstructor.java#ChoosingConstructor#performAction#()V" name="performAction()" />
+					<Item itemRef="3" id="ChoosingConstructor.java#ChoosingConstructor#read#()V" name="read()" />
+					<Item itemRef="4" id="ChoosingConstructor.java#ChoosingConstructor#&lt;init>#(Ljava/lang/Readable;Ljava/io/InputStream;Ljava/io/OutputStream;)V" name="ChoosingConstructor( java.lang.Readable, java.io.InputStream, java.io.OutputStream )" />
+					<Item itemRef="5" id="ChoosingConstructor.java#ChoosingConstructor#putToStream#()V" name="putToStream()" />
+					<Item itemRef="6" id="ChoosingConstructor.java#ChoosingConstructor#&lt;init>#(Ljava/io/InputStream;)V" name="ChoosingConstructor( java.io.InputStream )" />
+					<Item itemRef="7" id="ChoosingConstructor.java#ChoosingConstructor#&lt;init>#()V" name="ChoosingConstructor()" />
+					<Item itemRef="8" id="ChoosingConstructor.java#ChoosingConstructor#getFromStream#()V" name="getFromStream()" />
+					<Item itemRef="9" id="ChoosingConstructor.java#ChoosingConstructor#&lt;init>#(Ljava/io/OutputStream;)V" name="ChoosingConstructor( java.io.OutputStream )" />
+					<Item itemRef="10" id="ChoosingConstructor.java#ChoosingConstructor#&lt;init>#(Ljava/lang/Readable;)V" name="ChoosingConstructor( java.lang.Readable )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="43 44 45 46" hashes="681099780 -1527124070 -1653924592 30537853" />
+				<StatCvg itemRef="3" elems="49 50" hashes="-1447685118 30537853" />
+				<StatCvg itemRef="4" elems="36 37 38 39 40" hashes="320180299 -1269004073 -2058800137 -829382943 30537853" />
+				<StatCvg itemRef="5" elems="57 58" hashes="510440475 30537853" />
+				<StatCvg itemRef="6" elems="29 30" hashes="1669109879 30537853" />
+				<StatCvg itemRef="7" elems="21 22" hashes="-1548968053 30537853" />
+				<StatCvg itemRef="8" elems="53 54" hashes="295467130 30537853" />
+				<StatCvg itemRef="9" elems="33 34" hashes="-1695071840 30537853" />
+				<StatCvg itemRef="10" elems="24 25 26" hashes="1961108957 -1269004073 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="33">
+			<Stats>
+				<Item itemRef="1" id="Bank.java#Bank" name="Bank">
+					<Item itemRef="2" id="Bank.java#Bank#startMaintenance#()V" name="startMaintenance()" />
+					<Item itemRef="3" id="Bank.java#Bank#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="4" id="Bank.java#Bank#&lt;init>#()V" name="Bank()" />
+					<Item itemRef="5" id="Bank.java#Bank#setAccountsLimit#(Ljava/lang/Integer;)V" name="setAccountsLimit( java.lang.Integer )" />
+					<Item itemRef="6" id="Bank.java#Bank#initialize#()V" name="initialize()" />
+					<Item itemRef="7" id="Bank.java#Bank#endMaintenance#()V" name="endMaintenance()" />
+					<Item itemRef="8" id="Bank.java#Bank#closeAccounts#(Ljava/util/List;)V" name="closeAccounts( java.util.List )" />
+					<Item itemRef="9" id="Bank.java#Bank#isMaintenanceMode#()Ljava/lang/Boolean;" name="isMaintenanceMode()" />
+					<Item itemRef="10" id="Bank.java#Bank#addAccount#(Lexamples/nbank/Account;)Ljava/lang/Boolean;" name="addAccount( examples.nbank.Account )" />
+					<Item itemRef="11" id="Bank.java#Bank#getAccount#(Ljava/lang/String;Ljava/lang/String;)Lexamples/nbank/Account;" name="getAccount( java.lang.String, java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="72 73" hashes="851506320 30537853" />
+				<StatCvg itemRef="3" elems="16 18" hashes="2001704027 2035975698" />
+				<StatCvg itemRef="4" elems="14 20 21 22" hashes="-1311598069 1311606095 -1438755382 30537853" />
+				<StatCvg itemRef="5" elems="80 81" hashes="-124429951 30537853" />
+				<StatCvg itemRef="6" elems="25 26 27 28 29 30 31" hashes="-1392245018 -74503699 1954671491 1451182755 519810351 1416712859 30537853" />
+				<StatCvg itemRef="7" elems="76 77" hashes="-244789495 30537853" />
+				<StatCvg itemRef="8" elems="43 44 45 46 47 48 50" hashes="1817511543 -544219947 -738890238 -1959593412 -2128965944 504258048 30537853" />
+				<StatCvg itemRef="9" elems="68" hashes="-422820681" />
+				<StatCvg itemRef="10" elems="34 35 37 38 39" hashes="-735880303 14739560 394592828 -1058492644 -1525876355" />
+				<StatCvg itemRef="11" elems="53 54 55 57 59 61 62 64" hashes="-1811384032 -1632156826 758388581 -1065252432 1444809651 -1703843172 431915025 102203785" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="34">
+			<Stats>
+				<Item itemRef="1" id="WebApplication.java#WebApplication" name="WebApplication">
+					<Item itemRef="2" id="WebApplication.java#WebApplication#&lt;init>#()V" name="WebApplication()" />
+					<Item itemRef="3" id="WebApplication.java#WebApplication#doPost#(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" name="doPost( javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse )" />
+					<Item itemRef="4" id="WebApplication.java#WebApplication#addFooter#(Ljavax/servlet/ServletOutputStream;)V" name="addFooter( javax.servlet.ServletOutputStream )" />
+					<Item itemRef="5" id="WebApplication.java#WebApplication#addHeader#(Ljavax/servlet/ServletOutputStream;)V" name="addHeader( javax.servlet.ServletOutputStream )" />
+					<Item itemRef="6" id="WebApplication.java#WebApplication#doGet#(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" name="doGet( javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="12" hashes="-829791636" />
+				<StatCvg itemRef="3" elems="21 22" hashes="-320032969 30537853" />
+				<StatCvg itemRef="4" elems="48 49 50" hashes="-740405485 1780920924 30537853" />
+				<StatCvg itemRef="5" elems="42 43 44 45" hashes="1698089777 1293102263 -823236632 30537853" />
+				<StatCvg itemRef="6" elems="31 32 33 34 35 36 37 38 39" hashes="1058819641 -1384907763 1314402360 -1982726760 126438163 -1925900152 -475048897 687692003 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="35">
+			<Stats>
+				<Item itemRef="1" id="InefficientCollectionRemoval.java#InefficientCollectionRemoval" name="InefficientCollectionRemoval">
+					<Item itemRef="2" id="InefficientCollectionRemoval.java#InefficientCollectionRemoval#inefficientRemoval#(Ljava/util/Collection;)V" name="inefficientRemoval( java.util.Collection )" />
+					<Item itemRef="3" id="InefficientCollectionRemoval.java#InefficientCollectionRemoval#effectiveRemoval#(Ljava/util/Collection;)V" name="effectiveRemoval( java.util.Collection )" />
+					<Item itemRef="4" id="InefficientCollectionRemoval.java#InefficientCollectionRemoval#&lt;init>#()V" name="InefficientCollectionRemoval()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="14 15 16 17 18 19" hashes="-385742572 -1314484653 1860144441 -1848798502 1508372605 30537853" />
+				<StatCvg itemRef="3" elems="27 28 29 31" hashes="-385742572 -1314484653 -369324800 30537853" />
+				<StatCvg itemRef="4" elems="6" hashes="1182256428" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="36">
+			<Stats>
+				<Item itemRef="1" id="LifoStackMachine.java#LifoStackMachine" name="LifoStackMachine">
+					<Item itemRef="2" id="LifoStackMachine.java#LifoStackMachine#popInt#()I" name="popInt()" />
+					<Item itemRef="3" id="LifoStackMachine.java#LifoStackMachine#&lt;init>#()V" name="LifoStackMachine()" />
+					<Item itemRef="4" id="LifoStackMachine.java#LifoStackMachine#push#(Ljava/lang/String;)V" name="push( java.lang.String )" />
+					<Item itemRef="5" id="LifoStackMachine.java#LifoStackMachine#pushInt#(I)V" name="pushInt( int )" />
+					<Item itemRef="6" id="LifoStackMachine.java#LifoStackMachine#pop#()V" name="pop()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="29" hashes="1952477579" />
+				<StatCvg itemRef="3" elems="7" hashes="888362239" />
+				<StatCvg itemRef="4" elems="14 15" hashes="-34272401 30537853" />
+				<StatCvg itemRef="5" elems="37 38" hashes="1222863336 30537853" />
+				<StatCvg itemRef="6" elems="21 22" hashes="-1264148763 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="37">
+			<Stats>
+				<Item itemRef="1" id="SimpleObjectHandler.java#SimpleObjectHandler" name="SimpleObjectHandler">
+					<Item itemRef="2" id="SimpleObjectHandler.java#SimpleObjectHandler#getElement#()Ljava/lang/Object;" name="getElement()" />
+					<Item itemRef="3" id="SimpleObjectHandler.java#SimpleObjectHandler#getString#()Ljava/lang/String;" name="getString()" />
+					<Item itemRef="4" id="SimpleObjectHandler.java#SimpleObjectHandler#getList#()Ljava/util/Collection;" name="getList()" />
+					<Item itemRef="5" id="SimpleObjectHandler.java#SimpleObjectHandler#&lt;init>#(Ljava/lang/Object;)V" name="SimpleObjectHandler( java.lang.Object )" />
+					<Item itemRef="6" id="SimpleObjectHandler.java#SimpleObjectHandler#getMap#()Ljava/util/Map;" name="getMap()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="37" hashes="-1300354641" />
+				<StatCvg itemRef="3" elems="33" hashes="60900619" />
+				<StatCvg itemRef="4" elems="23 24" hashes="-971766446 -1533534099" />
+				<StatCvg itemRef="5" elems="18 19 20" hashes="-1165179393 433101366 30537853" />
+				<StatCvg itemRef="6" elems="28 29" hashes="1699194081 1890215759" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="38">
+			<Stats>
+				<Item itemRef="1" id="AlwaysCloseRAFs.java#AlwaysCloseRAFs" name="AlwaysCloseRAFs">
+					<Item itemRef="2" id="AlwaysCloseRAFs.java#AlwaysCloseRAFs#readClose#(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" name="readClose( java.lang.String, java.lang.String, int )" />
+					<Item itemRef="3" id="AlwaysCloseRAFs.java#AlwaysCloseRAFs#read#(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" name="read( java.lang.String, java.lang.String, int )" />
+					<Item itemRef="4" id="AlwaysCloseRAFs.java#AlwaysCloseRAFs#&lt;init>#()V" name="AlwaysCloseRAFs()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="21 22 24 25 26 27 28 29 31 32 33 34 35 36" hashes="1121458434 -1186737013 1370866899 1113991407 609178338 754913193 100324464 2082685994 161885014 216587865 1175112816 1178724477 1508372605 1890368651" />
+				<StatCvg itemRef="3" elems="8 10 11 12 13 14 15 16 17" hashes="1121458434 -1850530378 1113991407 609178338 754913193 100324464 2082685994 1508372605 1890368651" />
+				<StatCvg itemRef="4" elems="5" hashes="-1075786335" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="39">
+			<Stats>
+				<Item itemRef="1" id="CustomMoney.java#CustomMoney" name="CustomMoney">
+					<Item itemRef="2" id="CustomMoney.java#CustomMoney#&lt;init>#(ILjava/lang/String;)V" name="CustomMoney( int, java.lang.String )" />
+					<Item itemRef="3" id="CustomMoney.java#CustomMoney#changeCurrency#(Ljava/lang/String;)V" name="changeCurrency( java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="9 10" hashes="-1559294820 30537853" />
+				<StatCvg itemRef="3" elems="13 14" hashes="-1359884770 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="40">
+			<Stats>
+				<Item itemRef="1" id="WithdrawalTransaction.java#WithdrawalTransaction" name="WithdrawalTransaction">
+					<Item itemRef="2" id="WithdrawalTransaction.java#WithdrawalTransaction#&lt;init>#(I)V" name="WithdrawalTransaction( int )" />
+					<Item itemRef="3" id="WithdrawalTransaction.java#WithdrawalTransaction#apply#(Lexamples/nbank/Account;)Z" name="apply( examples.nbank.Account )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="12 13 14 15 16" hashes="-895559259 -1260090903 -2028121331 -235470185 30537853" />
+				<StatCvg itemRef="3" elems="19 20" hashes="948682219 -1525876355" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="41">
+			<Stats>
+				<Item itemRef="1" id="BankState.java#BankState" name="BankState">
+					<Item itemRef="2" id="BankState.java#BankState#startMaintenance#()V" name="startMaintenance()" />
+					<Item itemRef="3" id="BankState.java#BankState#&lt;init>#()V" name="BankState()" />
+					<Item itemRef="4" id="BankState.java#BankState#isMaintenanceMode#()Ljava/lang/Boolean;" name="isMaintenanceMode()" />
+					<Item itemRef="5" id="BankState.java#BankState#endMaintenance#()V" name="endMaintenance()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="16 17" hashes="-364811098 30537853" />
+				<StatCvg itemRef="3" elems="3" hashes="337073681" />
+				<StatCvg itemRef="4" elems="8 9 10 12" hashes="-1804607908 1408222922 14739560 589285261" />
+				<StatCvg itemRef="5" elems="20 21" hashes="436478051 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="42">
+			<Stats>
+				<Item itemRef="1" id="RunnableStackMachine.java#RunnableStackMachine" name="RunnableStackMachine">
+					<Item itemRef="2" id="RunnableStackMachine.java#RunnableStackMachine#windowIconified#(Ljava/awt/event/WindowEvent;)V" name="windowIconified( java.awt.event.WindowEvent )" />
+					<Item itemRef="3" id="RunnableStackMachine.java#RunnableStackMachine#componentResized#(Ljava/awt/event/ComponentEvent;)V" name="componentResized( java.awt.event.ComponentEvent )" />
+					<Item itemRef="4" id="RunnableStackMachine.java#RunnableStackMachine#createPushPanel#()Ljavax/swing/JPanel;" name="createPushPanel()" />
+					<Item itemRef="5" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$FifoRadioButton" name="RunnableStackMachine$FifoRadioButton">
+						<Item itemRef="6" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$FifoRadioButton#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;)V" name="RunnableStackMachine$FifoRadioButton( examples.stackmachine.RunnableStackMachine )" />
+						<Item itemRef="7" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$FifoRadioButton#actionPerformed#(Ljava/awt/event/ActionEvent;)V" name="actionPerformed( java.awt.event.ActionEvent )" />
+					</Item>
+					<Item itemRef="8" id="RunnableStackMachine.java#RunnableStackMachine#createInputFieldsPanel#()Ljavax/swing/JPanel;" name="createInputFieldsPanel()" />
+					<Item itemRef="9" id="RunnableStackMachine.java#RunnableStackMachine#componentMoved#(Ljava/awt/event/ComponentEvent;)V" name="componentMoved( java.awt.event.ComponentEvent )" />
+					<Item itemRef="10" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$MultiplyButton" name="RunnableStackMachine$MultiplyButton">
+						<Item itemRef="11" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$MultiplyButton#actionPerformed#(Ljava/awt/event/ActionEvent;)V" name="actionPerformed( java.awt.event.ActionEvent )" />
+						<Item itemRef="12" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$MultiplyButton#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;)V" name="RunnableStackMachine$MultiplyButton( examples.stackmachine.RunnableStackMachine )" />
+					</Item>
+					<Item itemRef="13" id="RunnableStackMachine.java#RunnableStackMachine#&lt;init>#()V" name="RunnableStackMachine()" />
+					<Item itemRef="14" id="RunnableStackMachine.java#RunnableStackMachine#componentHidden#(Ljava/awt/event/ComponentEvent;)V" name="componentHidden( java.awt.event.ComponentEvent )" />
+					<Item itemRef="15" id="RunnableStackMachine.java#RunnableStackMachine#createInputPanel#()Ljavax/swing/JPanel;" name="createInputPanel()" />
+					<Item itemRef="16" id="RunnableStackMachine.java#RunnableStackMachine#windowDeactivated#(Ljava/awt/event/WindowEvent;)V" name="windowDeactivated( java.awt.event.WindowEvent )" />
+					<Item itemRef="17" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$SubtractButton" name="RunnableStackMachine$SubtractButton">
+						<Item itemRef="18" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$SubtractButton#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;)V" name="RunnableStackMachine$SubtractButton( examples.stackmachine.RunnableStackMachine )" />
+						<Item itemRef="19" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$SubtractButton#actionPerformed#(Ljava/awt/event/ActionEvent;)V" name="actionPerformed( java.awt.event.ActionEvent )" />
+					</Item>
+					<Item itemRef="20" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$PopButton" name="RunnableStackMachine$PopButton">
+						<Item itemRef="21" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$PopButton#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;)V" name="RunnableStackMachine$PopButton( examples.stackmachine.RunnableStackMachine )" />
+						<Item itemRef="22" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$PopButton#actionPerformed#(Ljava/awt/event/ActionEvent;)V" name="actionPerformed( java.awt.event.ActionEvent )" />
+					</Item>
+					<Item itemRef="23" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$DivideButton" name="RunnableStackMachine$DivideButton">
+						<Item itemRef="24" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$DivideButton#actionPerformed#(Ljava/awt/event/ActionEvent;)V" name="actionPerformed( java.awt.event.ActionEvent )" />
+						<Item itemRef="25" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$DivideButton#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;)V" name="RunnableStackMachine$DivideButton( examples.stackmachine.RunnableStackMachine )" />
+					</Item>
+					<Item itemRef="26" id="RunnableStackMachine.java#RunnableStackMachine#createRadioOptionsPanel#()Ljavax/swing/JPanel;" name="createRadioOptionsPanel()" />
+					<Item itemRef="27" id="RunnableStackMachine.java#RunnableStackMachine#windowOpened#(Ljava/awt/event/WindowEvent;)V" name="windowOpened( java.awt.event.WindowEvent )" />
+					<Item itemRef="28" id="RunnableStackMachine.java#RunnableStackMachine#windowClosing#(Ljava/awt/event/WindowEvent;)V" name="windowClosing( java.awt.event.WindowEvent )" />
+					<Item itemRef="29" id="RunnableStackMachine.java#RunnableStackMachine#windowClosed#(Ljava/awt/event/WindowEvent;)V" name="windowClosed( java.awt.event.WindowEvent )" />
+					<Item itemRef="30" id="RunnableStackMachine.java#RunnableStackMachine#createStackButtonPanel#()Ljavax/swing/JPanel;" name="createStackButtonPanel()" />
+					<Item itemRef="31" id="RunnableStackMachine.java#RunnableStackMachine#windowActivated#(Ljava/awt/event/WindowEvent;)V" name="windowActivated( java.awt.event.WindowEvent )" />
+					<Item itemRef="32" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$ImageButton" name="RunnableStackMachine$ImageButton">
+						<Item itemRef="33" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$ImageButton#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" name="RunnableStackMachine$ImageButton( examples.stackmachine.RunnableStackMachine, java.lang.String, java.lang.String, java.lang.String )" />
+					</Item>
+					<Item itemRef="34" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$LifoRadioButton" name="RunnableStackMachine$LifoRadioButton">
+						<Item itemRef="35" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$LifoRadioButton#actionPerformed#(Ljava/awt/event/ActionEvent;)V" name="actionPerformed( java.awt.event.ActionEvent )" />
+						<Item itemRef="36" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$LifoRadioButton#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;)V" name="RunnableStackMachine$LifoRadioButton( examples.stackmachine.RunnableStackMachine )" />
+					</Item>
+					<Item itemRef="37" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$AddButton" name="RunnableStackMachine$AddButton">
+						<Item itemRef="38" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$AddButton#actionPerformed#(Ljava/awt/event/ActionEvent;)V" name="actionPerformed( java.awt.event.ActionEvent )" />
+						<Item itemRef="39" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$AddButton#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;)V" name="RunnableStackMachine$AddButton( examples.stackmachine.RunnableStackMachine )" />
+					</Item>
+					<Item itemRef="40" id="RunnableStackMachine.java#RunnableStackMachine#windowDeiconified#(Ljava/awt/event/WindowEvent;)V" name="windowDeiconified( java.awt.event.WindowEvent )" />
+					<Item itemRef="41" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$PushTextField" name="RunnableStackMachine$PushTextField">
+						<Item itemRef="42" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$PushTextField#actionPerformed#(Ljava/awt/event/ActionEvent;)V" name="actionPerformed( java.awt.event.ActionEvent )" />
+						<Item itemRef="43" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$PushTextField#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;)V" name="RunnableStackMachine$PushTextField( examples.stackmachine.RunnableStackMachine )" />
+					</Item>
+					<Item itemRef="44" id="RunnableStackMachine.java#RunnableStackMachine#createApiPanel#()Ljavax/swing/JPanel;" name="createApiPanel()" />
+					<Item itemRef="45" id="RunnableStackMachine.java#RunnableStackMachine#createOperationButtonsPanel#()Ljavax/swing/JPanel;" name="createOperationButtonsPanel()" />
+					<Item itemRef="46" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$PushButton" name="RunnableStackMachine$PushButton">
+						<Item itemRef="47" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$PushButton#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;)V" name="RunnableStackMachine$PushButton( examples.stackmachine.RunnableStackMachine )" />
+						<Item itemRef="48" id="RunnableStackMachine.java#RunnableStackMachine#RunnableStackMachine$PushButton#actionPerformed#(Ljava/awt/event/ActionEvent;)V" name="actionPerformed( java.awt.event.ActionEvent )" />
+					</Item>
+					<Item itemRef="49" id="RunnableStackMachine.java#RunnableStackMachine#componentShown#(Ljava/awt/event/ComponentEvent;)V" name="componentShown( java.awt.event.ComponentEvent )" />
+					<Item itemRef="50" id="RunnableStackMachine.java#RunnableStackMachine#createStackPanel#()Ljavax/swing/JPanel;" name="createStackPanel()" />
+					<Item itemRef="51" id="RunnableStackMachine.java#RunnableStackMachine#main#([Ljava/lang/String;)V" name="main( java.lang.String[] )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="83" hashes="30537853" />
+				<StatCvg itemRef="24" elems="365 366" hashes="735845594 1508372605" />
+				<StatCvg itemRef="33" elems="371 372 373 374 375 376 377 378 379" hashes="-675788862 1682226347 -335843278 477743235 34465908 -167608356 418767827 -446832523 1508372605" />
+				<StatCvg itemRef="21" elems="311 312 313 314" hashes="480430175 -14213633 -1519172595 1508372605" />
+				<StatCvg itemRef="47" elems="299 300 301 302" hashes="931191336 -1569607784 -1519172595 1508372605" />
+				<StatCvg itemRef="3" elems="95 96" hashes="1637612663 30537853" />
+				<StatCvg itemRef="4" elems="234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250" hashes="-1095747306 -724959214 -1419771333 -541166567 1477289183 -964573862 -1131332637 1872949506 -1605997653 811233521 -2043238145 6814189 -1142409030 -48144045 -829385532 1037399585 -187950169" />
+				<StatCvg itemRef="8" elems="197 198 199 200 201 202 203 204 205 206" hashes="-1419771333 -541166567 1477289183 -1443094409 -843755911 1872949506 -1605997653 -48144045 883930536 -187950169" />
+				<StatCvg itemRef="9" elems="92" hashes="30537853" />
+				<StatCvg itemRef="13" elems="36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64" hashes="-1850332080 863411120 859544633 417017219 1477289183 824788033 -1443094409 182644724 1872949506 1901578657 -48144045 -215925070 1964680774 -99097808 -1337426717 -1142409030 1901578688 -215925101 -19514894 -1101308754 119469571 1872949537 -48144076 1811325704 -535478946 1637612663 -394458552 -1413647597 30537853" />
+				<StatCvg itemRef="14" elems="89" hashes="30537853" />
+				<StatCvg itemRef="15" elems="141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161" hashes="-1419771333 -541166567 1477289183 -1443094409 -843755911 1872949506 -1605997653 -48144045 909668337 1964680867 1208172663 788986664 -1142409030 -48144045 -19514770 968826618 -1142409030 -48144045 -19514894 -1705632210 -187950169" />
+				<StatCvg itemRef="22" elems="317 318" hashes="-218436240 1508372605" />
+				<StatCvg itemRef="16" elems="77" hashes="30537853" />
+				<StatCvg itemRef="38" elems="329 330" hashes="-658389728 1508372605" />
+				<StatCvg itemRef="7" elems="291 292 293 294" hashes="423738790 552801471 1676215415 1508372605" />
+				<StatCvg itemRef="39" elems="323 324 325 326" hashes="-744822097 -1490721201 -1519172595 1508372605" />
+				<StatCvg itemRef="11" elems="353 354" hashes="535514383 1508372605" />
+				<StatCvg itemRef="26" elems="210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230" hashes="-1419771333 -541166567 1477289183 -1443094409 -843755911 1872949506 -1605997653 -48144045 1907317094 661467789 -249637985 956251528 -1952818598 -1175368370 1387286594 869504484 -2022290269 -1552213859 -58305104 -714869258 -187950169" />
+				<StatCvg itemRef="12" elems="347 348 349 350" hashes="-1679819598 -538388082 -1519172595 1508372605" />
+				<StatCvg itemRef="27" elems="86" hashes="30537853" />
+				<StatCvg itemRef="35" elems="276 277 278 279" hashes="-2063422193 552801471 1676215415 1508372605" />
+				<StatCvg itemRef="28" elems="73 74" hashes="-1715007721 30537853" />
+				<StatCvg itemRef="18" elems="335 336 337 338" hashes="822150562 2005613726 -1519172595 1508372605" />
+				<StatCvg itemRef="29" elems="70" hashes="30537853" />
+				<StatCvg itemRef="30" elems="122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137" hashes="-1419771333 -541166567 1477289183 -1142409030 182644724 404106188 1901578657 -48144045 -19514894 52541835 -2023380686 -2107144108 -273566077 -343964791 1579400756 -187950169" />
+				<StatCvg itemRef="31" elems="67" hashes="30537853" />
+				<StatCvg itemRef="42" elems="261 262 263" hashes="688944719 263773771 1508372605" />
+				<StatCvg itemRef="40" elems="80" hashes="30537853" />
+				<StatCvg itemRef="44" elems="165 166 167 168 169 170" hashes="-1419771333 -541166567 1477289183 -1131332637 -909602269 -187950169" />
+				<StatCvg itemRef="36" elems="268 269 270 271 272 273" hashes="1975947683 851798201 1991588929 -1081602645 -1519172595 1508372605" />
+				<StatCvg itemRef="25" elems="359 360 361 362" hashes="2091594951 -628873351 -1519172595 1508372605" />
+				<StatCvg itemRef="45" elems="174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193" hashes="-1419771333 -541166567 1477289183 -1142409030 182644724 404106188 1901578657 -1916082332 1604139868 1913729809 58397498 1291130881 -1129469611 -1080448724 -1790647153 -1278952988 -159654321 -1490236097 -1155321654 -187950169" />
+				<StatCvg itemRef="6" elems="284 285 286 287 288" hashes="-1547155683 -178256589 961534139 -1519172595 1508372605" />
+				<StatCvg itemRef="49" elems="99" hashes="30537853" />
+				<StatCvg itemRef="50" elems="102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118" hashes="-520812146 813882139 -2120692815 -1159754465 -1419771333 -541166567 1477289183 -1142409030 182644724 1872949506 -1605997653 -48144045 -19514894 697612355 -19514925 428589294 -187950169" />
+				<StatCvg itemRef="43" elems="255 256 257 258" hashes="-473413297 1710101880 -1519172595 1508372605" />
+				<StatCvg itemRef="51" elems="392 393 394 395" hashes="-223990684 -972595888 5073783 30537853" />
+				<StatCvg itemRef="48" elems="305 306" hashes="1370893731 1508372605" />
+				<StatCvg itemRef="19" elems="341 342" hashes="-1801883105 1508372605" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="43">
+			<Stats>
+				<Item itemRef="1" id="XMLInjection.java#XMLInjection" name="XMLInjection">
+					<Item itemRef="2" id="XMLInjection.java#XMLInjection#createXMLDocumentAndStoreData#(Lorg/w3c/dom/Document;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" name="createXMLDocumentAndStoreData( org.w3c.dom.Document, java.lang.String, java.lang.String, java.lang.String, java.lang.String )" />
+					<Item itemRef="3" id="XMLInjection.java#XMLInjection#&lt;init>#()V" name="XMLInjection()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="25 26 27 28 29 30 38" hashes="579819957 1823710720 -114337401 -1128345384 917005069 952847952 30537853" />
+				<StatCvg itemRef="3" elems="8" hashes="896184314" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="44">
+			<Stats>
+				<Item itemRef="1" id="MetricsExample.java#MetricsExample" name="MetricsExample">
+					<Item itemRef="2" id="MetricsExample.java#MetricsExample#&lt;init>#()V" name="MetricsExample()" />
+					<Item itemRef="3" id="MetricsExample.java#MetricsExample#collectErrorCodesFromFiles#([Ljava/io/File;)Ljava/util/Set;" name="collectErrorCodesFromFiles( java.io.File[] )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="11" hashes="1994209057" />
+				<StatCvg itemRef="3" elems="14 15 16 17 18 20 21 22 23 24 25 26 27 29 30 31 32 33 36 38 39 41 42 44 46 50" hashes="72068051 -1718630943 599016318 1766362640 484124882 -377145668 -1945073418 -525981784 -277258113 1470007239 -1686726815 871006262 -2137231831 1179279483 1179552618 -1455632728 497810129 -1980647299 -253243267 1261317041 288417581 -742270851 -550436759 186778401 -1773029802 -1930290399" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="45">
+			<Stats>
+				<Item itemRef="1" id="InefficientMapRemoval.java#InefficientMapRemoval" name="InefficientMapRemoval">
+					<Item itemRef="2" id="InefficientMapRemoval.java#InefficientMapRemoval#effectiveRemovalKeySet#(Ljava/util/Map;)V" name="effectiveRemovalKeySet( java.util.Map )" />
+					<Item itemRef="3" id="InefficientMapRemoval.java#InefficientMapRemoval#&lt;init>#()V" name="InefficientMapRemoval()" />
+					<Item itemRef="4" id="InefficientMapRemoval.java#InefficientMapRemoval#effectiveRemoval#(Ljava/util/Map;)V" name="effectiveRemoval( java.util.Map )" />
+					<Item itemRef="5" id="InefficientMapRemoval.java#InefficientMapRemoval#inefficientRemovalEntry#(Ljava/util/Map;)V" name="inefficientRemovalEntry( java.util.Map )" />
+					<Item itemRef="6" id="InefficientMapRemoval.java#InefficientMapRemoval#inefficientRemoval#(Ljava/util/Map;)V" name="inefficientRemoval( java.util.Map )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="54 55 56 58" hashes="-1650191732 -1314484653 -369324800 30537853" />
+				<StatCvg itemRef="3" elems="7" hashes="-711228472" />
+				<StatCvg itemRef="4" elems="42 43 44 46" hashes="1391720025 -1314484653 -369324800 30537853" />
+				<StatCvg itemRef="5" elems="28 29 30 31 32 33 34" hashes="1391720025 -1314484653 655636977 -1719244368 -943711873 1508372605 30537853" />
+				<StatCvg itemRef="6" elems="15 16 17 18 19 20" hashes="-1650191732 -1314484653 -927722506 -943711873 1508372605 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="46">
+			<Stats>
+				<Item itemRef="1" id="Queue.java#EmptyQueueException" name="EmptyQueueException">
+					<Item itemRef="2" id="Queue.java#EmptyQueueException#&lt;init>#()V" name="EmptyQueueException()" />
+				</Item>
+				<Item itemRef="3" id="Queue.java#Queue" name="Queue">
+					<Item itemRef="4" id="Queue.java#Queue#toString#()Ljava/lang/String;" name="toString()" />
+					<Item itemRef="5" id="Queue.java#Queue#Queue$QueueItem" name="Queue$QueueItem">
+						<Item itemRef="6" id="Queue.java#Queue#Queue$QueueItem#&lt;init>#(Lexamples/queue/Queue;Ljava/lang/String;)V" name="Queue$QueueItem( examples.queue.Queue, java.lang.String )" />
+						<Item itemRef="7" id="Queue.java#Queue#Queue$QueueItem#getNext#()Lexamples/queue/Queue$QueueItem;" name="getNext()" />
+						<Item itemRef="8" id="Queue.java#Queue#Queue$QueueItem#getItem#()Ljava/lang/String;" name="getItem()" />
+						<Item itemRef="9" id="Queue.java#Queue#Queue$QueueItem#setNext#(Lexamples/queue/Queue$QueueItem;)V" name="setNext( examples.queue.Queue$QueueItem )" />
+					</Item>
+					<Item itemRef="10" id="Queue.java#Queue#remove#()Ljava/lang/String;" name="remove()" />
+					<Item itemRef="11" id="Queue.java#Queue#isEmpty#()Z" name="isEmpty()" />
+					<Item itemRef="12" id="Queue.java#Queue#removeAll#()V" name="removeAll()" />
+					<Item itemRef="13" id="Queue.java#Queue#&lt;init>#()V" name="Queue()" />
+					<Item itemRef="14" id="Queue.java#Queue#add#(Ljava/lang/String;)V" name="add( java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="6" elems="60 61 62" hashes="1266664294 578469815 1508372605" />
+				<StatCvg itemRef="4" elems="44 45 46 47 48 50 51" hashes="1598699019 626743937 -1001377924 -1163956310 1843692321 -2082880039 -1456469584" />
+				<StatCvg itemRef="2" elems="82" hashes="-2073987818" />
+				<StatCvg itemRef="10" elems="28 29 30" hashes="-270531109 1144814146 -1585424865" />
+				<StatCvg itemRef="11" elems="34" hashes="-1873741389" />
+				<StatCvg itemRef="7" elems="69" hashes="-173861991" />
+				<StatCvg itemRef="12" elems="38 39 40" hashes="831962754 2040180806 30537853" />
+				<StatCvg itemRef="13" elems="5 6 7 8" hashes="2104542358 831962754 2040180806 30537853" />
+				<StatCvg itemRef="14" elems="11 12 13 14 16 17 19" hashes="646828047 862391655 1984365384 -1037008372 -2071360737 -1037008372 30537853" />
+				<StatCvg itemRef="8" elems="65" hashes="-178051207" />
+				<StatCvg itemRef="9" elems="73 74" hashes="-1088496713 1508372605" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="47">
+			<Stats>
+				<Item itemRef="1" id="ConnectionException.java#ConnectionException" name="ConnectionException">
+					<Item itemRef="2" id="ConnectionException.java#ConnectionException#&lt;init>#(Ljava/lang/String;)V" name="ConnectionException( java.lang.String )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="6 7" hashes="130957446 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="48">
+			<Stats>
+				<Item itemRef="1" id="DatabaseObject.java#DatabaseObject" name="DatabaseObject">
+					<Item itemRef="2" id="DatabaseObject.java#DatabaseObject#getObjectFromDatabase#(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Lexamples/flowanalysis/np/DatabaseObject;" name="getObjectFromDatabase( java.sql.Connection, java.lang.String, java.lang.String )" />
+					<Item itemRef="3" id="DatabaseObject.java#DatabaseObject#close#(Ljava/sql/Statement;)V" name="close( java.sql.Statement )" />
+					<Item itemRef="4" id="DatabaseObject.java#DatabaseObject#close#(Ljava/sql/ResultSet;)V" name="close( java.sql.ResultSet )" />
+					<Item itemRef="5" id="DatabaseObject.java#DatabaseObject#getClassName#()Ljava/lang/String;" name="getClassName()" />
+					<Item itemRef="6" id="DatabaseObject.java#DatabaseObject#getOID#()Ljava/lang/Object;" name="getOID()" />
+					<Item itemRef="7" id="DatabaseObject.java#DatabaseObject#&lt;init>#()V" name="DatabaseObject()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="16 17 18 19 21 22 23 24 26 29 30 31 32 33" hashes="-864216146 -1951810480 -271783734 920994605 203786084 -1698291496 -846123640 77646926 1213180686 1132095587 1348767786 1508372605 1945770374 1890276116" />
+				<StatCvg itemRef="3" elems="55 56 59 60 61 62" hashes="1987037616 -1196601077 1209429448 100324464 1508372605 30537853" />
+				<StatCvg itemRef="4" elems="45 46 49 50 51 52" hashes="-1102065577 -1196601077 1531158383 100324464 1508372605 30537853" />
+				<StatCvg itemRef="5" elems="37" hashes="-1919500060" />
+				<StatCvg itemRef="6" elems="41" hashes="1890282657" />
+				<StatCvg itemRef="7" elems="11 13" hashes="-6494252 1402874458" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="49">
+			<Stats>
+				<Item itemRef="1" id="CharacterReader.java#CharacterReader" name="CharacterReader">
+					<Item itemRef="2" id="CharacterReader.java#CharacterReader#&lt;init>#()V" name="CharacterReader()" />
+					<Item itemRef="3" id="CharacterReader.java#CharacterReader#CharacterReader$1ReadableHandler" name="CharacterReader$1ReadableHandler">
+						<Item itemRef="4" id="CharacterReader.java#CharacterReader#CharacterReader$1ReadableHandler#read#(Ljava/lang/Readable;)Ljava/nio/CharBuffer;" name="read( java.lang.Readable )" />
+						<Item itemRef="5" id="CharacterReader.java#CharacterReader#CharacterReader$1ReadableHandler#&lt;init>#(Lexamples/mock/CharacterReader;)V" name="CharacterReader$1ReadableHandler( examples.mock.CharacterReader )" />
+					</Item>
+					<Item itemRef="6" id="CharacterReader.java#CharacterReader#prepareCharBuffer#(Ljava/io/Reader;)Ljava/nio/CharBuffer;" name="prepareCharBuffer( java.io.Reader )" />
+					<Item itemRef="7" id="CharacterReader.java#CharacterReader#readString#(Ljava/io/Reader;)Ljava/lang/String;" name="readString( java.io.Reader )" />
+					<Item itemRef="8" id="CharacterReader.java#CharacterReader#read#(Ljava/io/Reader;)V" name="read( java.io.Reader )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="4" elems="49 50 51" hashes="20475794 -1997155931 -1734848308" />
+				<StatCvg itemRef="5" elems="46" hashes="-1216890291" />
+				<StatCvg itemRef="2" elems="11" hashes="-1870135000" />
+				<StatCvg itemRef="6" elems="54 55" hashes="-380081121 1647396339" />
+				<StatCvg itemRef="7" elems="20 23 24 25 26 30 31 32 33 35 37 39 40 42" hashes="679700648 847365016 -12083033 874585420 -1067691105 1178724477 -1593537770 762447961 1575005507 -235942928 1508372605 9774929 -822824796 -696468157" />
+				<StatCvg itemRef="8" elems="14 15 17" hashes="1064499366 -1127767456 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="50">
+			<Stats>
+				<Item itemRef="1" id="AlwaysCloseSockets.java#AlwaysCloseSockets" name="AlwaysCloseSockets">
+					<Item itemRef="2" id="AlwaysCloseSockets.java#AlwaysCloseSockets#connectClientClose#(Ljava/net/ServerSocket;)V" name="connectClientClose( java.net.ServerSocket )" />
+					<Item itemRef="3" id="AlwaysCloseSockets.java#AlwaysCloseSockets#connectClient#(Ljava/net/ServerSocket;)V" name="connectClient( java.net.ServerSocket )" />
+					<Item itemRef="4" id="AlwaysCloseSockets.java#AlwaysCloseSockets#&lt;init>#()V" name="AlwaysCloseSockets()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="20 22 24 25 27 28 29 30 31 32" hashes="1379796226 250633455 2094668668 1266022184 161885014 1669608780 1175112816 1178724477 1508372605 30537853" />
+				<StatCvg itemRef="3" elems="12 14 15 16 17" hashes="-657680996 2094668668 1266022184 1508372605 30537853" />
+				<StatCvg itemRef="4" elems="8" hashes="1150062193" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="51">
+			<Stats>
+				<Item itemRef="1" id="InefficientMapUsage.java#InefficientMapUsage" name="InefficientMapUsage">
+					<Item itemRef="2" id="InefficientMapUsage.java#InefficientMapUsage#effectiveIteration#(Ljava/util/Map;)V" name="effectiveIteration( java.util.Map )" />
+					<Item itemRef="3" id="InefficientMapUsage.java#InefficientMapUsage#inefficientIteration#(Ljava/util/Map;)V" name="inefficientIteration( java.util.Map )" />
+					<Item itemRef="4" id="InefficientMapUsage.java#InefficientMapUsage#&lt;init>#()V" name="InefficientMapUsage()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="29 30 31 32 33 35 36" hashes="1391720025 -1314484653 655636977 -1719244368 -518523280 1508372605 30537853" />
+				<StatCvg itemRef="3" elems="15 16 17 18 20 21" hashes="-1650191732 -1314484653 -927722506 -1032022773 1508372605 30537853" />
+				<StatCvg itemRef="4" elems="7" hashes="-381158275" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="52">
+			<Stats>
+				<Item itemRef="1" id="InputValidation.java#InputValidation" name="InputValidation">
+					<Item itemRef="2" id="InputValidation.java#InputValidation#doGet#(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" name="doGet( javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse )" />
+					<Item itemRef="3" id="InputValidation.java#InputValidation#validate#(Ljava/lang/String;)Ljava/lang/String;" name="validate( java.lang.String )" />
+					<Item itemRef="4" id="InputValidation.java#InputValidation#logInvalidLogin#(Ljava/lang/String;Ljava/lang/String;)V" name="logInvalidLogin( java.lang.String, java.lang.String )" />
+					<Item itemRef="5" id="InputValidation.java#InputValidation#authorize#(Ljava/lang/String;Ljava/lang/String;)Z" name="authorize( java.lang.String, java.lang.String )" />
+					<Item itemRef="6" id="InputValidation.java#InputValidation#&lt;init>#()V" name="InputValidation()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="63 65 66 70 71 74 76 77" hashes="2012167559 -103292812 1142493140 1722882907 -277435900 -1196601077 -1540757125 30537853" />
+				<StatCvg itemRef="3" elems="112 113 115" hashes="-707170846 -831954102 1029630845" />
+				<StatCvg itemRef="4" elems="120 121 122 123 125 126" hashes="-2050969790 351897144 512503585 -813710626 1508372605 30537853" />
+				<StatCvg itemRef="5" elems="83 84 89 90 91 92 94 97 98 100" hashes="-271783734 920994605 -168135453 -1686616749 849041673 -846123640 -725677699 14739560 -975238224 14739560" />
+				<StatCvg itemRef="6" elems="57" hashes="1304357333" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="54">
+			<Stats>
+				<Item itemRef="1" id="FileExample.java#FileExample" name="FileExample">
+					<Item itemRef="2" id="FileExample.java#FileExample#&lt;init>#()V" name="FileExample()" />
+					<Item itemRef="3" id="FileExample.java#FileExample#analyze#(Ljava/io/File;)Ljava/lang/String;" name="analyze( java.io.File )" />
+					<Item itemRef="4" id="FileExample.java#FileExample#isOversize#(Ljava/lang/String;J)Z" name="isOversize( java.lang.String, long )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="11" hashes="-129809366" />
+				<StatCvg itemRef="3" elems="14 15 16 17 18 19 20 21 22 23" hashes="674539822 698058666 -1593561681 568426270 -1593561681 -1625835392 -1593561681 -626015563 -1593561681 -1317840857" />
+				<StatCvg itemRef="4" elems="29 30 31 32" hashes="812646648 -1593537770 1700658549 14739560" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="45" elemRefs="29" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="44" elemRefs="14 15 16 17 18 19 20 21 22 23" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="55">
+			<Stats>
+				<Item itemRef="1" id="ExtendedNullPointer.java#ExtendedNullPointer" name="ExtendedNullPointer">
+					<Item itemRef="2" id="ExtendedNullPointer.java#ExtendedNullPointer#getLineLength#()I" name="getLineLength()" />
+					<Item itemRef="3" id="ExtendedNullPointer.java#ExtendedNullPointer#getCountry#(Ljava/lang/String;Z)Ljava/lang/String;" name="getCountry( java.lang.String, boolean )" />
+					<Item itemRef="4" id="ExtendedNullPointer.java#ExtendedNullPointer#getCurrentCountryName#()Ljava/lang/String;" name="getCurrentCountryName()" />
+					<Item itemRef="5" id="ExtendedNullPointer.java#ExtendedNullPointer#close#(Ljava/io/Reader;)V" name="close( java.io.Reader )" />
+					<Item itemRef="6" id="ExtendedNullPointer.java#ExtendedNullPointer#&lt;init>#()V" name="ExtendedNullPointer()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="21 22 24 25 26 27 28 30 31 32" hashes="-1809671140 191709394 -1664407388 1992150455 100324464 -747252483 -1248760618 853738085 1508372605 -1543564921" />
+				<StatCvg itemRef="3" elems="41 42 43 45" hashes="-1588839414 -58156748 1076693460 1400205398" />
+				<StatCvg itemRef="4" elems="36 37" hashes="-1242344657 -937459152" />
+				<StatCvg itemRef="5" elems="49 50 53 54 55 56" hashes="182889237 -1196601077 -2039937235 100324464 1508372605 30537853" />
+				<StatCvg itemRef="6" elems="14 16 18" hashes="56609497 1503928259 74432546" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="56">
+			<Stats>
+				<Item itemRef="1" id="CreditCard.java#CreditCard" name="CreditCard">
+					<Item itemRef="2" id="CreditCard.java#CreditCard#&lt;init>#(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" name="CreditCard( int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String )" />
+					<Item itemRef="3" id="CreditCard.java#CreditCard#displayStatement#()V" name="displayStatement()" />
+					<Item itemRef="4" id="CreditCard.java#CreditCard#set_customerId#(Ljava/lang/String;)V" name="set_customerId( java.lang.String )" />
+					<Item itemRef="5" id="CreditCard.java#CreditCard#get_socialSecurityNumber#()Ljava/lang/String;" name="get_socialSecurityNumber()" />
+					<Item itemRef="6" id="CreditCard.java#CreditCard#get_currentBalance#()I" name="get_currentBalance()" />
+					<Item itemRef="7" id="CreditCard.java#CreditCard#set_zipcode#(Ljava/lang/String;)V" name="set_zipcode( java.lang.String )" />
+					<Item itemRef="8" id="CreditCard.java#CreditCard#set_creditCardNumber#(Ljava/lang/String;)V" name="set_creditCardNumber( java.lang.String )" />
+					<Item itemRef="9" id="CreditCard.java#CreditCard#&lt;clinit>#()V" name="class initialization()" />
+					<Item itemRef="10" id="CreditCard.java#CreditCard#set_currentBalance#(I)V" name="set_currentBalance( int )" />
+					<Item itemRef="11" id="CreditCard.java#CreditCard#validate#([ILjava/lang/String;)Z" name="validate( int[], java.lang.String )" />
+					<Item itemRef="12" id="CreditCard.java#CreditCard#set_customerName#(Ljava/lang/String;)V" name="set_customerName( java.lang.String )" />
+					<Item itemRef="13" id="CreditCard.java#CreditCard#get_zipcode#()Ljava/lang/String;" name="get_zipcode()" />
+					<Item itemRef="14" id="CreditCard.java#CreditCard#makePayment#(Lexamples/nbank/Account;)V" name="makePayment( examples.nbank.Account )" />
+					<Item itemRef="15" id="CreditCard.java#CreditCard#get_creditCardNumber#()Ljava/lang/String;" name="get_creditCardNumber()" />
+					<Item itemRef="16" id="CreditCard.java#CreditCard#get_customerId#()Ljava/lang/String;" name="get_customerId()" />
+					<Item itemRef="17" id="CreditCard.java#CreditCard#set_socialSecurityNumber#(Ljava/lang/String;)V" name="set_socialSecurityNumber( java.lang.String )" />
+					<Item itemRef="18" id="CreditCard.java#CreditCard#get_customerName#()Ljava/lang/String;" name="get_customerName()" />
+					<Item itemRef="19" id="CreditCard.java#CreditCard#validate#()Z" name="validate()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="42 43 44 45 46 47 48 49 50 51" hashes="-1165179393 -766976256 1472714037 555588548 1555261109 91887457 -1152862953 -82718186 -502255224 30537853" />
+				<StatCvg itemRef="3" elems="89 90 91 92 93" hashes="-1740946050 1329806731 1586176677 -1687056554 30537853" />
+				<StatCvg itemRef="4" elems="152 153" hashes="1472714037 30537853" />
+				<StatCvg itemRef="5" elems="174" hashes="790660470" />
+				<StatCvg itemRef="6" elems="129" hashes="-67775447" />
+				<StatCvg itemRef="7" elems="197 198" hashes="-476708696 30537853" />
+				<StatCvg itemRef="8" elems="122 123" hashes="-1103959984 30537853" />
+				<StatCvg itemRef="9" elems="13 15 17" hashes="-1892235467 -67627896 1941533276" />
+				<StatCvg itemRef="10" elems="137 138" hashes="-766976256 30537853" />
+				<StatCvg itemRef="11" elems="70 71 72 74 75 77 78 79 82" hashes="-2066839507 -171426891 928192611 -1975883419 -1437933464 -2050206343 -1028777697 502847592 607296526" />
+				<StatCvg itemRef="12" elems="167 168" hashes="1555261109 30537853" />
+				<StatCvg itemRef="13" elems="189" hashes="-1432851492" />
+				<StatCvg itemRef="14" elems="104 105 106 107 108" hashes="1821395361 -2037264294 -473242170 -527964948 30537853" />
+				<StatCvg itemRef="15" elems="114" hashes="-48982374" />
+				<StatCvg itemRef="16" elems="144" hashes="613153011" />
+				<StatCvg itemRef="17" elems="182 183" hashes="555588548 30537853" />
+				<StatCvg itemRef="18" elems="159" hashes="834103491" />
+				<StatCvg itemRef="19" elems="58 59 60" hashes="612932753 1662671952 -1692252407" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="57">
+			<Stats>
+				<Item itemRef="1" id="AlwaysCloseXMLEncDec.java#AlwaysCloseXMLEncDec" name="AlwaysCloseXMLEncDec">
+					<Item itemRef="2" id="AlwaysCloseXMLEncDec.java#AlwaysCloseXMLEncDec#readClose#(Ljava/io/InputStream;)[Ljava/lang/Object;" name="readClose( java.io.InputStream )" />
+					<Item itemRef="3" id="AlwaysCloseXMLEncDec.java#AlwaysCloseXMLEncDec#store#(Ljava/io/OutputStream;[Ljava/lang/Object;)V" name="store( java.io.OutputStream, java.lang.Object[] )" />
+					<Item itemRef="4" id="AlwaysCloseXMLEncDec.java#AlwaysCloseXMLEncDec#storeClose#(Ljava/io/OutputStream;[Ljava/lang/Object;)V" name="storeClose( java.io.OutputStream, java.lang.Object[] )" />
+					<Item itemRef="5" id="AlwaysCloseXMLEncDec.java#AlwaysCloseXMLEncDec#&lt;init>#()V" name="AlwaysCloseXMLEncDec()" />
+					<Item itemRef="6" id="AlwaysCloseXMLEncDec.java#AlwaysCloseXMLEncDec#read#(Ljava/io/InputStream;)[Ljava/lang/Object;" name="read( java.io.InputStream )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="57 58 60 61 62 63 64 66 68 69 71 72 73" hashes="-1310850359 23744578 -1321082029 2124518798 -416744069 -1439658458 931043023 1113544606 100324464 957734862 1116947660 1508372605 133822056" />
+				<StatCvg itemRef="3" elems="15 16 17 19 20 21 22" hashes="690463647 -1039867436 1383896329 100324464 957734862 1508372605 30537853" />
+				<StatCvg itemRef="4" elems="43 45 46 47 49 50 52 53 54" hashes="1358363122 529589572 -1039867436 1383896329 100324464 957734862 1289477876 1508372605 30537853" />
+				<StatCvg itemRef="5" elems="11" hashes="-916130416" />
+				<StatCvg itemRef="6" elems="25 27 28 29 30 31 33 36 37 38 39" hashes="-1310850359 891002560 2124518798 -416744069 -1439658458 931043023 1113544606 100324464 957734862 1508372605 133822056" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="58">
+			<Stats>
+				<Item itemRef="1" id="IntegerComparator.java#IntegerComparator" name="IntegerComparator">
+					<Item itemRef="2" id="IntegerComparator.java#IntegerComparator#isGreater#(II)Z" name="isGreater( int, int )" />
+					<Item itemRef="3" id="IntegerComparator.java#IntegerComparator#&lt;init>#()V" name="IntegerComparator()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="13" hashes="588116168" />
+				<StatCvg itemRef="3" elems="9 10" hashes="1932883155 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="60">
+			<Stats>
+				<Item itemRef="1" id="Interpreter.java#Interpreter" name="Interpreter">
+					<Item itemRef="2" id="Interpreter.java#Interpreter#&lt;init>#(Ljava/io/InputStream;)V" name="Interpreter( java.io.InputStream )" />
+					<Item itemRef="3" id="Interpreter.java#Interpreter#getNext#()Ljava/lang/Integer;" name="getNext()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="14 15 16" hashes="2027754921 547421948 30537853" />
+				<StatCvg itemRef="3" elems="19 20 21 22 23 24 25 26 27 28 29" hashes="-732205617 -643698138 -1127604310 1883900656 -776804373 86950258 -791225342 -1745680491 908569930 30436742 -1531336540" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="46" elemRefs="14 15 16" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="46" elemRefs="19 20 21 22 23 24 25 26" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="61">
+			<Stats>
+				<Item itemRef="1" id="ExampleServlet.java#ExampleServlet" name="ExampleServlet">
+					<Item itemRef="2" id="ExampleServlet.java#ExampleServlet#doGet#(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" name="doGet( javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse )" />
+					<Item itemRef="3" id="ExampleServlet.java#ExampleServlet#tryThis#(Ljavax/servlet/ServletContext;)V" name="tryThis( javax.servlet.ServletContext )" />
+					<Item itemRef="4" id="ExampleServlet.java#ExampleServlet#&lt;init>#()V" name="ExampleServlet()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="19 20 21 23 24" hashes="1262411342 -117295469 -877131919 -117086579 30537853" />
+				<StatCvg itemRef="3" elems="27 28 29 30 31 32 33 34 36 37 38 39 40 41" hashes="971443945 997799750 1005479687 -881802199 -261099875 1530337033 692340273 1012570095 422675708 -2003177889 1281553871 427568246 1508372605 30537853" />
+				<StatCvg itemRef="4" elems="15" hashes="-397706933" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="49" elemRefs="27 28 29 30 31 32 33 36 37 41" />
+					<CtxCvg testRefs="48" elemRefs="27 28 29" />
+					<CtxCvg testRefs="47" elemRefs="27" />
+					<CtxCvg testRefs="50" elemRefs="27 28 29 30 31 33 34 36 37 38 39 40 41" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="50 49 47 48" elemRefs="15" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="62">
+			<Stats>
+				<Item itemRef="1" id="SQLInjection.java#SQLInjection" name="SQLInjection">
+					<Item itemRef="2" id="SQLInjection.java#SQLInjection#auth#(Ljavax/servlet/http/HttpServletRequest;Ljava/sql/Connection;)V" name="auth( javax.servlet.http.HttpServletRequest, java.sql.Connection )" />
+					<Item itemRef="3" id="SQLInjection.java#SQLInjection#close#(Ljava/sql/ResultSet;)V" name="close( java.sql.ResultSet )" />
+					<Item itemRef="4" id="SQLInjection.java#SQLInjection#&lt;init>#()V" name="SQLInjection()" />
+					<Item itemRef="5" id="SQLInjection.java#SQLInjection#close#(Ljava/sql/Statement;)V" name="close( java.sql.Statement )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="17 18 19 20 21 23 24 25 31 34 35 36 37" hashes="-749817472 -772550714 -548613763 -271783734 920994605 203786084 -1698291496 -846123640 1213180686 1132095587 1348767786 1508372605 30537853" />
+				<StatCvg itemRef="3" elems="40 41 44 45 46 47" hashes="-1102065577 -1196601077 1531158383 100324464 1508372605 30537853" />
+				<StatCvg itemRef="4" elems="10" hashes="-2044601885" />
+				<StatCvg itemRef="5" elems="50 51 54 55 56 57" hashes="1987037616 -1196601077 1209429448 100324464 1508372605 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="63">
+			<Stats>
+				<Item itemRef="1" id="Customer.java#Customer" name="Customer">
+					<Item itemRef="2" id="Customer.java#Customer#&lt;init>#(Ljava/lang/String;Ljava/lang/String;)V" name="Customer( java.lang.String, java.lang.String )" />
+					<Item itemRef="3" id="Customer.java#Customer#setName#(Ljava/lang/String;)V" name="setName( java.lang.String )" />
+					<Item itemRef="4" id="Customer.java#Customer#getSSN#()Ljava/lang/String;" name="getSSN()" />
+					<Item itemRef="5" id="Customer.java#Customer#toStrng#()Ljava/lang/String;" name="toStrng()" />
+					<Item itemRef="6" id="Customer.java#Customer#equals#(Ljava/lang/Object;)Z" name="equals( java.lang.Object )" />
+					<Item itemRef="7" id="Customer.java#Customer#hashCode#()I" name="hashCode()" />
+					<Item itemRef="8" id="Customer.java#Customer#loadCustomer#()Z" name="loadCustomer()" />
+					<Item itemRef="9" id="Customer.java#Customer#setSSN#(Ljava/lang/String;)V" name="setSSN( java.lang.String )" />
+					<Item itemRef="10" id="Customer.java#Customer#main#([Ljava/lang/String;)V" name="main( java.lang.String[] )" />
+					<Item itemRef="11" id="Customer.java#Customer#getName#()Ljava/lang/String;" name="getName()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="22 23 24 25 26 27 28 29" hashes="1064610858 1185825189 1102834197 -719839355 -1888950888 523878071 250557921 30537853" />
+				<StatCvg itemRef="3" elems="40 41" hashes="523878071 30537853" />
+				<StatCvg itemRef="4" elems="36" hashes="-1545242148" />
+				<StatCvg itemRef="5" elems="48" hashes="-663019775" />
+				<StatCvg itemRef="6" elems="53 54 55 56 57 61" hashes="1045870152 1292935835 1552779234 -1136605856 -1217261187 -474288024" />
+				<StatCvg itemRef="7" elems="66" hashes="967276011" />
+				<StatCvg itemRef="8" elems="70 71 72 74 75 76 77 78 79 80 81 82 84 85 86 87 88 89 90 91 92 93 94" hashes="-1809401071 -185589454 -1589018789 -439487439 1774293749 -540479657 -647429399 -709581146 -813710626 768127156 -709581146 1508372605 -1624193955 -1368283926 612379775 -582428250 185421611 1733847041 -1741528140 875386708 14739560 1508372605 -1525876355" />
+				<StatCvg itemRef="9" elems="44 45" hashes="250557921 30537853" />
+				<StatCvg itemRef="10" elems="98 99 100 101 103 105" hashes="1093708088 -1311167556 -1774764584 68531929 1626043126 30537853" />
+				<StatCvg itemRef="11" elems="32" hashes="-663019775" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="64">
+			<Stats>
+				<Item itemRef="1" id="MultiSourceCharacterReader.java#MultiSourceCharacterReader" name="MultiSourceCharacterReader">
+					<Item itemRef="2" id="MultiSourceCharacterReader.java#MultiSourceCharacterReader#initialize#()V" name="initialize()" />
+					<Item itemRef="3" id="MultiSourceCharacterReader.java#MultiSourceCharacterReader#&lt;init>#(Ljava/lang/Readable;)V" name="MultiSourceCharacterReader( java.lang.Readable )" />
+					<Item itemRef="4" id="MultiSourceCharacterReader.java#MultiSourceCharacterReader#performAction#(Ljava/nio/CharBuffer;)V" name="performAction( java.nio.CharBuffer )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="26 27" hashes="-1544769912 30537853" />
+				<StatCvg itemRef="3" elems="21 22 23" hashes="-50883683 -1269004073 30537853" />
+				<StatCvg itemRef="4" elems="30 31 32 33" hashes="-903878588 787450234 -823310259 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="65">
+			<Stats>
+				<Item itemRef="1" id="StackList.java#StackList" name="StackList">
+					<Item itemRef="2" id="StackList.java#StackList#pop#()V" name="pop()" />
+					<Item itemRef="3" id="StackList.java#StackList#push#(Ljava/lang/String;)V" name="push( java.lang.String )" />
+					<Item itemRef="4" id="StackList.java#StackList#adjustScroll#()V" name="adjustScroll()" />
+					<Item itemRef="5" id="StackList.java#StackList#divide#()V" name="divide()" />
+					<Item itemRef="6" id="StackList.java#StackList#subtract#()V" name="subtract()" />
+					<Item itemRef="7" id="StackList.java#StackList#multiply#()V" name="multiply()" />
+					<Item itemRef="8" id="StackList.java#StackList#updateModel#(Z)V" name="updateModel( boolean )" />
+					<Item itemRef="9" id="StackList.java#StackList#updateStackSizeLabel#()V" name="updateStackSizeLabel()" />
+					<Item itemRef="10" id="StackList.java#StackList#&lt;init>#(Lexamples/stackmachine/RunnableStackMachine;)V" name="StackList( examples.stackmachine.RunnableStackMachine )" />
+					<Item itemRef="11" id="StackList.java#StackList#add#()V" name="add()" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="47 48 49 50" hashes="940181340 279185382 -556331362 30537853" />
+				<StatCvg itemRef="3" elems="41 42 43 44" hashes="-1223196664 279185382 -556331362 30537853" />
+				<StatCvg itemRef="4" elems="77 78 79 80 81 82 83 84 85 86 87 88 89 90 92 93" hashes="1849349839 -369306064 1058988356 -1596112042 -1196601077 -81499845 687700328 1759186487 508591120 708096217 -1613186713 1302222700 646285399 -163625897 1442503607 30537853" />
+				<StatCvg itemRef="5" elems="71 72 73 74" hashes="-1539986578 279185382 -556331362 30537853" />
+				<StatCvg itemRef="6" elems="59 60 61 62" hashes="1556720563 279185382 -556331362 30537853" />
+				<StatCvg itemRef="7" elems="65 66 67 68" hashes="-400849245 279185382 -556331362 30537853" />
+				<StatCvg itemRef="8" elems="28 29 31 33 34" hashes="474919430 967662109 512285847 49696366 30537853" />
+				<StatCvg itemRef="9" elems="37 38" hashes="-1399224086 30537853" />
+				<StatCvg itemRef="10" elems="17 18 19 20 21 22 23 24 25 95 97 99" hashes="-945336594 -909944 -302135928 -424490090 -1624752844 1054135370 1178258096 -2029989066 30537853 1829375246 -1503170086 2082928480" />
+				<StatCvg itemRef="11" elems="53 54 55 56" hashes="500227852 279185382 -556331362 30537853" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="66">
+			<Stats>
+				<Item itemRef="1" id="Money.java#Money" name="Money">
+					<Item itemRef="2" id="Money.java#Money#hashCode#()I" name="hashCode()" />
+					<Item itemRef="3" id="Money.java#Money#add#(Lexamples/junit/IMoney;)Lexamples/junit/IMoney;" name="add( examples.junit.IMoney )" />
+					<Item itemRef="4" id="Money.java#Money#subtract#(Lexamples/junit/IMoney;)Lexamples/junit/IMoney;" name="subtract( examples.junit.IMoney )" />
+					<Item itemRef="5" id="Money.java#Money#equals#(Ljava/lang/Object;)Z" name="equals( java.lang.Object )" />
+					<Item itemRef="6" id="Money.java#Money#negate#()Lexamples/junit/IMoney;" name="negate()" />
+					<Item itemRef="7" id="Money.java#Money#toString#()Ljava/lang/String;" name="toString()" />
+					<Item itemRef="8" id="Money.java#Money#appendTo#(Lexamples/junit/MoneyBag;)V" name="appendTo( examples.junit.MoneyBag )" />
+					<Item itemRef="9" id="Money.java#Money#isZero#()Z" name="isZero()" />
+					<Item itemRef="10" id="Money.java#Money#amount#()I" name="amount()" />
+					<Item itemRef="11" id="Money.java#Money#addMoneyBag#(Lexamples/junit/MoneyBag;)Lexamples/junit/IMoney;" name="addMoneyBag( examples.junit.MoneyBag )" />
+					<Item itemRef="12" id="Money.java#Money#&lt;init>#(ILjava/lang/String;)V" name="Money( int, java.lang.String )" />
+					<Item itemRef="13" id="Money.java#Money#addMoney#(Lexamples/junit/Money;)Lexamples/junit/IMoney;" name="addMoney( examples.junit.Money )" />
+					<Item itemRef="14" id="Money.java#Money#currency#()Ljava/lang/String;" name="currency()" />
+					<Item itemRef="15" id="Money.java#Money#multiply#(I)Lexamples/junit/IMoney;" name="multiply( int )" />
+				</Item>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="2" elems="60 61 62" hashes="1306308210 1117575931 103647535" />
+				<StatCvg itemRef="3" elems="25" hashes="106617480" />
+				<StatCvg itemRef="4" elems="78" hashes="1694989869" />
+				<StatCvg itemRef="5" elems="48 49 50 51 52 53 55" hashes="1181393 188568557 -966268327 2045964841 400648668 -1194432924 -474288024" />
+				<StatCvg itemRef="6" elems="74" hashes="-1233734906" />
+				<StatCvg itemRef="7" elems="83 84 85" hashes="-761553643 -2067537065 -1456469584" />
+				<StatCvg itemRef="8" elems="89 90" hashes="1696080147 30537853" />
+				<StatCvg itemRef="9" elems="66" hashes="2067321844" />
+				<StatCvg itemRef="10" elems="39" hashes="1165859981" />
+				<StatCvg itemRef="11" elems="35" hashes="-363458930" />
+				<StatCvg itemRef="12" elems="16 17 18 19" hashes="-1384276064 -195012418 -1359884770 30537853" />
+				<StatCvg itemRef="13" elems="29 30 31" hashes="-1720949595 1628282038 -1166934441" />
+				<StatCvg itemRef="14" elems="43" hashes="-584175244" />
+				<StatCvg itemRef="15" elems="70" hashes="1821085932" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="14">
+					<CtxCvg testRefs="5 14 2 20 16 13 35 38 36 34 15 32 21 33 25 17 37 4 11 31 3 26 22 19 18 28 23 27 24 12 30 6 29" elemRefs="43" />
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="26" elemRefs="48 51 52 53 55" />
+					<CtxCvg testRefs="37 20 35 36 34 22 19 28 32 30 21 33 29" elemRefs="48 51 52 53" />
+					<CtxCvg testRefs="38" elemRefs="48 49 50" />
+					<CtxCvg testRefs="27 24" elemRefs="48 51 55" />
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="17 22 28 20 35 30 36 29" elemRefs="74" />
+				</DynCvg>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="31" elemRefs="83 84 85" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="30 36" elemRefs="78" />
+				</DynCvg>
+				<DynCvg itemRef="12">
+					<CtxCvg testRefs="5 14 7 2 20 16 13 8 35 38 36 34 15 32 21 9 33 25 17 37 4 11 10 31 1 3 26 22 19 18 28 23 27 24 12 30 6 29" elemRefs="16 17 18 19" />
+				</DynCvg>
+				<DynCvg itemRef="9">
+					<CtxCvg testRefs="5 14 7 2 20 16 13 8 35 38 36 34 15 32 21 9 33 25 17 37 4 11 10 31 1 3 26 22 19 18 28 23 27 24 12 30 6 29" elemRefs="66" />
+				</DynCvg>
+				<DynCvg itemRef="13">
+					<CtxCvg testRefs="37 20 36 22 19 28 32 30 21 33 29" elemRefs="29 30" />
+					<CtxCvg testRefs="18 23" elemRefs="29 31" />
+				</DynCvg>
+				<DynCvg itemRef="15">
+					<CtxCvg testRefs="15 3 2 16 4 12 13 6 11 34" elemRefs="70" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="25 26 27" elemRefs="60 62" />
+					<CtxCvg testRefs="38" elemRefs="60 61" />
+				</DynCvg>
+				<DynCvg itemRef="10">
+					<CtxCvg testRefs="5 14 7 2 20 16 13 8 35 38 36 34 15 32 21 9 33 25 17 37 4 11 10 31 1 3 26 22 19 18 28 23 27 24 12 30 6 29" elemRefs="39" />
+				</DynCvg>
+				<DynCvg itemRef="11">
+					<CtxCvg testRefs="19 28" elemRefs="35" />
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="37 20 36 22 19 18 28 32 23 30 21 33 29" elemRefs="25" />
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="25 17 37 20 16 35 38 36 34 31 26 22 19 18 28 32 23 27 24 30 21 33 29" elemRefs="89 90" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+	</CoverageData>
+</Coverage>

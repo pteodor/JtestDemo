@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mergePnt id="execViolations">
+  <ExecViols>
+    <UnitViol loc="/com.parasoft:demo/src/main/java/examples/junit/NaiveStringBuilder.java" ln="21" sev="1" auth="pteodor" analyzer="com.parasoft.jtest.unittests.analyzers.JUnitAnalyzer" locRef="34" cat="EXC" testId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend" lnHash="-74292028" tcId="examples.junit.NaiveStringBuilderParameterizedTest|+|com.parasoft:demo#NaiveStringBuilderParameterizedTest.java#examples.junit.NaiveStringBuilderParameterizedTest#testAppend(01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890, null) [3]" urgent="true" goals="1,">
+      <Thr>
+        <ThrPart type="java.lang.IllegalArgumentException" msg="java.lang.IllegalArgumentException">
+          <PathElem loc="/com.parasoft:demo/src/main/java/examples/junit/NaiveStringBuilder.java" locRef="34" lnHash="-74292028" ln="21" desc="examples.junit.NaiveStringBuilder.append(NaiveStringBuilder.java:21)" />
+          <PathElem loc="/com.parasoft:demo/src/test/java/examples/junit/NaiveStringBuilderParameterizedTest.java" locRef="68" lnHash="-278998998" ln="33" desc="examples.junit.NaiveStringBuilderParameterizedTest.testAppend(NaiveStringBuilderParameterizedTest.java:33)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(:-2)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)" />
+          <PathElem desc="java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)" />
+          <PathElem desc="java.base/java.lang.reflect.Method.invoke(Method.java:566)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)" />
+          <PathElem desc="org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)" />
+          <PathElem desc="junitparams.internal.InvokeParameterisedMethod.evaluate(InvokeParameterisedMethod.java:234)" />
+          <PathElem desc="org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)" />
+          <PathElem desc="junitparams.internal.ParameterisedTestMethodRunner.runMethodInvoker(ParameterisedTestMethodRunner.java:47)" />
+          <PathElem desc="junitparams.internal.ParameterisedTestMethodRunner.runTestMethod(ParameterisedTestMethodRunner.java:40)" />
+          <PathElem desc="junitparams.internal.ParameterisedTestClassRunner.runParameterisedTest(ParameterisedTestClassRunner.java:146)" />
+          <PathElem desc="junitparams.JUnitParamsRunner.runChild(JUnitParamsRunner.java:446)" />
+          <PathElem desc="junitparams.JUnitParamsRunner.runChild(JUnitParamsRunner.java:393)" />
+          <PathElem desc="org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)" />
+          <PathElem desc="org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)" />
+          <PathElem desc="org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)" />
+          <PathElem desc="org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)" />
+          <PathElem desc="org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)" />
+          <PathElem desc="org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)" />
+          <PathElem desc="org.junit.runners.ParentRunner.run(ParentRunner.java:413)" />
+          <PathElem desc="junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)" />
+          <PathElem desc="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)" />
+          <PathElem desc="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)" />
+          <PathElem desc="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)" />
+        </ThrPart>
+      </Thr>
+    </UnitViol>
+    <UnitViol loc="/com.parasoft:demo/src/test/java/examples/mock/InterpreterTest.java" ln="38" sev="1" auth="pteodor" analyzer="com.parasoft.jtest.unittests.analyzers.UTDataAnalyzer" locRef="72" cat="FAIL" testId="examples.mock.InterpreterTest|+|com.parasoft:demo#InterpreterTest.java#examples.mock.InterpreterTest#testAdd34" lnHash="566763764" urgent="true" goals="1,">
+      <Thr>
+        <ThrPart type="org.opentest4j.AssertionFailedError" msg="org.opentest4j.AssertionFailedError: value is:-1 ==> expected: &lt;true> but was: &lt;false>">
+          <PathElem desc="org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)" />
+          <PathElem desc="org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)" />
+          <PathElem desc="org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)" />
+          <PathElem loc="/com.parasoft:demo/src/test/java/examples/mock/InterpreterTest.java" locRef="72" lnHash="566763764" ln="38" desc="examples.mock.InterpreterTest.testAdd34(InterpreterTest.java:38)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(:-2)" />
+          <PathElem desc="java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)" />
+          <PathElem desc="java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)" />
+          <PathElem desc="java.base/java.lang.reflect.Method.invoke(Method.java:566)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)" />
+          <PathElem desc="org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)" />
+          <PathElem desc="org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)" />
+          <PathElem desc="org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)" />
+          <PathElem desc="org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)" />
+          <PathElem desc="org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)" />
+          <PathElem desc="java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)" />
+          <PathElem desc="java.base/java.lang.Thread.run(Thread.java:834)" />
+        </ThrPart>
+      </Thr>
+    </UnitViol>
+  </ExecViols>
+</mergePnt>

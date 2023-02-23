@@ -1,0 +1,3 @@
+License: Activation failed: Cannot connect to license server.
+License: Machine id WIN32-5405352e (Default)
+Error: Main license feature not found.

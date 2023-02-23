@@ -1,0 +1,7 @@
+examples\mock\InterpreterTest.class
+examples\servlets\ExampleServletTest.class
+examples\mock\FileExampleTest$IsFileNameCorrect.class
+examples\junit\MoneyTest.class
+examples\mock\FileExampleTest.class
+examples\junit\NaiveStringBuilderParameterizedTest.class
+examples\junit\MoneyBagParameterizedTest.class

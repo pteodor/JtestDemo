@@ -1,0 +1,82 @@
+Buildfile: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\jtest.xml
+
+jar:
+
+compile:
+    [javac] C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\build.xml:23: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+jar:
+
+jtest-monitor:
+[jtest:monitor] Working dir: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo
+[jtest:monitor] Execute command: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\jtestcli -data C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-monitor_5\jtest.data.json -config "builtin://Calculate Application Coverage" -report C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-monitor_5 -monitor true -workspace C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-monitor_5
+[jtest:monitor] Starting Parasoft Jtest
+[jtest:monitor] Parasoft Jtest 2022.1.0 (10.6.0.202203250750) -- Copyright (C) 2022 Parasoft Corporation
+[jtest:monitor] 
+[jtest:monitor] [Jtest] License: Machine id WIN32-5405352e
+[jtest:monitor] [Jtest] Downloaded rules: 0
+[jtest:monitor] [Jtest] Rules have changed, performing update
+[jtest:monitor] [Jtest] Configuration: Calculate Application Coverage (builtin://Calculate Application Coverage).
+[jtest:monitor] [Jtest] Command line: jtestcli -data C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-monitor_5\jtest.data.json -config builtin://Calculate Application Coverage -report C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-monitor_5 -monitor true
+[jtest:monitor] [Jtest] [ 0%] > Computing testing context.
+[jtest:monitor] [Jtest] Number of excluded elements: 1.
+[jtest:monitor] [Jtest] [ 2%] < Computing testing context.: 100% 
+[jtest:monitor] [Jtest] [ 2%] > PreAnalysis
+[jtest:monitor] [Jtest] [ 4%]   PreAnalysis: 98% 
+[jtest:monitor] [Jtest] [ 5%] < PreAnalysis: 100% 
+[jtest:monitor] [Jtest] [ 5%] > Scope
+[jtest:monitor] [Jtest] [ 5%] > Scope > Resources Filter
+[jtest:monitor] [Jtest] [ 5%] > Analysis
+[jtest:monitor] [Jtest] [ 5%] > Analysis > Coverage
+[jtest:monitor] [Jtest] [ 5%] > Results
+[jtest:monitor] [Jtest] [ 5%] > Results > Metrics processor
+[jtest:monitor] [Jtest] [ 5%] > Results > Scope Processor
+[jtest:monitor] [Jtest] [ 5%] > Results > Duplicates Processor
+[jtest:monitor] [Jtest] [ 5%] > Results > Tokens Mismatch Filter Processor
+[jtest:monitor] [Jtest] [ 5%] > Results > Rule Limit Processor
+[jtest:monitor] [Jtest] [ 5%] > Results > Metadata Processor
+[jtest:monitor] [Jtest] [ 5%] > Results > Author Processor
+[jtest:monitor] [Jtest] [ 5%] > Results > Suppression Processor
+[jtest:monitor] [Jtest] [ 5%] > Results > Coverage Processor
+[jtest:monitor] [Jtest] [ 5%] > Results > Goals Processor
+[jtest:monitor] [Jtest] Sending reports by mail is disabled, use report.mail.enabled setting to enable.
+[jtest:monitor] [Jtest] Publishing reports to DTP is disabled, use report.dtp.publish setting to enable.
+[jtest:monitor] [Jtest] [ 5%] > Reporting
+[jtest:monitor] [Jtest] [ 9%] < Scope > Resources Filter: rejected 0 of 67 analyzed inputs 
+[jtest:monitor] [Jtest] [ 9%] < Scope: rejected 0 of 67 analyzed inputs                                   >>> Scope time 0s
+[jtest:monitor] [Jtest] [72%] < Analysis > Coverage: found 0 violations on analyzed 66 of 67 inputs, skipped 1       >>> Coverage time 0.08s
+[jtest:monitor] [Jtest] [72%] < Analysis: found 0 violations                                              >>> Analysis time 0.17s
+[jtest:monitor] [Jtest] [72%] < Results > Metrics processor: processed 0 accepted violations 
+[jtest:monitor] [Jtest] [72%] < Results > Scope Processor: removed 0 of 0 violations 
+[jtest:monitor] [Jtest] [72%] < Results > Duplicates Processor: removed 0 of 0 violations  
+[jtest:monitor] [Jtest] [72%] < Results > Tokens Mismatch Filter Processor: processed 0 accepted violations 
+[jtest:monitor] [Jtest] [72%] < Results > Rule Limit Processor: removed 0 of 0 violations  
+[jtest:monitor] [Jtest] [95%] < Results > Metadata Processor: DTP metadata available for 0 of 0 applicable findings  
+[jtest:monitor] [Jtest] [95%] < Results > Author Processor: reassigned 0 of 0 accepted violations 
+[jtest:monitor] [Jtest] [95%] < Results > Suppression Processor: suppressed 0 of 0 accepted violations 
+[jtest:monitor] [Jtest] [95%] < Results > Coverage Processor: processed 346 of 346 coverage infos 
+[jtest:monitor] [Jtest] [95%] < Results > Goals Processor: processed 0 accepted violations 
+[jtest:monitor] [Jtest] [95%] < Results: processed 0 accepted violations                                  >>> Results time 0.18s
+[jtest:monitor] [Jtest] [95%] < Reporting: reported 0 accepted violations                                 >>> Reporting time 0.08s
+[jtest:monitor] [Jtest] [95%]                                                                             >>> Total time 1.29s
+[jtest:monitor] [Jtest] [95%] > Finalizing reporters.
+[jtest:monitor] [Jtest] Files in scope: 67
+[jtest:monitor] [Jtest] Rules violated: 0/0
+[jtest:monitor] [Jtest] Metrics enabled: 0
+[jtest:monitor] [Jtest] Static analysis violations: 0
+[jtest:monitor] [Jtest] Suppressed violations: 0
+[jtest:monitor] [Jtest] Unit Tests failures: 0
+[jtest:monitor] [Jtest] Executed test cases: 0
+[jtest:monitor] [Jtest] Coverage: 0/1496 lines (0% covered)
+[jtest:monitor] [Jtest] Running time in seconds : 4
+[jtest:monitor] [Jtest] [95%]   Finalizing reporters.: 12% 
+[jtest:monitor] [Jtest] Generated HTML report: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-monitor_5\report.html
+[jtest:monitor] [Jtest] [96%]   Finalizing reporters.: 25% 
+[jtest:monitor] [Jtest] Generated XML report: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-monitor_5\coverage.xml
+[jtest:monitor] [Jtest] [100%] < Finalizing reporters.: 100% 
+[jtest:monitor] [Jtest] Technical support archive created: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-monitor_5\.jtest\com.parasoft.xtest.techsupport\TechnicalSupport_0.zip
+[jtest:monitor] Monitor package has been stored in:
+[jtest:monitor] C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-monitor_5\monitor.zip
+
+BUILD SUCCESSFUL
+Total time: 9 seconds

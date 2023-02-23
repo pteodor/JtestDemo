@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: examples.junit.NaiveStringBuilderParameterizedTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in examples.junit.NaiveStringBuilderParameterizedTest
+testAppend{01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890, null} [3]  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException
+	at examples.junit.NaiveStringBuilderParameterizedTest.testAppend(NaiveStringBuilderParameterizedTest.java:33)
+

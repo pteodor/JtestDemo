@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="ulfar" name="examples.junit.MoneyTest" skipped="0" tests="23" time="0.186" timestamp="2022-09-16T08:41:17">
+  <properties>
+    <property name="sun.desktop" value="windows" />
+    <property name="ant.library.dir" value="C:\Program Files\Apache\apache-ant-1.10.9\lib" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="11" />
+    <property name="ant.file.Jtest Analysis" value="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\jtest.xml" />
+    <property name="ant.project.name" value="com.parasoft:demo" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.class.path" value="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\JUnitParams-1.1.1.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\apiguardian-api-1.1.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\byte-buddy-1.12.4.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\byte-buddy-agent-1.12.4.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\hamcrest-2.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\junit-4.13.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\junit-jupiter-api-5.8.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\junit-jupiter-migrationsupport-5.8.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\junit-jupiter-params-5.8.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\junit-platform-commons-1.8.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\junit-platform-engine-1.8.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\junit-platform-launcher-1.8.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\junit-platform-runner-1.8.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\junit-platform-suite-api-1.8.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\junit-vintage-engine-5.8.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\mockito-core-4.2.0.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\mockito-inline-4.2.0.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\mockito-junit-jupiter-4.2.0.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\objenesis-3.2.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\opentest4j-1.2.0.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\lib\servlet-api-2.4.jar;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\ant-target;C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\ant-target-tests;C:\Program Files\Apache\apache-ant-1.10.9\lib\ant-launcher.jar;C:\Program Files\Apache\apache-ant-1.10.9\lib\ant.jar;C:\Program Files\Apache\apache-ant-1.10.9\lib\ant-junit.jar;C:\Program Files\Apache\apache-ant-1.10.9\lib\ant-junit4.jar" />
+    <property name="ant.file.type.com.parasoft:demo" value="file" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://openjdk.java.net/" />
+    <property name="user.timezone" value="Europe/Belgrade" />
+    <property name="resources.dir" value="./src/main/resources" />
+    <property name="java.vm.specification.version" value="11" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner examples.junit.MoneyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\reports-tests\TEST-examples.junit.MoneyTest.xml crashfile=C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\junitvmwatcher10990354484430831292.properties propsfile=C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\junit6481458507120216573.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\pteodor" />
+    <property name="user.language" value="en" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="parasoft.jtest.agent.build.id" value="2022.1.0-202203250750" />
+    <property name="java.version.date" value="2021-01-19" />
+    <property name="target.dir.tests" value="ant-target-tests" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10" />
+    <property name="basedir" value="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo" />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="11" />
+    <property name="RUNTIME.JTEST.COVERAGE.OUT" value="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-agent\runtime_coverage" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="RUNTIME.JTEST.TEST.INFO.OUT" value="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest-agent\unit_test_data" />
+    <property name="target.name" value="demo.jar" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162" />
+    <property name="jtest.home" value="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo/../.." />
+    <property name="user.name" value="pteodor" />
+    <property name="ant.file" value="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="RUNTIME.JTEST.COVERAGE.SKIP" value="false" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.project.invoked-targets" value="build" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="shaded_parasoft_jtest.com.parasoft.jtest.execution.runtime.agent.api.IRuntimeConstsRUNTIME.JTEST.AGENT.JACOCO_ENABLED" value="true" />
+    <property name="java.vendor.version" value="18.9" />
+    <property name="target.dir" value="ant-target" />
+    <property name="ant.core.lib" value="C:\Program Files\Apache\apache-ant-1.10.9\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="C:\Users\pteodor\AppData\Local\Temp\" />
+    <property name="tests.dir" value="./src/test/java" />
+    <property name="java.version" value="11.0.10" />
+    <property name="user.dir" value="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo" />
+    <property name="RUNTIME.JTEST.AGENT.SKIP.COLLECTING.TESTINFO.DATA" value="false" />
+    <property name="reports.tests" value="reports-tests" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="ant.home" value="C:\Program Files\Apache\apache-ant-1.10.9\bin\.." />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\pteodor\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\pteodor\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.10\bin;C:\Program Files\Parasoft\jtest\10.4.3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.2\bin;C:\cygwin64\bin;C:\Program Files\Apache\apache-maven-3.6.2\bin;C:\Users\pteodor\AppData\Roaming\npm;C:\java\drivers;C:\Program Files\Apache\apache-ant-1.10.9\bin\;C:\Users\pteodor\.dotnet\tools;C:\Users\pteodor\.dotnet\tools;C:\gradle\gradle_6.9\bin;C:\Program Files\Parasoft\dotTEST\2021.2\;;." />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vm.version" value="11.0.10+8-LTS-162" />
+    <property name="ant.file.type.Jtest Analysis" value="file" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="55.0" />
+    <property name="src.dir" value="./src/main/java" />
+    <property name="ant.file.com.parasoft:demo" value="C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\build.xml" />
+    <property name="ant.project.default-target" value="build" />
+  </properties>
+  <testcase classname="examples.junit.MoneyTest" name="testSimpleSubtract" time="0.012" />
+  <testcase classname="examples.junit.MoneyTest" name="testNormalize2" time="0.0" />
+  <testcase classname="examples.junit.MoneyTest" name="testNormalize3" time="0.0" />
+  <testcase classname="examples.junit.MoneyTest" name="testNormalize4" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testBagNotEquals" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testBagSubtract" time="0.0" />
+  <testcase classname="examples.junit.MoneyTest" name="testSimpleAdd" time="0.0" />
+  <testcase classname="examples.junit.MoneyTest" name="zeroMoniesAreEqualRegardlessOfCurrency" time="0.0" />
+  <testcase classname="examples.junit.MoneyTest" name="testPrint" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testMoneyHash" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testSimpleBagAdd" time="0.0" />
+  <testcase classname="examples.junit.MoneyTest" name="testBagSimpleAdd" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testSimpleNegate" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testMoneyBagHash" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testBagNegate" time="0.0" />
+  <testcase classname="examples.junit.MoneyTest" name="testSimpleMultiply" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testBagSumAdd" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testMoneyBagEquals" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testBagMultiply" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testSimplify" time="0.001" />
+  <testcase classname="examples.junit.MoneyTest" name="testIsZero" time="0.0" />
+  <testcase classname="examples.junit.MoneyTest" name="testMoneyEquals" time="0.0" />
+  <testcase classname="examples.junit.MoneyTest" name="testMixedSimpleAdd" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

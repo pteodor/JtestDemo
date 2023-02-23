@@ -1,0 +1,92 @@
+License: Machine id WIN32-5405352e
+Downloaded rules: 0
+Rules have changed, performing update
+Configuration: Unit Tests (builtin://Unit Tests).
+Command line: jtestcli -data C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest\jtest.data.json -config builtin://Unit Tests -exclude path:**/test/** -report C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\report-utc
+[ 0%] > Computing testing context.
+Number of excluded elements: 16.
+[ 2%] < Computing testing context.: 100% 
+[ 2%] > PreAnalysis
+[ 5%]   PreAnalysis: 100% 
+[ 5%] < PreAnalysis: 100% 
+[ 5%] > Scope
+[ 5%] > Scope > Resources Filter
+[ 5%] > Analysis
+[ 5%] > Analysis > Coverage
+[ 5%] > Results
+[ 5%] > Results > Metrics processor
+[ 5%] > Results > Scope Processor
+[ 5%] > Results > Duplicates Processor
+[ 5%] > Results > Tokens Mismatch Filter Processor
+[ 5%] > Results > Rule Limit Processor
+[ 5%] > Results > Metadata Processor
+[ 5%] > Results > Author Processor
+[ 5%] > Results > Suppression Processor
+[ 5%] > Results > Coverage Processor
+[ 5%] > Results > Goals Processor
+[ 5%] > Analysis
+[ 5%] > Analysis > JUnit
+[ 5%] > Results
+[ 5%] > Results > Metrics processor
+[ 5%] > Results > Scope Processor
+[ 5%] > Results > Duplicates Processor
+[ 5%] > Results > Tokens Mismatch Filter Processor
+[ 5%] > Results > Rule Limit Processor
+[ 5%] > Results > Metadata Processor
+[ 5%] > Results > Author Processor
+[ 5%] > Results > Suppression Processor
+[ 5%] > Results > Coverage Processor
+[ 5%] > Results > Goals Processor
+Sending reports by mail is disabled, use report.mail.enabled setting to enable.
+Publishing reports to DTP is disabled, use report.dtp.publish setting to enable.
+[ 5%] > Reporting
+[ 9%] < Scope > Resources Filter: rejected 0 of 67 analyzed inputs 
+[ 9%] < Scope: rejected 0 of 67 analyzed inputs                                   >>> Scope time 0s
+[63%] < Analysis > Coverage: found 0 violations on analyzed 66 of 67 inputs, skipped 1       >>> Coverage time 0.09s
+[63%] < Analysis: found 0 violations                                              >>> Analysis time 0.21s
+[63%] < Results > Metrics processor: processed 0 accepted violations 
+[63%] < Results > Scope Processor: removed 0 of 0 violations 
+[63%] < Results > Duplicates Processor: removed 0 of 0 violations  
+[63%] < Results > Tokens Mismatch Filter Processor: processed 0 accepted violations 
+[63%] < Results > Rule Limit Processor: removed 0 of 0 violations  
+[86%] < Results > Metadata Processor: DTP metadata available for 0 of 0 applicable findings  
+[86%] < Results > Author Processor: reassigned 0 of 0 accepted violations 
+[86%] < Results > Suppression Processor: suppressed 0 of 0 accepted violations 
+[86%] < Results > Coverage Processor: processed 387 of 387 coverage infos 
+[86%] < Results > Goals Processor: processed 0 accepted violations 
+[86%] < Results: processed 0 accepted violations                                  >>> Results time 0.18s
+[95%] < Analysis > JUnit: found 0 violations on analyzed 8 of 67 inputs, skipped 2       >>> JUnit time 0.35s
+[95%] < Analysis: found 2 violations                                              >>> Analysis time 0.56s
+[95%] < Results > Metrics processor: processed 2 accepted violations 
+[95%] < Results > Scope Processor: removed 0 of 2 violations 
+[95%] < Results > Duplicates Processor: removed 0 of 0 violations  
+[95%] < Results > Tokens Mismatch Filter Processor: processed 2 accepted violations 
+[95%] < Results > Rule Limit Processor: removed 0 of 2 violations  
+[95%] < Results > Metadata Processor: DTP metadata available for 0 of 0 applicable findings  
+[95%] < Results > Author Processor: reassigned 0 of 2 accepted violations 
+[95%] < Results > Suppression Processor: suppressed 0 of 2 accepted violations 
+[95%] < Results > Coverage Processor: processed 387 of 0 coverage infos 
+[95%] < Results > Goals Processor: processed 2 accepted violations 
+[95%] < Results: processed 2 accepted violations                                  >>> Results time 0.22s
+[95%] < Reporting: reported 2 accepted violations                                 >>> Reporting time 0.1s
+[95%]                                                                             >>> Total time 2.53s
+[95%] > Finalizing reporters.
+Files in scope: 67
+Rules violated: 0/0
+Metrics enabled: 0
+Static analysis violations: 0
+Suppressed violations: 0
+Unit Tests failures: 2
+Executed test cases: 50
+Passed: 48
+Failed: 1
+Incomplete: 1
+Coverage: 140/1496 lines (9% covered)
+Running time in seconds : 6
+[95%]   Finalizing reporters.: 12% 
+Generated XML report: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\report-utc\report.xml
+Generated HTML report: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\report-utc\report.html
+[96%]   Finalizing reporters.: 25% 
+Generated XML report: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\report-utc\coverage.xml
+[100%] < Finalizing reporters.: 100% 
+Technical support archive created: C:\Parasoft\parasoft_jtest_2022.1.0_win32_x86_64\examples\demo\parasoft\jtest\.jtest\com.parasoft.xtest.techsupport\TechnicalSupport_0.zip
