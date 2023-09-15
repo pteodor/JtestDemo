@@ -17,9 +17,9 @@ public class Account {
 
     public static final String STATUS_PLATINUM = "platinum";
 
-    private static final int BALANCE_GOLD_MIN = 50;
+    private static final int BALANCE_GOLD_MIN = 5000;
 
-    private static final int BALANCE_PLATINUM_MIN = 100;
+    private static final int BALANCE_PLATINUM_MIN = 10000;
 
     public Account(Customer customer, int initial_balance) {
         if (initial_balance < 0)
