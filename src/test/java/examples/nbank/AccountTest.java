@@ -436,7 +436,9 @@ public class AccountTest {
 	@Test(timeout = 5000)
 	public void testSetBalance3() throws Throwable {
 		// Given
-		Customer customer = mock(Customer.class);
+		String name = "name"; // UTA: default value
+		String ssn = "ssn"; // UTA: default value
+		Customer customer = new Customer(name, ssn);
 		int initial_balance = 49; // UTA: provided value
 		Account underTest = new Account(customer, initial_balance);
 
