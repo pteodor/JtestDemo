@@ -387,17 +387,67 @@ public class AccountTest {
 	public void testSetBalance() throws Throwable {
 		// Given
 		Customer customer = mock(Customer.class);
-		int initial_balance = 0; // UTA: provided value
+		int initial_balance = 49; // UTA: provided value
 		Account underTest = new Account(customer, initial_balance);
 
 		// When
-		int balance = 1000; // UTA: provided value
+		int balance = 49; // UTA: provided value
+		underTest.setBalance(balance);
+
+		// Then - assertions for this instance of Account
+		assertNotNull(underTest.getCustomer());
+		assertEquals(49, underTest.getBalance());
+		assertEquals("silver", underTest.getStatus());
+
+	}
+
+	/**
+	 * Parasoft Jtest UTA: Test for setBalance(int)
+	 *
+	 * @see examples.nbank.Account#setBalance(int)
+	 * @author pteodor
+	 */
+	@Test(timeout = 5000)
+	public void testSetBalance2() throws Throwable {
+		// Given
+		Customer customer = mock(Customer.class);
+		int initial_balance = 49; // UTA: provided value
+		Account underTest = new Account(customer, initial_balance);
+
+		// When
+		int balance = 99; // UTA: provided value
+		underTest.setBalance(balance);
+
+		// Then - assertions for this instance of Account
+		assertNotNull(underTest.getCustomer());
+		assertEquals(99, underTest.getBalance());
+		assertEquals("gold", underTest.getStatus());
+
+	}
+
+	/**
+	 * Parasoft Jtest UTA: Test cloned from
+	 * examples.nbank.AccountTest#testSetBalance2()
+	 * To cover the code, the value of the 'balance' variable has been modified to '1000'.
+	 *
+	 * @see examples.nbank.Account#setBalance(int)
+	 * @author pteodor
+	 */
+	@Test(timeout = 5000)
+	public void testSetBalance3() throws Throwable {
+		// Given
+		Customer customer = mock(Customer.class);
+		int initial_balance = 49; // UTA: provided value
+		Account underTest = new Account(customer, initial_balance);
+
+		// When
+		int balance = 1000; // UTA: provided value // UTA: modified value
 		underTest.setBalance(balance);
 
 		// Then - assertions for this instance of Account
 		assertNotNull(underTest.getCustomer());
 		assertEquals(1000, underTest.getBalance());
-		assertEquals("silver", underTest.getStatus());
+		assertEquals("platinum", underTest.getStatus());
 
 	}
 }
