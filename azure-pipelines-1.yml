@@ -19,3 +19,10 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'jtest:jtest'
+- task: PublishParasoftResults@1
+  inputs:
+    resultsFiles: |
+      **/rep*.xml
+      **/rep*.sarif
+      **/coverage.xml
+    parasoftToolOrJavaRootPath: 'C:\Parasoft\jtest_2024.1'
