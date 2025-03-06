@@ -8,6 +8,15 @@ trigger:
 
 pool: Default
 
+parameters:
+  - name: severity
+    displayName: Define severity (warning/error)
+    type: string
+    default: 'error'
+    values:
+      - error
+      - warning
+
 steps:
 - task: Maven@3
   inputs:
@@ -30,6 +39,6 @@ steps:
 - task: ParasoftStaticAnalysisQualityGate@1
   inputs:
       type: 'total'
-      severity: 'error'
-      threshold: '1000'
+      severity: '${{ parameters.severity }}'
+      threshold: '170'
       buildStatus: 'failed'
