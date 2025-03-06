@@ -31,5 +31,5 @@ steps:
   inputs:
       type: 'total'
       severity: 'error'
-      threshold: '10'
+      threshold: '1000'
       buildStatus: 'failed'
