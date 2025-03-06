@@ -23,8 +23,8 @@ steps:
 - task: PublishParasoftResults@1
   inputs:
     resultsFiles: |
-      **/rep*.xml
-      **/rep*.sarif
+      **/report.xml
+      **/report.sarif
       **/coverage.xml
     parasoftToolOrJavaRootPath: 'C:\Parasoft\jtest_2024.1'
 - task: ParasoftStaticAnalysisQualityGate@1
